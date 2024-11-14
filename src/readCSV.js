@@ -71,5 +71,5 @@ for(let i = 0; i < votes.length; i++) {
 	votes[i].color = colors[i];
 }
 
-let heatmap = votes.map(vote => `<div style="background-color: ${vote.color}">${vote.precinct.id}/${vote.precinct.name}/${vote.ratio}</div>`);
+let heatmap = votes.map(vote => `<div style="background-color: ${vote.color}">${vote.precinct.id}/${vote.precinct.name}/${vote.ratio}/${vote.color}</div>`);
 fs.writeFileSync('assets/heatmap.html', heatmap.join('\n'));
