@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Define the path to the JSON file
-const filepath = 'fairfax.json';
+const filepath = 'data/fairfax.json';
 
 // Read the JSON file synchronously and parse its content
 const file = fs.readFileSync(filepath, 'utf8');
@@ -65,10 +65,8 @@ const a = falseMin * -1;
 const b = 1;
 const normals = votes.map(vote => a + (((vote.ratio - min) * (b - a)) / (max - min)));
 const hexes = normals.map(normal => normal * 255);
-const colors = hexes.map(hex => hex >= 0 ? `#0000${Math.round(hex).toString(16)}` : `#${Math.round(Math.abs(hex)).toString(16)}0000`);
+const colors = hexes.map(hex => hex >= 0 ? `#0000${Math.round(hex).toString(16).padStart(2, '0')}` : `#${Math.round(Math.abs(hex)).toString(16).padStart(2, '0')}0000`);
 
-console.log(a);
-console.log(b);
-console.log(colors);
+let heatmap = colors.map(color => `<div style="background-color: ${color}">.</div>`);
 
-// fs.writeFileSync('parsedFairfax.json', JSON.stringify(votes, null, 2));
+fs.writeFileSync('assets/heatmap.html', heatmap.join('\n'));
