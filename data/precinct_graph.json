@@ -3,6 +3,7 @@
         {
             "id": 104,
             "name": "CHAPEL",
+            "district": "BRADDOCK",
             "neighbors": [
                 106,
                 108,
@@ -15,6 +16,7 @@
         {
             "id": 105,
             "name": "FAIRVIEW",
+            "district": "BRADDOCK",
             "neighbors": [
                 126,
                 127,
@@ -27,6 +29,7 @@
         {
             "id": 106,
             "name": "HERITAGE",
+            "district": "BRADDOCK",
             "neighbors": [
                 104,
                 110,
@@ -38,6 +41,7 @@
         {
             "id": 108,
             "name": "KINGS PARK",
+            "district": "BRADDOCK",
             "neighbors": [
                 113,
                 115,
@@ -48,6 +52,7 @@
         {
             "id": 109,
             "name": "LITTLE RUN",
+            "district": "BRADDOCK",
             "neighbors": [
                 113,
                 114,
@@ -59,6 +64,7 @@
         {
             "id": 110,
             "name": "NORTH SPRINGFIELD",
+            "district": "BRADDOCK",
             "neighbors": [
                 106,
                 115,
@@ -66,6 +72,52 @@
                 418,
                 521,
                 527
+            ]
+        },
+        {
+            "id": 113,
+            "name": "CANTERBURY",
+            "district": "BRADDOCK",
+            "neighbors": [
+                104,
+                108,
+                109,
+                116,
+                125
+            ]
+        },
+        {
+            "id": 114,
+            "name": "OLDE CREEK",
+            "district": "BRADDOCK",
+            "neighbors": [
+                109,
+                117,
+                118,
+                123
+            ]
+        },
+        {
+            "id": 115,
+            "name": "RAVENSWORTH",
+            "district": "BRADDOCK",
+            "neighbors": [
+                104,
+                108,
+                110
+            ]
+        },
+        {
+            "id": 116,
+            "name": "WAKEFIELD",
+            "district": "BRADDOCK",
+            "neighbors": [
+                104,
+                109,
+                113,
+                117,
+                522,
+                528
             ]
         }
     ]
