@@ -1,5 +1,4 @@
 const fs = require('fs');
-const precinctData = require('../data/ballots_by_precinct.json');
 
 function createPrecinctGraph() {
     let graph = 'graph G {\n';
