@@ -6,9 +6,9 @@ function createPrecinctGraph() {
     graph += '    layout=neato;\n';
     graph += '    overlap=false;\n';
     graph += '    splines=true;\n';
-    graph += '    node [shape=circle, style=filled, color=lightblue, fontname="Arial", penwidth=2];\n';
-    graph += '    edge [color=gray, arrowhead=none];\n';
-    graph += '    bgcolor="#fff8e1";\n'; // warm creamy color
+    graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
+    graph += '    edge [color=darkgray];\n';
+    graph += '    bgcolor="lightgray";\n'; // light gray
 
     const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -34,8 +34,6 @@ function createPrecinctGraph() {
     const uniqueDistricts = [...new Set(precincts.map(precinct => precinct.district))];
     graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
     graph += 'labelloc="t";\n';
-    graph += 'fontcolor="black";\n';
-    graph += 'bgcolor="white";\n';
 
     precincts.sort((a, b) => a.id - b.id).reverse();
     for (const precinct of precincts) {

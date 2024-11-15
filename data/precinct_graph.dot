@@ -2,13 +2,11 @@ graph G {
     layout=neato;
     overlap=false;
     splines=true;
-    node [shape=circle, style=filled, color=lightblue, fontname="Arial", penwidth=2];
-    edge [color=gray, arrowhead=none];
-    bgcolor="#fff8e1";
+    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
+    edge [color=darkgray];
+    bgcolor="lightgray";
 label="Precinct Graph - Districts: BRADDOCK";
 labelloc="t";
-fontcolor="black";
-bgcolor="white";
 138 [label="138\nEAGLE VIEW #2", fillcolor="#f2f2ff", fontcolor="black"];
 137 [label="137\nSIDEBURN #2", fillcolor="#e6e6ff", fontcolor="black"];
 136 [label="136\nWOODSON #2", fillcolor="#e4e4ff", fontcolor="black"];
