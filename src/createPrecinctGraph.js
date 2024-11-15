@@ -14,19 +14,21 @@ for (const precinct of precincts) {
 // district: district id
 // neighbors: array of neighbor nodes by precinct id
 
-// create digraph string for precinct graph
-let digraph = 'digraph precinct_graph {\n';
-digraph += 'node [shape=ellipse];\n';
-digraph += 'edge [color=black];\n';
+// create graph string for precinct graph
+let graph = 'graph precinct_graph {\n';
+graph += 'node [shape=ellipse];\n';
+graph += 'edge [color=black];\n';
 
 for (const precinct of precincts) {
-    digraph += `${precinct.id} [label="${precinct.name}"];\n`;
+    graph += `${precinct.id} [label="${precinct.name}"];\n`;
     for (const neighbor of precinct.neighbors) {
-        digraph += `${precinct.id} -> ${neighbor};\n`;
+        if (precinct.id < neighbor) { // to avoid duplicate edges
+            graph += `${precinct.id} -- ${neighbor};\n`;
+        }
     }
 }
 
-digraph += '}\n';
+graph += '}\n';
 
-fs.writeFileSync('data/precinct_graph.dot', digraph);
+fs.writeFileSync('data/precinct_graph.dot', graph);
 console.log('precinct graph created');
