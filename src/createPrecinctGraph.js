@@ -17,7 +17,7 @@ function createPrecinctGraph() {
         const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id == precinct.id);
         precinct.color = precinctMetadata.color;
         precinct.ratio = precinctMetadata.ratio;
-        precinct.totalVotes = precinctMetadata.votes.reduce((acc, cur) => acc + cur, 0);
+        precinct.totalVotes = precinctMetadata.votes.reduce((acc, cur) => acc + cur.count, 0);
     }
 
     // filter out edges with ids not within the 100s
@@ -44,7 +44,7 @@ function createPrecinctGraph() {
         const textColor = notBlueValue < 0x9999 ? 'white' : 'black';
         const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
         const size = Math.max(0.5, (precinct.totalVotes / maxVotes) * 2); // Adjust the multiplier as needed
-        graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
+        graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
         for (const neighbor of precinct.neighbors) {
             if (precinct.id < neighbor) { // to avoid duplicate edges
                 graph += `${precinct.id} -- ${neighbor};\n`;
