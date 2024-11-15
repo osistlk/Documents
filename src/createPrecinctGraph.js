@@ -34,7 +34,7 @@ graph += 'edge [color="black"];\n';
 precincts.sort((a, b) => a.id - b.id).reverse();
 for (const precinct of precincts) {
     const fillColor = precinct.color || 'gray20';
-    graph += `${precinct.id} [label="${precinct.name}\\n${precinct.id}", fillcolor="${fillColor}"];\n`;
+    graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}", fillcolor="${fillColor}"];\n`;
     for (const neighbor of precinct.neighbors) {
         if (precinct.id < neighbor) { // to avoid duplicate edges
             graph += `${precinct.id} -- ${neighbor};\n`;
