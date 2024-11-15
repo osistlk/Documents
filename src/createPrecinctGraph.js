@@ -6,8 +6,8 @@ const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
 
 // merge color data from metadata into precincts by precinct id
 for (const precinct of precincts) {
-    const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id === precinct.id);
-    precinct.color = precinctMetadata?.color;
+    const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id == precinct.id);
+    precinct.color = precinctMetadata.color;
 }
 
 // filter out edges with ids not within the 100s
@@ -33,7 +33,8 @@ graph += 'edge [color="white"];\n';
 
 precincts.sort((a, b) => a.id - b.id).reverse();
 for (const precinct of precincts) {
-    graph += `${precinct.id} [label="${precinct.name}\\n${precinct.id}"];\n`;
+    const fillColor = precinct.color || 'gray20';
+    graph += `${precinct.id} [label="${precinct.name}\\n${precinct.id}", fillcolor="${fillColor}"];\n`;
     for (const neighbor of precinct.neighbors) {
         if (precinct.id < neighbor) { // to avoid duplicate edges
             graph += `${precinct.id} -- ${neighbor};\n`;
