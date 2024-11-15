@@ -1,0 +1,30 @@
+{
+    "precincts": [
+        {
+            "id": 329,
+            "name": "SENECA",
+            "neighbors": [
+                322,
+                327
+            ]
+        },
+        {
+            "id": 322,
+            "name": "FORESTVILLE",
+            "neighbors": [
+                329,
+                306,
+                328
+            ]
+        },
+        {
+            "id": 306,
+            "name": "GREAT FALLS",
+            "neighbors": [
+                322,
+                328,
+                304
+            ]
+        },
+    ]
+}
