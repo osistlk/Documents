@@ -1,54 +1,60 @@
-// read graph json file and create precinct graphviz file
 const fs = require('fs');
+const precinctData = require('../data/ballots_by_precinct.json');
 
-const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
-const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
+function createPrecinctGraph() {
+    let graph = 'graph G {\n';
+    graph += '    layout=neato;\n';
+    graph += '    overlap=false;\n';
+    graph += '    splines=true;\n';
+    graph += '    node [shape=circle, style=filled, color=lightblue, fontname="Arial"];\n';
+    graph += '    edge [color=gray, arrowhead=none];\n';
 
-// merge color data from metadata into precincts by precinct id
-for (const precinct of precincts) {
-    const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id == precinct.id);
-    precinct.color = precinctMetadata.color;
-}
+    const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
+    const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
 
-// filter out edges with ids not within the 100s
-for (const precinct of precincts) {
-    precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 200);
-}
+    // merge color data from metadata into precincts by precinct id
+    for (const precinct of precincts) {
+        const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id == precinct.id);
+        precinct.color = precinctMetadata.color;
+    }
 
-// node class
-// id: precinct id
-// name: precinct name
-// district: district id
-// neighbors: array of neighbor nodes by precinct id
+    // filter out edges with ids not within the 100s
+    for (const precinct of precincts) {
+        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 200);
+    }
 
-// create graph string for precinct graph
-const uniqueDistricts = [...new Set(precincts.map(precinct => precinct.district))];
-let graph = 'graph precinct_graph {\n';
-graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
-graph += 'labelloc="t";\n';
-graph += 'fontcolor="black";\n';
-graph += 'bgcolor="white";\n';
-graph += 'node [shape=box, fontcolor="black", color="black", style="filled", fillcolor="lightgray"];\n';
-graph += 'edge [color="black"];\n';
+    // node class
+    // id: precinct id
+    // name: precinct name
+    // district: district id
+    // neighbors: array of neighbor nodes by precinct id
 
-precincts.sort((a, b) => a.id - b.id).reverse();
-for (const precinct of precincts) {
-    const fillColor = precinct.color || 'gray20';
-    const notBlueHex = fillColor.slice(1, 5);
-    console.log(notBlueHex);
-    const notBlueValue = parseInt(notBlueHex, 16);
-    console.log(notBlueValue);
-    const textColor = notBlueValue < 0x9999 ? 'white' : 'black';
-    console.log(textColor);
-    graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}", fillcolor="${fillColor}", fontcolor="${textColor}"];\n`;
-    for (const neighbor of precinct.neighbors) {
-        if (precinct.id < neighbor) { // to avoid duplicate edges
-            graph += `${precinct.id} -- ${neighbor};\n`;
+    // create graph string for precinct graph
+    const uniqueDistricts = [...new Set(precincts.map(precinct => precinct.district))];
+    graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
+    graph += 'labelloc="t";\n';
+    graph += 'fontcolor="black";\n';
+    graph += 'bgcolor="white";\n';
+
+    precincts.sort((a, b) => a.id - b.id).reverse();
+    for (const precinct of precincts) {
+        const fillColor = precinct.color || 'gray20';
+        const notBlueHex = fillColor.slice(1, 5);
+        console.log(notBlueHex);
+        const notBlueValue = parseInt(notBlueHex, 16);
+        console.log(notBlueValue);
+        const textColor = notBlueValue < 0x9999 ? 'white' : 'black';
+        console.log(textColor);
+        graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}", fillcolor="${fillColor}", fontcolor="${textColor}"];\n`;
+        for (const neighbor of precinct.neighbors) {
+            if (precinct.id < neighbor) { // to avoid duplicate edges
+                graph += `${precinct.id} -- ${neighbor};\n`;
+            }
         }
     }
+
+    graph += '}\n';
+    fs.writeFileSync('/home/jacquesdaytona/Code/nova-voting-heatmaps/data/precinct_graph.dot', graph);
 }
 
-graph += '}\n';
-
-fs.writeFileSync('data/precinct_graph.dot', graph);
-console.log('precinct graph created');
+createPrecinctGraph();
