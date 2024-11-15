@@ -61,8 +61,8 @@ const a = falseMin * -1;
 const b = 1;
 const colors = sortedVotes.map(vote => {
     const normal = a + ((vote.ratio - min) * (b - a)) / (max - min);
-    const hex = (1 - normal) * 255;
-    return hex < 254 ? `#${Math.round(hex).toString(16).padStart(2, '0')}${Math.round(hex).toString(16).padStart(2, '0')}ff` : `#ff${Math.round(Math.abs(hex)).toString(16).padEnd(2, '0')}${Math.round(Math.abs(hex)).toString(16).padEnd(2, '0')}`;
+    const blueHex = (1 - normal) * 255;
+    return `#0000${Math.round(blueHex).toString(16).padStart(2, '0')}`;
 });
 
 // Assign colors to votes
