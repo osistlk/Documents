@@ -1371,175 +1371,175 @@
     {
         "id": 501,
         "name": "BAILEYS",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 502,
         "name": "BARCROFT",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 503,
         "name": "BELVEDERE",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 504,
         "name": "BRISTOW",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 505,
         "name": "GLEN FOREST",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 506,
         "name": "HOLMES",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 507,
         "name": "LINCOLNIA",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 508,
         "name": "MASONVILLE",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 509,
         "name": "PLAZA",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 510,
         "name": "PARKLAWN",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 511,
         "name": "RAVENWOOD",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 512,
         "name": "SLEEPY HOLLOW",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 513,
         "name": "SAINT ALBANS",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 514,
         "name": "CROSSROADS",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 515,
         "name": "WESTLAWN",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 516,
         "name": "WEYANOKE",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 517,
         "name": "WILLSTON",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 518,
         "name": "COLUMBIA",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 520,
         "name": "SKYLINE",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 521,
         "name": "BROOK HILL",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 522,
         "name": "CAMELOT",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 523,
         "name": "POE",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 525,
         "name": "WALNUT HILL",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 526,
         "name": "BREN MAR",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 527,
         "name": "EDSALL",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 528,
         "name": "RIDGELEA",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 530,
         "name": "TRIPPS",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 535,
         "name": "FORT BUFFALO",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
         "id": 536,
         "name": "WOODBURN",
-        "district": null,
+        "district": "MASON",
         "neighbors": []
     },
     {
