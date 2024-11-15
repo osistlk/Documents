@@ -1,7 +1,14 @@
 // read graph json file and create precinct graphviz file
 const fs = require('fs');
 
-const precincts = JSON.parse(fs.readFileSync('data/precinct_graph.json')).precincts;
+const precincts = JSON.parse(fs.readFileSync('data/precinct_graph.json'));
+const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
+
+// merge color data from metadata into precincts by precinct id
+for (const precinct of precincts) {
+    const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id === precinct.id);
+    precinct.color = precinctMetadata?.color;
+}
 
 // filter out edges with ids not within the 100s
 for (const precinct of precincts) {
