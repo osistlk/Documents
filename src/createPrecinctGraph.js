@@ -40,11 +40,11 @@ function createPrecinctGraph() {
     // write the template precinct graph json file
     fs.writeFileSync('data/precinct_graph_template.json', JSON.stringify(template, null, 4));
 
-    // filter out precincts with ids not within the 100s
-    precincts = precincts.filter(precinct => precinct.id >= 100 && precinct.id < 200);
+    // filter out precincts with empty neighbors
+    precincts = precincts.filter(precinct => precinct.neighbors.length > 0);
     // filter out edges with ids not within the 100s
     for (const precinct of precincts) {
-        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 200);
+        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 300);
     }
 
     // node class
