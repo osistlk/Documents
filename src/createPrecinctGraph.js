@@ -1,7 +1,7 @@
 // read graph json file and create precinct graphviz file
 const fs = require('fs');
 
-const precinctGraph = JSON.parse(fs.readFileSync('data/precinct_graph.json'));
+const precincts = JSON.parse(fs.readFileSync('data/precinct_graph.json')).precincts;
 
 // node class
 // id: precinct id
@@ -14,7 +14,7 @@ let digraph = 'digraph precinct_graph {\n';
 digraph += 'node [shape=ellipse];\n';
 digraph += 'edge [color=black];\n';
 
-for (const precinct of precinctGraph) {
+for (const precinct of precincts) {
     digraph += `${precinct.id} [label="${precinct.name}"];\n`;
     for (const neighbor of precinct.neighbors) {
         digraph += `${precinct.id} -> ${neighbor};\n`;
