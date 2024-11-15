@@ -3,7 +3,7 @@ label="Precinct Graph - Districts: BRADDOCK";
 labelloc="t";
 fontcolor="black";
 bgcolor="white";
-node [shape=ellipse, fontcolor="black", color="black", style="filled", fillcolor="lightgray"];
+node [shape=box, fontcolor="black", color="black", style="filled", fillcolor="lightgray"];
 edge [color="black"];
 138 [label="138\nEAGLE VIEW #2", fillcolor="#f2f2ff"];
 137 [label="137\nSIDEBURN #2", fillcolor="#e6e6ff"];

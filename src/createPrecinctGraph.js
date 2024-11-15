@@ -28,7 +28,7 @@ graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '"
 graph += 'labelloc="t";\n';
 graph += 'fontcolor="black";\n';
 graph += 'bgcolor="white";\n';
-graph += 'node [shape=ellipse, fontcolor="black", color="black", style="filled", fillcolor="lightgray"];\n';
+graph += 'node [shape=box, fontcolor="black", color="black", style="filled", fillcolor="lightgray"];\n';
 graph += 'edge [color="black"];\n';
 
 precincts.sort((a, b) => a.id - b.id).reverse();
