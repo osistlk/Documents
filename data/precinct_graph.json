@@ -119,6 +119,237 @@
                 522,
                 528
             ]
+        },
+        {
+            "id": 117,
+            "name": "WOODSON #1",
+            "district": "BRADDOCK",
+            "neighbors": [
+                0,
+                109,
+                114,
+                116,
+                123,
+                136,
+                528,
+                711
+            ]
+        },
+        {
+            "id": 118,
+            "name": "LAKE BRADDOCK",
+            "district": "BRADDOCK",
+            "neighbors": [
+                109,
+                114,
+                119,
+                123,
+                125,
+                126,
+                127,
+                861
+            ]
+        },
+        {
+            "id": 119,
+            "name": "LAUREL",
+            "district": "BRADDOCK",
+            "neighbors": [
+                118,
+                120,
+                123,
+                126
+            ]
+        },
+        {
+            "id": 120,
+            "name": "SIDEBURN #1",
+            "district": "BRADDOCK",
+            "neighbors": [
+                119,
+                123,
+                126,
+                134,
+                137,
+                841
+            ]
+        },
+        {
+            "id": 121,
+            "name": "VILLA",
+            "district": "BRADDOCK",
+            "neighbors": [
+                0,
+                132,
+                134,
+                138
+            ]
+        },
+        {
+            "id": 123,
+            "name": "ROBINSON",
+            "district": "BRADDOCK",
+            "neighbors": [
+                114,
+                117,
+                118,
+                119,
+                120,
+                134,
+                136
+            ]
+        },
+        {
+            "id": 125,
+            "name": "SIGNAL HILL",
+            "district": "BRADDOCK",
+            "neighbors": [
+                108,
+                113,
+                118,
+                861
+            ]
+        },
+        {
+            "id": 126,
+            "name": "BONNIE BRAE",
+            "district": "BRADDOCK",
+            "neighbors": [
+                105,
+                118,
+                119,
+                120,
+                137
+            ]
+        },
+        {
+            "id": 127,
+            "name": "BURKE CENTRE",
+            "district": "BRADDOCK",
+            "neighbors": [
+                105,
+                118,
+                130,
+                833,
+                861
+            ]
+        },
+        {
+            "id": 128,
+            "name": "CARDINAL",
+            "district": "BRADDOCK",
+            "neighbors": [
+                108,
+                129,
+                135,
+                415,
+                801,
+                861
+            ]
+        },
+        {
+            "id": 129,
+            "name": "KEENE MILL",
+            "district": "BRADDOCK",
+            "neighbors": [
+                128,
+                135,
+                415,
+                431
+            ]
+        },
+        {
+            "id": 130,
+            "name": "TERRA CENTRE",
+            "district": "BRADDOCK",
+            "neighbors": [
+                105,
+                127,
+                815,
+                842
+            ]
+        },
+        {
+            "id": 131,
+            "name": "EAGLE VIEW #1",
+            "district": "BRADDOCK",
+            "neighbors": [
+                132,
+                138,
+                848
+            ]
+        },
+        {
+            "id": 132,
+            "name": "MONUMENT",
+            "district": "BRADDOCK",
+            "neighbors": [
+                0,
+                121,
+                131,
+                138,
+                844,
+                848,
+                856
+            ]
+        },
+        {
+            "id": 134,
+            "name": "UNIVERSITY",
+            "district": "BRADDOCK",
+            "neighbors": [
+                0,
+                120,
+                121,
+                123,
+                136
+            ]
+        },
+        {
+            "id": 135,
+            "name": "IRVING",
+            "district": "BRADDOCK",
+            "neighbors": [
+                128,
+                129,
+                431,
+                812
+            ]
+        },
+        {
+            "id": 136,
+            "name": "WOODSON #2",
+            "district": "BRADDOCK",
+            "neighbors": [
+                0,
+                117,
+                123,
+                134
+            ]
+        },
+        {
+            "id": 137,
+            "name": "SIDEBURN #2",
+            "district": "BRADDOCK",
+            "neighbors": [
+                105,
+                120,
+                126,
+                814
+            ]
+        },
+        {
+            "id": 138,
+            "name": "EAGLE VIEW #2",
+            "district": "BRADDOCK",
+            "neighbors": [
+                121,
+                131,
+                132,
+                804,
+                848,
+                851
+            ]
         }
     ]
 }
