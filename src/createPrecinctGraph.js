@@ -20,6 +20,26 @@ function createPrecinctGraph() {
         precinct.totalVotes = precinctMetadata.votes.reduce((acc, cur) => acc + cur.count, 0);
     }
 
+    // create a template precinct graph json file from metadata
+    // node class
+    // id: precinct id
+    // name: precinct name
+    // district: district id
+    // neighbors: array of neighbor nodes by precinct id
+    const template = metadata
+        .sort((a, b) => a.precinct.id - b.precinct.id)
+        .map(precinctMetadata => {
+            return {
+                id: Number(precinctMetadata.precinct.id),
+                name: precinctMetadata.precinct.name,
+                district: null,
+                neighbors: []
+            };
+        });
+
+    // write the template precinct graph json file
+    fs.writeFileSync('data/precinct_graph_template.json', JSON.stringify(template, null, 4));
+
     // filter out edges with ids not within the 100s
     for (const precinct of precincts) {
         precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 200);
