@@ -1,7 +1,7 @@
 // read graph json file and create precinct graphviz file
 const fs = require('fs');
 
-const precincts = JSON.parse(fs.readFileSync('data/precinct_graph.json'));
+const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
 const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
 
 // merge color data from metadata into precincts by precinct id
