@@ -26,6 +26,7 @@ const uniqueDistricts = [...new Set(precincts.map(precinct => precinct.district)
 let graph = 'graph precinct_graph {\n';
 graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
 graph += 'labelloc="t";\n';
+graph += 'fontcolor="white";\n';
 graph += 'bgcolor="black";\n';
 graph += 'node [shape=ellipse, fontcolor="white", color="white", style="filled", fillcolor="gray20"];\n';
 graph += 'edge [color="white"];\n';
