@@ -15,12 +15,15 @@ for (const precinct of precincts) {
 // neighbors: array of neighbor nodes by precinct id
 
 // create graph string for precinct graph
+const uniqueDistricts = [...new Set(precincts.map(precinct => precinct.district))];
 let graph = 'graph precinct_graph {\n';
+graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
+graph += 'labelloc="t";\n';
 graph += 'node [shape=ellipse];\n';
 graph += 'edge [color=black];\n';
 
 for (const precinct of precincts.reverse()) {
-    graph += `${precinct.id} [label="${precinct.name}"];\n`;
+    graph += `${precinct.id} [label="${precinct.id}: ${precinct.name}"];\n`;
     for (const neighbor of precinct.neighbors) {
         if (precinct.id < neighbor) { // to avoid duplicate edges
             graph += `${precinct.id} -- ${neighbor};\n`;
