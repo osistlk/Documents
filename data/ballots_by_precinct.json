@@ -10576,6 +10576,19 @@
   },
   {
     "precinct": {
+      "id": "519",
+      "name": "HUMMER"
+    },
+    "votes": [
+      {
+        "count": 500
+      }
+    ],
+    "ratio": 1.5,
+    "color": "#f7f7ff"
+  },
+  {
+    "precinct": {
       "id": "902",
       "name": "BROOKFIELD"
     },
