@@ -67,9 +67,10 @@ const normals = votes.map(vote => a + (((vote.ratio - min) * (b - a)) / (max - m
 const hexes = normals.map(normal => (1 - normal) * 255);
 const colors = hexes.map(hex => hex < 254 ? `#${Math.round(hex).toString(16).padStart(2, '0')}${Math.round(hex).toString(16).padStart(2, '0')}ff` : `#ff${Math.round(Math.abs(hex)).toString(16).padEnd(2, '0')}${Math.round(Math.abs(hex)).toString(16).padEnd(2, '0')}`);
 
-for(let i = 0; i < votes.length; i++) {
-	votes[i].color = colors[i];
+for (let i = 0; i < votes.length; i++) {
+    votes[i].color = colors[i];
 }
 
 let heatmap = votes.map(vote => `<div style="background-color: ${vote.color}">${vote.precinct.id}/${vote.precinct.name}/${vote.ratio}/${vote.color}</div>`);
 fs.writeFileSync('assets/heatmap.html', heatmap.join('\n'));
+fs.writeFileSync('data/votes.json', JSON.stringify(votes, null, 2));
