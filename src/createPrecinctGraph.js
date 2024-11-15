@@ -19,7 +19,7 @@ let graph = 'graph precinct_graph {\n';
 graph += 'node [shape=ellipse];\n';
 graph += 'edge [color=black];\n';
 
-for (const precinct of precincts) {
+for (const precinct of precincts.reverse()) {
     graph += `${precinct.id} [label="${precinct.name}"];\n`;
     for (const neighbor of precinct.neighbors) {
         if (precinct.id < neighbor) { // to avoid duplicate edges
