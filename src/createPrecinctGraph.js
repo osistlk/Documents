@@ -9,7 +9,7 @@ function createPrecinctGraph() {
     graph += '    edge [color=darkgray];\n';
     graph += '    bgcolor="lightgray";\n'; // light gray
 
-    const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
+    let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
 
     // merge metadata from metadata into precincts by precinct id
@@ -40,6 +40,8 @@ function createPrecinctGraph() {
     // write the template precinct graph json file
     fs.writeFileSync('data/precinct_graph_template.json', JSON.stringify(template, null, 4));
 
+    // filter out precincts with ids not within the 100s
+    precincts = precincts.filter(precinct => precinct.id >= 100 && precinct.id < 200);
     // filter out edges with ids not within the 100s
     for (const precinct of precincts) {
         precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 200);

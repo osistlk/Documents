@@ -2,353 +2,176 @@
     {
         "id": 104,
         "name": "CHAPEL",
-        "district": "BRADDOCK",
-        "neighbors": [
-            106,
-            108,
-            113,
-            115,
-            116,
-            522
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 105,
         "name": "FAIRVIEW",
-        "district": "BRADDOCK",
-        "neighbors": [
-            126,
-            127,
-            130,
-            137,
-            805,
-            815
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 106,
         "name": "HERITAGE",
-        "district": "BRADDOCK",
-        "neighbors": [
-            104,
-            110,
-            504,
-            519,
-            521
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 108,
         "name": "KINGS PARK",
-        "district": "BRADDOCK",
-        "neighbors": [
-            113,
-            115,
-            125,
-            128
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 109,
         "name": "LITTLE RUN",
-        "district": "BRADDOCK",
-        "neighbors": [
-            113,
-            114,
-            116,
-            117,
-            118
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 110,
         "name": "NORTH SPRINGFIELD",
-        "district": "BRADDOCK",
-        "neighbors": [
-            106,
-            115,
-            415,
-            418,
-            521,
-            527
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 113,
         "name": "CANTERBURY",
-        "district": "BRADDOCK",
-        "neighbors": [
-            104,
-            108,
-            109,
-            116,
-            125
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 114,
         "name": "OLDE CREEK",
-        "district": "BRADDOCK",
-        "neighbors": [
-            109,
-            117,
-            118,
-            123
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 115,
         "name": "RAVENSWORTH",
-        "district": "BRADDOCK",
-        "neighbors": [
-            104,
-            108,
-            110
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 116,
         "name": "WAKEFIELD",
-        "district": "BRADDOCK",
-        "neighbors": [
-            104,
-            109,
-            113,
-            117,
-            522,
-            528
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 117,
         "name": "WOODSON #1",
-        "district": "BRADDOCK",
-        "neighbors": [
-            0,
-            109,
-            114,
-            116,
-            123,
-            136,
-            528,
-            711
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 118,
         "name": "LAKE BRADDOCK",
-        "district": "BRADDOCK",
-        "neighbors": [
-            109,
-            114,
-            119,
-            123,
-            125,
-            126,
-            127,
-            861
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 119,
         "name": "LAUREL",
-        "district": "BRADDOCK",
-        "neighbors": [
-            118,
-            120,
-            123,
-            126
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 120,
         "name": "SIDEBURN #1",
-        "district": "BRADDOCK",
-        "neighbors": [
-            119,
-            123,
-            126,
-            134,
-            137,
-            841
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 121,
         "name": "VILLA",
-        "district": "BRADDOCK",
-        "neighbors": [
-            0,
-            132,
-            134,
-            138
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 123,
         "name": "ROBINSON",
-        "district": "BRADDOCK",
-        "neighbors": [
-            114,
-            117,
-            118,
-            119,
-            120,
-            134,
-            136
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 125,
         "name": "SIGNAL HILL",
-        "district": "BRADDOCK",
-        "neighbors": [
-            108,
-            113,
-            118,
-            861
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 126,
         "name": "BONNIE BRAE",
-        "district": "BRADDOCK",
-        "neighbors": [
-            105,
-            118,
-            119,
-            120,
-            137
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 127,
         "name": "BURKE CENTRE",
-        "district": "BRADDOCK",
-        "neighbors": [
-            105,
-            118,
-            130,
-            833,
-            861
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 128,
         "name": "CARDINAL",
-        "district": "BRADDOCK",
-        "neighbors": [
-            108,
-            129,
-            135,
-            415,
-            801,
-            861
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 129,
         "name": "KEENE MILL",
-        "district": "BRADDOCK",
-        "neighbors": [
-            128,
-            135,
-            415,
-            431
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 130,
         "name": "TERRA CENTRE",
-        "district": "BRADDOCK",
-        "neighbors": [
-            105,
-            127,
-            815,
-            842
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 131,
         "name": "EAGLE VIEW #1",
-        "district": "BRADDOCK",
-        "neighbors": [
-            132,
-            138,
-            848
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 132,
         "name": "MONUMENT",
-        "district": "BRADDOCK",
-        "neighbors": [
-            0,
-            121,
-            131,
-            138,
-            844,
-            848,
-            856
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 134,
         "name": "UNIVERSITY",
-        "district": "BRADDOCK",
-        "neighbors": [
-            0,
-            120,
-            121,
-            123,
-            136
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 135,
         "name": "IRVING",
-        "district": "BRADDOCK",
-        "neighbors": [
-            128,
-            129,
-            431,
-            812
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 136,
         "name": "WOODSON #2",
-        "district": "BRADDOCK",
-        "neighbors": [
-            0,
-            117,
-            123,
-            134
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 137,
         "name": "SIDEBURN #2",
-        "district": "BRADDOCK",
-        "neighbors": [
-            105,
-            120,
-            126,
-            814
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 138,
         "name": "EAGLE VIEW #2",
-        "district": "BRADDOCK",
-        "neighbors": [
-            121,
-            131,
-            132,
-            804,
-            848,
-            851
-        ]
+        "district": null,
+        "neighbors": []
     },
     {
         "id": 201,
