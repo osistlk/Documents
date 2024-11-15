@@ -12,10 +12,11 @@ function createPrecinctGraph() {
     const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
 
-    // merge color data from metadata into precincts by precinct id
+    // merge metadata from metadata into precincts by precinct id
     for (const precinct of precincts) {
         const precinctMetadata = metadata.find(precinctMetadata => precinctMetadata.precinct.id == precinct.id);
         precinct.color = precinctMetadata.color;
+        precinct.ratio = precinctMetadata.ratio;
     }
 
     // filter out edges with ids not within the 100s
