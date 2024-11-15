@@ -19,11 +19,12 @@ const uniqueDistricts = [...new Set(precincts.map(precinct => precinct.district)
 let graph = 'graph precinct_graph {\n';
 graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
 graph += 'labelloc="t";\n';
-graph += 'node [shape=ellipse];\n';
-graph += 'edge [color=black];\n';
+graph += 'bgcolor="black";\n';
+graph += 'node [shape=ellipse, fontcolor="white", color="white", style="filled", fillcolor="gray20"];\n';
+graph += 'edge [color="white"];\n';
 
 for (const precinct of precincts.reverse()) {
-    graph += `${precinct.id} [label="${precinct.id}: ${precinct.name}"];\n`;
+    graph += `${precinct.id} [label="${precinct.name}\\n${precinct.id}"];\n`;
     for (const neighbor of precinct.neighbors) {
         if (precinct.id < neighbor) { // to avoid duplicate edges
             graph += `${precinct.id} -- ${neighbor};\n`;
