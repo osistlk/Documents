@@ -63,7 +63,7 @@ function createPrecinctGraph() {
         const fillColor = precinct.color || 'gray20';
         const notBlueHex = fillColor.slice(1, 5);
         const notBlueValue = parseInt(notBlueHex, 16);
-        const textColor = notBlueValue < 0x9999 ? 'white' : 'black';
+        const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
         const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
         const size = Math.max(0.5, (precinct.totalVotes / maxVotes) * 2); // Adjust the multiplier as needed
         graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
