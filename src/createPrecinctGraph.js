@@ -23,7 +23,8 @@ graph += 'bgcolor="black";\n';
 graph += 'node [shape=ellipse, fontcolor="white", color="white", style="filled", fillcolor="gray20"];\n';
 graph += 'edge [color="white"];\n';
 
-for (const precinct of precincts.reverse()) {
+precincts.sort((a, b) => a.id - b.id).reverse();
+for (const precinct of precincts) {
     graph += `${precinct.id} [label="${precinct.name}\\n${precinct.id}"];\n`;
     for (const neighbor of precinct.neighbors) {
         if (precinct.id < neighbor) { // to avoid duplicate edges
