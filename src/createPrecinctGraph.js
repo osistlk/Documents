@@ -6,8 +6,9 @@ function createPrecinctGraph() {
     graph += '    layout=neato;\n';
     graph += '    overlap=false;\n';
     graph += '    splines=true;\n';
-    graph += '    node [shape=circle, style=filled, color=lightblue, fontname="Arial"];\n';
+    graph += '    node [shape=circle, style=filled, color=lightblue, fontname="Arial", penwidth=2];\n';
     graph += '    edge [color=gray, arrowhead=none];\n';
+    graph += '    bgcolor="#fff8e1";\n'; // warm creamy color
 
     const precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -40,11 +41,8 @@ function createPrecinctGraph() {
     for (const precinct of precincts) {
         const fillColor = precinct.color || 'gray20';
         const notBlueHex = fillColor.slice(1, 5);
-        console.log(notBlueHex);
         const notBlueValue = parseInt(notBlueHex, 16);
-        console.log(notBlueValue);
         const textColor = notBlueValue < 0x9999 ? 'white' : 'black';
-        console.log(textColor);
         graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}", fillcolor="${fillColor}", fontcolor="${textColor}"];\n`;
         for (const neighbor of precinct.neighbors) {
             if (precinct.id < neighbor) { // to avoid duplicate edges
