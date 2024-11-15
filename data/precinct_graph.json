@@ -1,30 +1,72 @@
 {
     "precincts": [
         {
-            "id": 329,
-            "name": "SENECA",
+            "id": 104,
+            "name": "CHAPEL",
             "neighbors": [
-                322,
-                327
+                106,
+                108,
+                113,
+                115,
+                116,
+                522
             ]
         },
         {
-            "id": 322,
-            "name": "FORESTVILLE",
+            "id": 105,
+            "name": "FAIRVIEW",
             "neighbors": [
-                329,
-                306,
-                328
+                126,
+                127,
+                130,
+                137,
+                805,
+                815
             ]
         },
         {
-            "id": 306,
-            "name": "GREAT FALLS",
+            "id": 106,
+            "name": "HERITAGE",
             "neighbors": [
-                322,
-                328,
-                304
+                104,
+                110,
+                504,
+                519,
+                521
             ]
         },
+        {
+            "id": 108,
+            "name": "KINGS PARK",
+            "neighbors": [
+                113,
+                115,
+                125,
+                128
+            ]
+        },
+        {
+            "id": 109,
+            "name": "LITTLE RUN",
+            "neighbors": [
+                113,
+                114,
+                116,
+                117,
+                118
+            ]
+        },
+        {
+            "id": 110,
+            "name": "NORTH SPRINGFIELD",
+            "neighbors": [
+                106,
+                115,
+                415,
+                418,
+                521,
+                527
+            ]
+        }
     ]
 }
