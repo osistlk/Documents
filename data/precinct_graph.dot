@@ -1,0 +1,34 @@
+digraph precincts {
+  node [shape=ellipse];
+  edge [dir=none];
+  precincts;
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+  precincts -> [object Object];
+}
