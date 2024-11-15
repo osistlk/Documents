@@ -3,6 +3,11 @@ const fs = require('fs');
 
 const precincts = JSON.parse(fs.readFileSync('data/precinct_graph.json')).precincts;
 
+// filter out edges with ids not within the 100s
+for (const precinct of precincts) {
+    precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 200);
+}
+
 // node class
 // id: precinct id
 // name: precinct name
