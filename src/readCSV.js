@@ -35,9 +35,18 @@ let votes = data.breakdownResults.map(result => {
 
 // Calculate the ratio of Democratic to Republican votes for each precinct
 for (let vote of votes) {
-    const democraticVotes = vote.votes.find(vote => vote.party === 'Democratic').count;
-    const republicanVotes = vote.votes.find(vote => vote.party === 'Republican').count;
-    vote.ratio = democraticVotes / republicanVotes;
+    const democraticVote = vote.votes.find(vote => vote.party === 'Democratic');
+    const republicanVote = vote.votes.find(vote => vote.party === 'Republican');
+
+    const democraticVotes = democraticVote ? democraticVote.count : 0;
+    const republicanVotes = republicanVote ? republicanVote.count : 0;
+
+    // Avoid division by zero
+    if (republicanVotes === 0) {
+        vote.ratio = democraticVotes > 0 ? Infinity : 0;
+    } else {
+        vote.ratio = democraticVotes / republicanVotes;
+    }
 }
 
 // Sort the votes by the ratio in descending order
