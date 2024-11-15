@@ -6,7 +6,7 @@ function createPrecinctGraph() {
     graph += '    overlap=false;\n';
     graph += '    splines=true;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
-    graph += '    edge [color=darkgray];\n';
+    graph += '    edge [color=black];\n';
     graph += '    bgcolor="lightgray";\n'; // light gray
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
@@ -44,7 +44,7 @@ function createPrecinctGraph() {
     precincts = precincts.filter(precinct => precinct.neighbors.length > 0);
     // filter out edges with ids not within the 100s
     for (const precinct of precincts) {
-        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 400);
+        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 500);
     }
 
     // node class
