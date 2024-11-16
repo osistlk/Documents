@@ -3,6 +3,7 @@ const fs = require('fs');
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
     graph += '    layout=neato;\n';
+    graph += '    model=subset;\n';
     graph += '    overlap=false;\n';
     graph += '    splines=curved;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
