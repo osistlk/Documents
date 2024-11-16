@@ -119,7 +119,7 @@ function createPrecinctGraph() {
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
             // normalize precinct size by total votes between 0.1 and 1.0
             const size = Math.max(0.1, Math.min(1.0, precinct.totalVotes / maxVotes)).toFixed(2);
-            graph += `    ${precinct.id} [shape = circle; style = filled;label="", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}", color="${precinct.heat || 'gray10'}"];\n`;
+            graph += `    ${precinct.id} [shape = circle; style = filled;label="${precinct.id}\\n${precinct.name}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}", color="${precinct.heat || 'gray10'}"];\n`;
             if (precinct.neighbors.length > 0) {
                 graph += `    ${precinct.id} -- {${precinct.neighbors.join(',')}};\n`;
             }

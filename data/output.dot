@@ -9,6 +9,7 @@ strict graph G {
 		lwidth=15.18,
 		model=subset,
 		overlap=false,
+		rotation=180,
 		smoothing=triangle,
 		splines=none
 	];
@@ -23,7 +24,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="659.8,601.35",
+			pos="836.7,488.35",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -32,7 +33,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="618.09,649.37",
+			pos="878.41,440.33",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -42,7 +43,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="601.69,529.79",
+			pos="894.81,559.91",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -52,7 +53,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="659.27,546.7",
+			pos="837.23,543",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -62,7 +63,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="606.39,572.8",
+			pos="890.11,516.9",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -72,7 +73,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="711.32,590.97",
+			pos="785.18,498.73",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -82,7 +83,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="710.53,639.86",
+			pos="785.97,449.84",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -92,7 +93,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="556.86,609.54",
+			pos="939.64,480.15",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -102,7 +103,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="595.8,695.91",
+			pos="900.7,393.79",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -112,7 +113,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="660.67,693.06",
+			pos="835.83,396.63",
 			shape=circle,
 			style=filled,
 			width=0.125];
@@ -122,7 +123,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.40278,
 			label="",
-			pos="555.6,686.82",
+			pos="940.9,402.88",
 			shape=circle,
 			style=filled,
 			width=0.40278];
@@ -134,7 +135,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="637.74,476.25",
+			pos="858.76,613.45",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -144,7 +145,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="554.4,484.6",
+			pos="942.1,605.1",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -157,7 +158,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="748.06,512.21",
+			pos="748.44,577.49",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -167,7 +168,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="740.83,604.1",
+			pos="755.67,485.6",
 			shape=circle,
 			style=filled,
 			width=0.125];
@@ -177,7 +178,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.93056,
 			label="",
-			pos="697.32,266.56",
+			pos="799.18,823.14",
 			shape=circle,
 			style=filled,
 			width=0.93056];
@@ -186,7 +187,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="715.82,327.85",
+			pos="780.68,761.85",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -196,7 +197,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.86111,
 			label="",
-			pos="645.54,344.04",
+			pos="850.97,745.66",
 			shape=circle,
 			style=filled,
 			width=0.86111];
@@ -206,7 +207,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="638.77,257.55",
+			pos="857.73,832.15",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -216,7 +217,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="753.88,287.8",
+			pos="742.62,801.89",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -226,7 +227,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="755.31,219.36",
+			pos="741.19,870.34",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -236,7 +237,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="634.54,203.56",
+			pos="861.96,886.14",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -248,7 +249,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="604.3,412.93",
+			pos="892.2,676.77",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -258,7 +259,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="583.08,332.96",
+			pos="913.42,756.74",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -269,7 +270,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="597.24,237.04",
+			pos="899.26,852.66",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -279,7 +280,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.31944,
 			label="",
-			pos="788.4,290.82",
+			pos="708.1,798.88",
 			shape=circle,
 			style=filled,
 			width=0.31944];
@@ -291,7 +292,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="504.32,541.04",
+			pos="992.19,548.66",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -301,7 +302,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="507.82,607.24",
+			pos="988.68,482.46",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -311,7 +312,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.38889,
 			label="",
-			pos="514.89,679.64",
+			pos="981.62,410.06",
 			shape=circle,
 			style=filled,
 			width=0.38889];
@@ -324,7 +325,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="506.18,502.48",
+			pos="990.32,587.22",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -334,7 +335,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="510.9,462.98",
+			pos="985.6,626.72",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -344,7 +345,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="555.44,420.65",
+			pos="941.07,669.05",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -354,7 +355,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="705.76,514.34",
+			pos="790.75,575.35",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -365,7 +366,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="713.37,471.65",
+			pos="783.13,618.05",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -376,7 +377,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="663.24,417.72",
+			pos="833.26,671.98",
 			shape=circle,
 			style=filled,
 			width=0.76389];
@@ -388,7 +389,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.91667,
 			label="",
-			pos="795.02,450.93",
+			pos="701.48,638.77",
 			shape=circle,
 			style=filled,
 			width=0.91667];
@@ -400,7 +401,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="877.59,478.68",
+			pos="618.91,611.01",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -410,7 +411,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="843.56,481.51",
+			pos="652.94,608.19",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -420,7 +421,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="774.95,550.26",
+			pos="721.55,539.44",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -434,7 +435,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.79167,
 			label="",
-			pos="727.26,381.36",
+			pos="769.24,708.34",
 			shape=circle,
 			style=filled,
 			width=0.79167];
@@ -446,7 +447,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.16667,
 			label="",
-			pos="842.07,438.03",
+			pos="654.43,651.67",
 			shape=circle,
 			style=filled,
 			width=0.16667];
@@ -459,7 +460,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="780.05,356.3",
+			pos="716.45,733.4",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -476,7 +477,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="813.49,352.81",
+			pos="683.01,736.89",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -487,7 +488,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.86111,
 			label="",
-			pos="874.27,363.58",
+			pos="622.23,726.12",
 			shape=circle,
 			style=filled,
 			width=0.86111];
@@ -497,7 +498,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.38889,
 			label="",
-			pos="821.92,286.41",
+			pos="674.58,803.29",
 			shape=circle,
 			style=filled,
 			width=0.38889];
@@ -509,7 +510,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="870.42,250.3",
+			pos="626.08,839.4",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -519,7 +520,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="940.27,327.37",
+			pos="556.23,762.32",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -529,7 +530,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="947.72,401.55",
+			pos="548.78,688.15",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -540,7 +541,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.38889,
 			label="",
-			pos="790.68,250.37",
+			pos="705.83,839.32",
 			shape=circle,
 			style=filled,
 			width=0.38889];
@@ -550,7 +551,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="821.9,229.21",
+			pos="674.6,860.49",
 			shape=circle,
 			style=filled,
 			width=0.23611];
@@ -562,7 +563,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.61111,
 			label="",
-			pos="461.03,457.22",
+			pos="1035.5,632.47",
 			shape=circle,
 			style=filled,
 			width=0.61111];
@@ -573,7 +574,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="470.96,406.22",
+			pos="1025.5,683.48",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -583,7 +584,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="855.12,300.87",
+			pos="641.38,788.83",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -600,7 +601,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="1364.2,647.38",
+			pos="132.28,442.32",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -609,7 +610,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="1277.2,758.92",
+			pos="219.35,330.78",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -619,7 +620,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="1309.5,706.37",
+			pos="187.02,383.33",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -629,7 +630,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.27778,
 			label="",
-			pos="1426.1,679.12",
+			pos="70.387,410.58",
 			shape=circle,
 			style=filled,
 			width=0.27778];
@@ -639,7 +640,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="1314.8,564.2",
+			pos="181.67,525.5",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -649,7 +650,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.70833,
 			label="",
-			pos="1382,711.91",
+			pos="114.48,377.79",
 			shape=circle,
 			style=filled,
 			width=0.70833];
@@ -661,7 +662,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="1202.3,778.44",
+			pos="294.19,311.26",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -671,7 +672,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="1290.1,810.48",
+			pos="206.41,279.22",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -681,7 +682,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="1254.3,647.58",
+			pos="242.25,442.12",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -692,7 +693,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="1402.5,572.48",
+			pos="94.01,517.22",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -702,7 +703,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="1352.1,483.78",
+			pos="144.38,605.92",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -712,7 +713,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="1051.3,631.85",
+			pos="445.18,457.85",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -721,7 +722,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="1010,659.75",
+			pos="486.46,429.95",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -731,7 +732,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="1082.6,571.34",
+			pos="413.89,518.36",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -741,7 +742,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="1061.6,698.72",
+			pos="434.94,390.97",
 			shape=circle,
 			style=filled,
 			width=0.72222];
@@ -751,7 +752,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.31944,
 			label="",
-			pos="1019.8,608.08",
+			pos="476.73,481.62",
 			shape=circle,
 			style=filled,
 			width=0.31944];
@@ -761,7 +762,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.19444,
 			label="",
-			pos="1102.6,660.23",
+			pos="393.92,429.47",
 			shape=circle,
 			style=filled,
 			width=0.19444];
@@ -772,7 +773,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="1139.7,494.63",
+			pos="356.8,595.07",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -782,7 +783,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1125.3,630.22",
+			pos="371.2,459.48",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -792,7 +793,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="1141.6,579.7",
+			pos="354.86,510",
 			shape=circle,
 			style=filled,
 			width=0.76389];
@@ -802,7 +803,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.11111,
 			label="",
-			pos="1095,506.47",
+			pos="401.46,583.23",
 			shape=circle,
 			style=filled,
 			width=0.11111];
@@ -812,7 +813,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="1081,437.01",
+			pos="415.47,652.69",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -822,7 +823,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.11111,
 			label="",
-			pos="1034.7,517.76",
+			pos="461.81,571.94",
 			shape=circle,
 			style=filled,
 			width=0.11111];
@@ -833,7 +834,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="1118.3,753.9",
+			pos="378.2,335.8",
 			shape=circle,
 			style=filled,
 			width=0.5];
@@ -843,7 +844,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="1044.3,745.91",
+			pos="452.23,343.79",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -853,7 +854,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="984.39,568.03",
+			pos="512.12,521.67",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -864,7 +865,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="1179.1,425.77",
+			pos="317.42,663.93",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -874,7 +875,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="1235.6,459.96",
+			pos="260.91,629.74",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -884,7 +885,7 @@ strict graph G {
 			fontcolor=black,
 			height=1,
 			label="",
-			pos="1249.2,354.74",
+			pos="247.3,734.96",
 			shape=circle,
 			style=filled,
 			width=1];
@@ -894,7 +895,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="1168.2,365.5",
+			pos="328.3,724.2",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -904,7 +905,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="1181.9,320.26",
+			pos="314.63,769.44",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -914,7 +915,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="1209.6,519",
+			pos="286.91,570.7",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -925,7 +926,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="1126.5,400.47",
+			pos="369.95,689.23",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -936,7 +937,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="1292.1,441.14",
+			pos="204.4,648.56",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -947,7 +948,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.18056,
 			label="",
-			pos="979.73,624.68",
+			pos="516.77,465.01",
 			shape=circle,
 			style=filled,
 			width=0.18056];
@@ -959,7 +960,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="939.2,626.51",
+			pos="557.3,463.19",
 			shape=circle,
 			style=filled,
 			width=0.72222];
@@ -970,7 +971,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="1182.6,734.71",
+			pos="313.91,354.99",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -980,7 +981,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="1234.6,717.5",
+			pos="261.87,372.2",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -990,7 +991,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.91667,
 			label="",
-			pos="1183.7,660.48",
+			pos="312.8,429.22",
 			shape=circle,
 			style=filled,
 			width=0.91667];
@@ -1009,7 +1010,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="1213.2,583.78",
+			pos="283.32,505.92",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -1021,7 +1022,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="1068.5,833.98",
+			pos="427.95,255.72",
 			shape=circle,
 			style=filled,
 			width=0.76389];
@@ -1031,7 +1032,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="1070.2,782.45",
+			pos="426.28,307.25",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1041,7 +1042,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="1128.7,819.4",
+			pos="367.79,270.3",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1053,7 +1054,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="1203.5,817.91",
+			pos="293.01,271.79",
 			shape=circle,
 			style=filled,
 			width=0.65278];
@@ -1063,7 +1064,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="935.26,691.04",
+			pos="561.25,398.66",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -1073,7 +1074,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="998.76,710.31",
+			pos="497.74,379.39",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -1083,7 +1084,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="862.66,699.17",
+			pos="633.84,390.53",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -1093,7 +1094,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="970.7,763.23",
+			pos="525.8,326.47",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -1103,7 +1104,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="851.6,739.72",
+			pos="644.9,349.98",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -1113,7 +1114,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="913.5,760.83",
+			pos="583.01,328.87",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -1126,7 +1127,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="1010.1,779.05",
+			pos="486.43,310.64",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -1138,7 +1139,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="833.67,655.66",
+			pos="662.83,434.04",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1150,7 +1151,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="1010.6,824.08",
+			pos="485.9,265.62",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -1201,7 +1202,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.56944,
 			label="",
-			pos="1158.9,275.2",
+			pos="337.57,814.5",
 			shape=circle,
 			style=filled,
 			width=0.56944];
@@ -1232,7 +1233,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.38889,
 			label="",
-			pos="1350,395.31",
+			pos="146.52,694.39",
 			shape=circle,
 			style=filled,
 			width=0.38889];
@@ -1244,7 +1245,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="1413.2,508.42",
+			pos="83.328,581.28",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -1254,7 +1255,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="1467.5,600.14",
+			pos="29,489.56",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -1267,7 +1268,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="1057.8,890.41",
+			pos="438.71,199.29",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1280,7 +1281,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.70833,
 			label="",
-			pos="1026,977.93",
+			pos="470.53,111.77",
 			shape=circle,
 			style=filled,
 			width=0.70833];
@@ -1289,7 +1290,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="990.99,1070.2",
+			pos="505.52,19.5",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -1299,7 +1300,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="1049.7,926.59",
+			pos="446.8,163.11",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -1309,7 +1310,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1085.2,943.4",
+			pos="411.29,146.3",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1319,7 +1320,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="998.86,923.01",
+			pos="497.64,166.69",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1329,7 +1330,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="960.01,1022.7",
+			pos="536.49,67.049",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -1340,7 +1341,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="912.79,1029.3",
+			pos="583.71,60.447",
 			shape=circle,
 			style=filled,
 			width=0.5];
@@ -1352,7 +1353,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="1101.3,886.29",
+			pos="395.2,203.41",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -1363,7 +1364,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="940.38,983.62",
+			pos="556.12,106.08",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -1373,7 +1374,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.86111,
 			label="",
-			pos="942.02,830.75",
+			pos="554.48,258.95",
 			shape=circle,
 			style=filled,
 			width=0.86111];
@@ -1385,7 +1386,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="826.03,1004.3",
+			pos="670.47,85.414",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -1395,7 +1396,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="882.79,980.62",
+			pos="613.71,109.08",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1409,7 +1410,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1176.4,865.24",
+			pos="320.14,224.46",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1422,7 +1423,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="994.53,872.06",
+			pos="501.97,217.64",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -1433,7 +1434,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="851.14,936.55",
+			pos="645.36,153.14",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -1445,7 +1446,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.94444,
 			label="",
-			pos="866,836.57",
+			pos="630.51,253.13",
 			shape=circle,
 			style=filled,
 			width=0.94444];
@@ -1455,7 +1456,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="933.07,948.61",
+			pos="563.43,141.09",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1467,7 +1468,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="889.71,901.57",
+			pos="606.79,188.13",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -1497,7 +1498,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="454.25,535.55",
+			pos="1042.3,554.15",
 			shape=circle,
 			style=filled,
 			width=0.65278];
@@ -1507,7 +1508,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="469.67,686.14",
+			pos="1026.8,403.56",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -1526,7 +1527,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="333.61,440.61",
+			pos="1162.9,649.08",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -1536,7 +1537,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="378.32,389.57",
+			pos="1118.2,700.13",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1546,7 +1547,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="365.23,737.72",
+			pos="1131.3,351.98",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -1555,7 +1556,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.91667,
 			label="",
-			pos="279.98,667.67",
+			pos="1216.5,422.03",
 			shape=circle,
 			style=filled,
 			width=0.91667];
@@ -1565,7 +1566,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="428.97,694.29",
+			pos="1067.5,395.41",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -1575,7 +1576,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="242.43,731.11",
+			pos="1254.1,358.59",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -1585,7 +1586,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="462.3,751.79",
+			pos="1034.2,337.9",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1596,7 +1597,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.90278,
 			label="",
-			pos="331.99,539.07",
+			pos="1164.5,550.62",
 			shape=circle,
 			style=filled,
 			width=0.90278];
@@ -1606,7 +1607,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="222.89,637.2",
+			pos="1273.6,452.5",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1616,7 +1617,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="393.43,638.75",
+			pos="1103.1,450.94",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -1626,7 +1627,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="213.86,684.42",
+			pos="1282.6,405.28",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -1636,7 +1637,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="206.43,752.94",
+			pos="1290.1,336.76",
 			shape=circle,
 			style=filled,
 			width=0.23611];
@@ -1647,7 +1648,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="161.49,706.38",
+			pos="1335,383.32",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -1657,7 +1658,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="112.42,707.77",
+			pos="1384.1,381.93",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1669,7 +1670,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.25,
 			label="",
-			pos="421.67,582.16",
+			pos="1074.8,507.53",
 			shape=circle,
 			style=filled,
 			width=0.25];
@@ -1678,7 +1679,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="463.3,617.53",
+			pos="1033.2,472.17",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1696,7 +1697,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="417.49,490.54",
+			pos="1079,599.16",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -1706,7 +1707,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="402.08,535.37",
+			pos="1094.4,554.33",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -1717,7 +1718,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="377,482.55",
+			pos="1119.5,607.14",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1727,7 +1728,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="348.06,659.77",
+			pos="1148.4,429.93",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -1740,7 +1741,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="339.39,603.08",
+			pos="1157.1,486.62",
 			shape=circle,
 			style=filled,
 			width=0.65278];
@@ -1751,7 +1752,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="299.27,484.62",
+			pos="1197.2,605.08",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -1765,7 +1766,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="148.08,621.68",
+			pos="1348.4,468.01",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -1776,7 +1777,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="205.45,551.14",
+			pos="1291.1,538.56",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1786,7 +1787,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="108.86,545.04",
+			pos="1387.6,544.66",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -1796,7 +1797,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="66.526,597.62",
+			pos="1430,492.08",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1806,7 +1807,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="110.05,655.86",
+			pos="1386.5,433.83",
 			shape=circle,
 			style=filled,
 			width=0.5];
@@ -1817,7 +1818,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="255.43,573.12",
+			pos="1241.1,516.58",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -1830,7 +1831,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="272.48,528.58",
+			pos="1224,561.12",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1840,7 +1841,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="233.46,490.02",
+			pos="1263,599.67",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -1851,7 +1852,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="50.707,548.57",
+			pos="1445.8,541.13",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1861,7 +1862,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="85.977,501.99",
+			pos="1410.5,587.71",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1876,7 +1877,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="151.87,536.77",
+			pos="1344.6,552.92",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1888,7 +1889,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.56944,
 			label="",
-			pos="192.95,492.47",
+			pos="1303.5,597.23",
 			shape=circle,
 			style=filled,
 			width=0.56944];
@@ -1903,7 +1904,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="388.65,592.23",
+			pos="1107.9,497.47",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1935,7 +1936,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="755.06,635.13",
+			pos="741.44,454.56",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1945,7 +1946,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="735.64,691.52",
+			pos="760.86,398.18",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -1960,7 +1961,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="615.35,738.64",
+			pos="881.16,351.06",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -1971,7 +1972,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="700.99,733.65",
+			pos="795.51,356.05",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -1982,7 +1983,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="560.33,738.41",
+			pos="936.17,351.29",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -2005,7 +2006,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="578.05,870.4",
+			pos="918.45,219.3",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -2014,7 +2015,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="600.96,926.87",
+			pos="895.54,162.82",
 			shape=circle,
 			style=filled,
 			width=0.125];
@@ -2024,7 +2025,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="587.82,824.39",
+			pos="908.68,265.31",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -2034,7 +2035,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="530.42,898.12",
+			pos="966.08,191.57",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2044,7 +2045,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="625.56,875.48",
+			pos="870.94,214.22",
 			shape=circle,
 			style=filled,
 			width=0.29167];
@@ -2054,7 +2055,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="656.25,841.56",
+			pos="840.25,248.14",
 			shape=circle,
 			style=filled,
 			width=0.29167];
@@ -2063,7 +2064,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="623.34,840.66",
+			pos="873.16,249.04",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -2073,7 +2074,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="663.76,872.69",
+			pos="832.74,217.01",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -2083,7 +2084,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="653.2,797.64",
+			pos="843.3,292.06",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -2097,7 +2098,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="604.69,782.94",
+			pos="891.81,306.76",
 			shape=circle,
 			style=filled,
 			width=0.5];
@@ -2109,7 +2110,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="646.05,904.5",
+			pos="850.45,185.2",
 			shape=circle,
 			style=filled,
 			width=0.29167];
@@ -2120,7 +2121,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="690.86,840.17",
+			pos="805.64,249.53",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -2130,7 +2131,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="708.23,795.5",
+			pos="788.28,294.19",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -2140,7 +2141,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="724.38,873.18",
+			pos="772.12,216.52",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -2155,7 +2156,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="613.27,957.89",
+			pos="883.23,131.81",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -2166,7 +2167,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="580.94,908.91",
+			pos="915.57,180.79",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -2178,7 +2179,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.61111,
 			label="",
-			pos="542.79,792.09",
+			pos="953.71,297.61",
 			shape=circle,
 			style=filled,
 			width=0.61111];
@@ -2189,7 +2190,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="514.33,742.54",
+			pos="982.18,347.16",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -2205,7 +2206,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="654.91,752.04",
+			pos="841.59,337.66",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -2219,7 +2220,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="756.25,781.72",
+			pos="740.25,307.98",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2229,7 +2230,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.16667,
 			label="",
-			pos="567.94,930.43",
+			pos="928.56,159.27",
 			shape=circle,
 			style=filled,
 			width=0.16667];
@@ -2242,7 +2243,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="769.91,860.75",
+			pos="726.59,228.95",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2288,7 +2289,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="17,590.72",
+			pos="1479.5,498.98",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -2302,7 +2303,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="62.812,661.14",
+			pos="1433.7,428.56",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -2328,7 +2329,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.56944,
 			label="",
-			pos="355.96,300.03",
+			pos="1140.5,789.66",
 			shape=circle,
 			style=filled,
 			width=0.56944];
@@ -2339,7 +2340,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="291.52,447.47",
+			pos="1205,642.23",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2352,7 +2353,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="41.948,503.3",
+			pos="1454.6,586.4",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -2362,7 +2363,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="85.739,448.4",
+			pos="1410.8,641.29",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2372,7 +2373,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="142.6,468.15",
+			pos="1353.9,621.54",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2385,7 +2386,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="138.93,423.92",
+			pos="1357.6,665.78",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -2395,7 +2396,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="76.044,405.71",
+			pos="1420.5,683.99",
 			shape=circle,
 			style=filled,
 			width=0.29167];
@@ -2405,7 +2406,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="203.43,435.61",
+			pos="1293.1,654.09",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -2422,7 +2423,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="252,429.12",
+			pos="1244.5,660.57",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -2438,7 +2439,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="236.39,379.56",
+			pos="1260.1,710.13",
 			shape=circle,
 			style=filled,
 			width=0.65278];
@@ -2450,7 +2451,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="298.59,380.99",
+			pos="1197.9,708.71",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2460,7 +2461,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="298.68,309.61",
+			pos="1197.8,780.09",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -2470,7 +2471,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.26389,
 			label="",
-			pos="256.32,285.35",
+			pos="1240.2,804.34",
 			shape=circle,
 			style=filled,
 			width=0.26389];
@@ -2487,7 +2488,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="308.06,239.43",
+			pos="1188.4,850.27",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -2498,7 +2499,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="399.98,288.52",
+			pos="1096.5,801.18",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2509,7 +2510,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="427.4,334.54",
+			pos="1069.1,755.15",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -2519,7 +2520,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="441.26,255.69",
+			pos="1055.2,834.01",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -2529,7 +2530,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="382.43,227.02",
+			pos="1114.1,862.68",
 			shape=circle,
 			style=filled,
 			width=0.72222];
@@ -2539,7 +2540,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="528.84,217.86",
+			pos="967.66,871.83",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -2551,7 +2552,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="340.58,222.91",
+			pos="1155.9,866.78",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -2561,7 +2562,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="359.93,188.6",
+			pos="1136.6,901.1",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -2574,7 +2575,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="457.91,169.71",
+			pos="1038.6,919.98",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -2605,7 +2606,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.875,
 			label="",
-			pos="907.68,544.82",
+			pos="588.82,544.88",
 			shape=circle,
 			style=filled,
 			width=0.875];
@@ -2615,7 +2616,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="805.89,591.73",
+			pos="690.61,497.96",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -2625,7 +2626,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="846.98,560.61",
+			pos="649.52,529.09",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2635,7 +2636,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="975.21,495.4",
+			pos="521.29,594.3",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -2645,7 +2646,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="914.79,452.32",
+			pos="581.72,637.37",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -2677,7 +2678,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.16667,
 			label="",
-			pos="839.38,604.02",
+			pos="657.12,485.68",
 			shape=circle,
 			style=filled,
 			width=0.16667];
@@ -2705,7 +2706,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="763.01,743.19",
+			pos="733.49,346.51",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -2715,7 +2716,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="774.17,693.15",
+			pos="722.33,396.55",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -2734,7 +2735,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="1024.5,876.98",
+			pos="471.96,212.72",
 			shape=circle,
 			style=filled,
 			width=0.23611];
@@ -2761,7 +2762,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="812.94,855.06",
+			pos="683.56,234.64",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -2771,7 +2772,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.61111,
 			label="",
-			pos="801.83,791.26",
+			pos="694.67,298.44",
 			shape=circle,
 			style=filled,
 			width=0.61111];
@@ -2812,7 +2813,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="885.68,603.83",
+			pos="610.82,485.86",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -2826,7 +2827,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.90278,
 			label="",
-			pos="1020.5,426.86",
+			pos="476.02,662.84",
 			shape=circle,
 			style=filled,
 			width=0.90278];
@@ -2870,7 +2871,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="593.71,189.83",
+			pos="902.79,899.87",
 			shape=circle,
 			style=filled,
 			width=0.23611];
@@ -2916,7 +2917,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="525.76,364.73",
+			pos="970.74,724.97",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -2930,7 +2931,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.31944,
 			label="",
-			pos="812.21,147.76",
+			pos="684.29,941.94",
 			shape=circle,
 			style=filled,
 			width=0.31944];
@@ -2940,7 +2941,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="897.66,185.14",
+			pos="598.85,904.56",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -2952,7 +2953,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="992.3,297.34",
+			pos="504.21,792.36",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2965,7 +2966,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.79167,
 			label="",
-			pos="1010.8,357.86",
+			pos="485.75,731.84",
 			shape=circle,
 			style=filled,
 			width=0.79167];
@@ -2980,7 +2981,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="781.01,183.32",
+			pos="715.5,906.38",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -3005,7 +3006,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="474.4,360.71",
+			pos="1022.1,728.99",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -3031,7 +3032,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.79167,
 			label="",
-			pos="495.2,307.7",
+			pos="1001.3,782",
 			shape=circle,
 			style=filled,
 			width=0.79167];
@@ -3041,7 +3042,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.56944,
 			label="",
-			pos="552.22,280.07",
+			pos="944.28,809.63",
 			shape=circle,
 			style=filled,
 			width=0.56944];
@@ -3051,7 +3052,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="915.94,288.35",
+			pos="580.56,801.35",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -3062,7 +3063,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="958.06,242.8",
+			pos="538.44,846.9",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -3075,7 +3076,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="1041.3,268.75",
+			pos="455.17,820.95",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -3085,7 +3086,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="956.17,191.27",
+			pos="540.33,898.43",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -3097,7 +3098,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1066.5,345.09",
+			pos="430.01,744.61",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -3107,7 +3108,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="674.52,171.78",
+			pos="821.98,917.91",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -3118,7 +3119,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="705.33,161.28",
+			pos="791.17,928.42",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -3144,7 +3145,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="1102.9,240.84",
+			pos="393.65,848.86",
 			shape=circle,
 			style=filled,
 			width=0.76389];
@@ -3154,7 +3155,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.95833,
 			label="",
-			pos="1025.3,204.47",
+			pos="471.23,885.23",
 			shape=circle,
 			style=filled,
 			width=0.95833];
@@ -3164,7 +3165,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.26389,
 			label="",
-			pos="1075.9,285.99",
+			pos="420.65,803.71",
 			shape=circle,
 			style=filled,
 			width=0.26389];
@@ -3174,7 +3175,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="796.28,97.699",
+			pos="700.23,992",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -3184,7 +3185,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="736.29,129.75",
+			pos="760.21,959.95",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -3195,7 +3196,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="668.78,93.036",
+			pos="827.72,996.66",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -3206,7 +3207,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="728.72,29.5",
+			pos="767.78,1060.2",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -3268,7 +3269,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="1117.2,323.78",
+			pos="379.35,765.92",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -3304,7 +3305,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="1080,192.88",
+			pos="416.52,896.82",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -3316,7 +3317,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="1007,88.253",
+			pos="489.5,1001.4",
 			shape=circle,
 			style=filled,
 			width=0.72222];
@@ -3337,7 +3338,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="798.59,25.731",
+			pos="697.92,1064",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -3347,7 +3348,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="860.07,34.014",
+			pos="636.44,1055.7",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -3357,7 +3358,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="893.45,90.283",
+			pos="603.05,999.42",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -3368,7 +3369,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="898.76,39.477",
+			pos="597.75,1050.2",
 			shape=circle,
 			style=filled,
 			width=0.125];
@@ -3381,7 +3382,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="960.64,142.26",
+			pos="535.86,947.44",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -3396,7 +3397,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.88889,
 			label="",
-			pos="1073.1,115.67",
+			pos="423.45,974.03",
 			shape=circle,
 			style=filled,
 			width=0.88889];
@@ -3408,7 +3409,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="1041.9,30.7",
+			pos="454.64,1059",
 			shape=circle,
 			style=filled,
 			width=0.65278];
@@ -3423,7 +3424,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="941.58,43.543",
+			pos="554.92,1046.2",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -3433,7 +3434,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="853.42,99.127",
+			pos="643.09,990.57",
 			shape=circle,
 			style=filled,
 			width=0.51389];
