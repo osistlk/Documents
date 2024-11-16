@@ -35,7 +35,7 @@ function createPrecinctGraph() {
     graph += '    model=subset;\n';
     graph += '    node [shape=circle, style=filled];\n';
     graph += '    edge [color="#666666"];\n';
-    graph += '    bgcolor="#FFFFED";\n';
+    graph += '    bgcolor="#FFF5E6";\n';
     graph += '    smoothing=triangle;\n';
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
@@ -117,7 +117,7 @@ function createPrecinctGraph() {
             const notBlueValue = parseInt(notBlueHex, 16);
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
             const size = 0.5 + ((precinct.totalVotes - minVotes) / (maxVotes - minVotes)) * 1.5; // Adjust the multiplier as needed
-            graph += `    ${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
+            graph += `    ${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}", color="${precinct.heat || 'gray10'}"];\n`;
             if (precinct.neighbors.length > 0) {
                 graph += `    ${precinct.id} -- {${precinct.neighbors.join(',')}};\n`;
             }
