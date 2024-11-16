@@ -3,9 +3,9 @@ const fs = require('fs');
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
     graph += '    layout=neato;\n';
-    graph += '    model=subset;\n';
+    graph += '    model=circuit;\n';
     graph += '    overlap=false;\n';
-    graph += '    splines=curved;\n';
+    graph += '    splines=none;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFFFED";\n';
@@ -57,7 +57,7 @@ function createPrecinctGraph() {
 
     // bucket precincts by district
     const precinctsByDistrict = {};
-    for (const precinct of precincts.reverse()) {
+    for (const precinct of precincts) {
         if (!precinctsByDistrict[precinct.district]) {
             precinctsByDistrict[precinct.district] = [];
         }
