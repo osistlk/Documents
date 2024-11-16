@@ -1,5 +1,31 @@
 const fs = require('fs');
 
+function interpolateColor(ratio) {
+    // Define start (red), midpoint (white), and end (blue) colors as RGB
+    const startColor = [255, 0, 0];   // Red
+    const midColor = [255, 255, 255]; // White
+    const endColor = [0, 0, 255];     // Blue
+
+    let r, g, b;
+
+    if (ratio < 0.5) {
+        // Interpolate between startColor and midColor
+        const adjustedRatio = ratio * 2; // Scale to [0, 1] for first half
+        r = Math.round(startColor[0] + adjustedRatio * (midColor[0] - startColor[0]));
+        g = Math.round(startColor[1] + adjustedRatio * (midColor[1] - startColor[1]));
+        b = Math.round(startColor[2] + adjustedRatio * (midColor[2] - startColor[2]));
+    } else {
+        // Interpolate between midColor and endColor
+        const adjustedRatio = (ratio - 0.5) * 2; // Scale to [0, 1] for second half
+        r = Math.round(midColor[0] + adjustedRatio * (endColor[0] - midColor[0]));
+        g = Math.round(midColor[1] + adjustedRatio * (endColor[1] - midColor[1]));
+        b = Math.round(midColor[2] + adjustedRatio * (endColor[2] - midColor[2]));
+    }
+
+    // Convert to hex and return
+    return `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
+}
+
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
     graph += '    layout=sfdp;\n';
@@ -25,33 +51,15 @@ function createPrecinctGraph() {
 
     // Adjust colors to be light shades of red or blue without visible green tones
     const maxRatio = Math.max(...precincts.map(p => p.ratio));
-    const minRatio = Math.min(...precincts.map(p => p.ratio));
-    const logMaxRatio = Math.log(maxRatio);
-    const logMinRatio = Math.log(minRatio);
-
+    const minRatio = -maxRatio; // true min
     precincts = precincts.map(precinct => {
-        const logRatio = Math.log(precinct.ratio);
-        const normalizedRatio = (logRatio - logMinRatio) / (logMaxRatio - logMinRatio); // Normalize log ratio to be between 0 and 1
-
-        // Calculate red and blue components
-        const red = 255 * (1 - normalizedRatio); // Higher red for lower ratios
-        const blue = 255 * normalizedRatio;     // Higher blue for higher ratios
-
-        // Scale to lighter shades by capping the intensity of red/blue to a minimum of 200
-        const lightRed = Math.max(200, red);
-        const lightBlue = Math.max(200, blue);
-
-        // Use a minimal green component for blending without introducing green/yellow
-        const green = 20;
-
-        const redComponent = Math.round(lightRed).toString(16).padStart(2, '0');
-        const greenComponent = Math.round(green).toString(16).padStart(2, '0');
-        const blueComponent = Math.round(lightBlue).toString(16).padStart(2, '0');
-
-        precinct.alt_color = `#${redComponent}${greenComponent}${blueComponent}`;
+        const sign = Math.sign(precinct.ratio);
+        const shiftedRatio = Math.abs(precinct.ratio);
+        precinct.alt_ratio = sign * Math.log1p(shiftedRatio);
+        precinct.alt_color = (precinct.alt_ratio - minRatio) / (maxRatio - minRatio);
+        precinct.heat = interpolateColor(precinct.alt_color);
         return precinct;
     });
-
 
 
 
@@ -104,7 +112,7 @@ function createPrecinctGraph() {
         graph += `    color=blue;\n`;
 
         for (const precinct of precinctsByDistrict[district]) {
-            const fillColor = precinct.alt_color || 'gray20';
+            const fillColor = precinct.heat || 'gray20';
             const notBlueHex = fillColor.slice(1, 5);
             const notBlueValue = parseInt(notBlueHex, 16);
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';

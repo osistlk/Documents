@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chroma-js": "^3.1.2",
     "vorpal": "^1.12.0"
   }
 }
