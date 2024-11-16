@@ -51,20 +51,38 @@ function createPrecinctGraph() {
     graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
     graph += 'labelloc="t";\n';
 
+    // bucket precincts by district
+    const precinctsByDistrict = {};
+    for (const precinct of precincts) {
+        if (!precinctsByDistrict[precinct.district]) {
+            precinctsByDistrict[precinct.district] = [];
+        }
+        precinctsByDistrict[precinct.district].push(precinct);
+    }
+
     const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
     const minVotes = Math.min(...precincts.map(p => p.totalVotes));
-    for (const precinct of precincts) {
-        const fillColor = precinct.color || 'gray20';
-        const notBlueHex = fillColor.slice(1, 5);
-        const notBlueValue = parseInt(notBlueHex, 16);
-        const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
-        const size = 0.5 + ((precinct.totalVotes - minVotes) / (maxVotes - minVotes)) * 1.5; // Adjust the multiplier as needed
-        graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
-        for (const neighbor of precinct.neighbors) {
-            if (precinct.id < neighbor) { // to avoid duplicate edges
-                graph += `${precinct.id} -- ${neighbor};\n`;
+    for (const district in precinctsByDistrict) {
+        const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
+        graph += `subgraph cluster_${sanitizedDistrict} {\n`;
+        graph += `    label="District ${district}";\n`;
+        graph += `    color=blue;\n`;
+
+        for (const precinct of precinctsByDistrict[district]) {
+            const fillColor = precinct.color || 'gray20';
+            const notBlueHex = fillColor.slice(1, 5);
+            const notBlueValue = parseInt(notBlueHex, 16);
+            const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
+            const size = 0.5 + ((precinct.totalVotes - minVotes) / (maxVotes - minVotes)) * 1.5; // Adjust the multiplier as needed
+            graph += `    ${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
+            for (const neighbor of precinct.neighbors) {
+                if (precinct.id < neighbor) { // to avoid duplicate edges
+                    graph += `    ${precinct.id} -- ${neighbor};\n`;
+                }
             }
         }
+
+        graph += '}\n';
     }
 
     graph += '}\n';
