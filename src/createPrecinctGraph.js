@@ -52,14 +52,15 @@ function createPrecinctGraph() {
     graph += 'labelloc="t";\n';
 
     precincts.sort((a, b) => a.id - b.id).reverse();
+    const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
+    const minVotes = Math.min(...precincts.map(p => p.totalVotes));
     for (const precinct of precincts) {
         const fillColor = precinct.color || 'gray20';
         const notBlueHex = fillColor.slice(1, 5);
         const notBlueValue = parseInt(notBlueHex, 16);
         const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
-        const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
-        const size = Math.max(0.5, (precinct.totalVotes / maxVotes) * 2); // Adjust the multiplier as needed
-        graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
+        const size = 0.5 + ((precinct.totalVotes - minVotes) / (maxVotes - minVotes)) * 1.5; // Adjust the multiplier as needed
+        graph += `${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}"];\n`;
         for (const neighbor of precinct.neighbors) {
             if (precinct.id < neighbor) { // to avoid duplicate edges
                 graph += `${precinct.id} -- ${neighbor};\n`;
