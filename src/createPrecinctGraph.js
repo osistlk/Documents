@@ -4,7 +4,7 @@ function createPrecinctGraph() {
     let graph = 'graph G {\n';
     graph += '    layout=neato;\n';
     graph += '    overlap=false;\n';
-    graph += '    splines=true;\n';
+    graph += '    splines=curved;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
     graph += '    edge [color=darkgray];\n';
     graph += '    bgcolor="#FFFFED";\n';
