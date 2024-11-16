@@ -35,7 +35,9 @@ function createPrecinctGraph() {
         const normalizedRatio = (logRatio - logMinRatio) / (logMaxRatio - logMinRatio); // Normalize log ratio to be between 0 and 1
         const red = Math.min(255, 255 * (1 - normalizedRatio));
         const blue = Math.min(255, 255 * normalizedRatio);
-        precinct.alt_color = `#${Math.round(red).toString(16).padStart(2, '0')}00${Math.round(blue).toString(16).padStart(2, '0')}`;
+        const redComponent = Math.round(red).toString(16).padStart(2, '0');
+        const blueComponent = Math.round(blue).toString(16).padStart(2, '0');
+        precinct.alt_color = `#${redComponent}00${blueComponent}`;
         return precinct;
     });
 
