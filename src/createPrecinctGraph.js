@@ -62,6 +62,8 @@ function createPrecinctGraph() {
 
     const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
     const minVotes = Math.min(...precincts.map(p => p.totalVotes));
+    const addedEdges = new Set(); // Track added edges to avoid duplicates
+
     for (const district in precinctsByDistrict) {
         const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
         graph += `subgraph cluster_${sanitizedDistrict} {\n`;
@@ -75,8 +77,12 @@ function createPrecinctGraph() {
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
             const size = 0.5 + ((precinct.totalVotes - minVotes) / (maxVotes - minVotes)) * 1.5; // Adjust the multiplier as needed
             graph += `    ${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
-            if (precinct.neighbors.length > 0) {
-                graph += `    ${precinct.id} -- {${precinct.neighbors.join(',')}};\n`;
+            for (const neighbor of precinct.neighbors) {
+                const edge = [precinct.id, neighbor].sort().join('--');
+                if (!addedEdges.has(edge)) {
+                    graph += `    ${precinct.id} -- ${neighbor};\n`;
+                    addedEdges.add(edge);
+                }
             }
         }
 
