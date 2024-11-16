@@ -1,16 +1,16 @@
 strict graph G {
-	graph [bb="0,0,3382.8,4333.1",
+	graph [bb="0,0,3396.6,4077.5",
 		beautify=true,
 		bgcolor="#FFFFED",
 		label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY",
 		labelloc=t,
 		layout=sfdp,
 		lheight=0.21,
-		lp="1691.4,4321.6",
+		lp="1698.3,4066",
 		lwidth=15.18,
 		model=subset,
 		overlap=false,
-		rotation=105,
+		rotation=115,
 		smoothing=triangle,
 		splines=none
 	];
@@ -29,76 +29,76 @@ strict graph G {
 			fontcolor=black,
 			height=1.3889,
 			label="104\nCHAPEL\n2061\n2.30",
-			pos="1652.4,2346",
+			pos="1562.2,2142.9",
 			width=1.3889];
 		106	[fillcolor="#f4f4ff",
 			fontcolor=black,
 			height=1.5833,
 			label="106\nHERITAGE\n2626\n1.61",
-			pos="1742.2,2498.6",
+			pos="1683.4,2315.8",
 			width=1.5833];
 		104 -- 106;
 		108	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=1.8333,
 			label="108\nKINGS PARK\n2585\n2.04",
-			pos="1388.5,2467.6",
+			pos="1228.5,2220",
 			width=1.8333];
 		104 -- 108;
 		113	[fillcolor="#d3d3ff",
 			fontcolor=black,
 			height=1.875,
 			label="113\nCANTERBURY\n3152\n2.39",
-			pos="1486.7,2316",
+			pos="1356.8,2078.4",
 			width=1.875];
 		104 -- 113;
 		115	[fillcolor="#f1f1ff",
 			fontcolor=black,
 			height=2.4306,
 			label="115\nRAVENSWORTH\n1449\n1.69",
-			pos="1550.1,2491.6",
+			pos="1390.1,2293.3",
 			width=2.4306];
 		104 -- 115;
 		116	[fillcolor="#c8c8ff",
 			fontcolor=black,
 			height=1.8611,
 			label="116\nWAKEFIELD\n1956\n2.64",
-			pos="1630.9,2221",
+			pos="1540.8,2017.3",
 			width=1.8611];
 		104 -- 116;
 		522	[fillcolor="#dedeff",
 			fontcolor=black,
 			height=1.625,
 			label="522\nCAMELOT\n1813\n2.13",
-			pos="1829.1,2211",
+			pos="1729.9,2062.5",
 			width=1.625];
 		104 -- 522;
 		110	[fillcolor="#f6f6ff",
 			fontcolor=black,
 			height=2.6806,
 			label="110\nNORTH SPRINGFIELD\n3343\n1.56",
-			pos="1652.6,2683.6",
+			pos="1563.6,2485.4",
 			width=2.6806];
 		106 -- 110;
 		504	[fillcolor="#fdfdff",
 			fontcolor=black,
 			height=1.5972,
 			label="504\nBRISTOW\n1882\n1.40",
-			pos="1874.5,2575.4",
+			pos="1807.3,2424.1",
 			width=1.5972];
 		106 -- 504;
 		519	[fillcolor="#f7f7ff",
 			fontcolor=black,
 			height=1.5556,
 			label="519\nHUMMER\n500\n1.50",
-			pos="1917.2,2384.3",
+			pos="1838.4,2237.9",
 			width=1.5556];
 		106 -- 519;
 		521	[fillcolor="#f8f8ff",
 			fontcolor=black,
 			height=1.9444,
 			label="521\nBROOK HILL\n1670\n1.51",
-			pos="1833.6,2712.2",
+			pos="1739.2,2560",
 			width=1.9444];
 		106 -- 521;
 		108 -- 113;
@@ -107,14 +107,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.7917,
 			label="125\nSIGNAL HILL\n2697\n2.28",
-			pos="1258.4,2329",
+			pos="1156,2053.3",
 			width=1.7917];
 		108 -- 125;
 		128	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=1.6667,
 			label="128\nCARDINAL\n1873\n2.03",
-			pos="1292.1,2602.7",
+			pos="1094.4,2323.7",
 			width=1.6667];
 		108 -- 128;
 		113 -- 116;
@@ -124,14 +124,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.1806,
 			label="117\nWOODSON #1\n1536\n1.89",
-			pos="1466.7,1988.4",
+			pos="1449.6,1783.3",
 			width=2.1806];
 		116 -- 117;
 		528	[fillcolor="#c7c7ff",
 			fontcolor=black,
 			height=1.6944,
 			label="528\nRIDGELEA\n493\n2.66",
-			pos="1701.5,2084.9",
+			pos="1669.2,1881.2",
 			width=1.6944];
 		116 -- 528;
 		110 -- 115;
@@ -140,28 +140,28 @@ strict graph G {
 			fontcolor=black,
 			height=2.125,
 			label="415\nCRESTWOOD\n2047\n1.41",
-			pos="1445,2761.1",
+			pos="1250.8,2482.4",
 			width=2.125];
 		110 -- 415;
 		418	[fillcolor="#fbfbff",
 			fontcolor=black,
 			height=2.1806,
 			label="418\nLYNBROOK #1\n1438\n1.44",
-			pos="1672.9,2866.7",
+			pos="1526.2,2668.4",
 			width=2.1806];
 		110 -- 418;
 		527	[fillcolor="#f5f5ff",
 			fontcolor=black,
 			height=1.3356,
 			label="527\nEDSALL\n1634\n1.58",
-			pos="1883.3,2838.8",
+			pos="1691.1,2686.2",
 			width=1.3356];
 		110 -- 527;
 		861	[fillcolor="#ededff",
 			fontcolor=black,
 			height=1.6111,
 			label="861\nBURKE #2\n1761\n1.78",
-			pos="1091.1,2421.3",
+			pos="994.92,2083.7",
 			width=1.6111];
 		125 -- 861;
 		128 -- 861;
@@ -170,21 +170,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.9028,
 			label="129\nKEENE MILL\n1466\n2.05",
-			pos="1274.9,2739.5",
+			pos="1097.6,2461.3",
 			width=1.9028];
 		128 -- 129;
 		135	[fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=1.3356,
 			label="135\nIRVING\n2228\n2.28",
-			pos="1142.2,2689",
+			pos="949.43,2391.4",
 			width=1.3356];
 		128 -- 135;
 		801	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=1.6111,
 			label="801\nBURKE #1\n2073\n2.04",
-			pos="1055,2574.9",
+			pos="906.52,2261.5",
 			width=1.6111];
 		128 -- 801;
 		117 -- 528;
@@ -192,76 +192,76 @@ strict graph G {
 			fontcolor=black,
 			height=1.8611,
 			label="123\nROBINSON\n3792\n2.19",
-			pos="1233.6,1896.1",
+			pos="1277.3,1608.6",
 			width=1.8611];
 		117 -- 123;
 		700	[fillcolor="#d9d9ff",
 			fontcolor=black,
 			height=2.4583,
 			label="700\nFAIRFAX COURT\n0\n2.24",
-			pos="1448.6,1647",
+			pos="1546.5,1442.7",
 			width=2.4583];
 		117 -- 700;
 		136	[fillcolor="#e4e4ff",
 			fontcolor=black,
 			height=2.1806,
 			label="136\nWOODSON #2\n883\n2.00",
-			pos="1387.2,1823.4",
+			pos="1431.9,1618",
 			width=2.1806];
 		117 -- 136;
 		711	[fillcolor="#d9d9ff",
 			fontcolor=black,
 			height=1.3356,
 			label="711\nPRICE\n1750\n2.24",
-			pos="1601.3,1961.5",
+			pos="1584.3,1743.8",
 			width=1.3356];
 		117 -- 711;
 		105	[fillcolor="#e0e0ff",
 			fontcolor=black,
 			height=1.9028,
 			label="105\nFAIRVIEW\n3907\n2.08",
-			pos="790.84,2080.6",
+			pos="788.47,1700.8",
 			width=1.9028];
 		126	[fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=2.1667,
 			label="126\nBONNIE BRAE\n1976\n2.30",
-			pos="945.52,2073.2",
+			pos="943.07,1752.6",
 			width=2.1667];
 		105 -- 126;
 		127	[fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=2,
 			label="127\nBURKE CENTRE\n3591\n2.30",
-			pos="940.09,2244.4",
+			pos="886.04,1910.8",
 			width=2];
 		105 -- 127;
 		130	[fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=2.375,
 			label="130\nTERRA CENTRE\n1980\n2.34",
-			pos="724.46,2242.6",
+			pos="674.43,1862.9",
 			width=2.375];
 		105 -- 130;
 		137	[fillcolor="#e6e6ff",
 			fontcolor=black,
 			height=2.0556,
 			label="137\nSIDEBURN #2\n1756\n1.93",
-			pos="837.74,1913.1",
+			pos="906.95,1550.1",
 			width=2.0556];
 		105 -- 137;
 		805	[fillcolor="#f8f8ff",
 			fontcolor=black,
 			height=2.6389,
 			label="805\nFAIRFAX STATION\n1362\n1.50",
-			pos="657.78,1908.8",
+			pos="708.61,1529",
 			width=2.6389];
 		105 -- 805;
 		815	[fillcolor="#ff100100",
 			fontcolor=black,
 			height=1.9444,
 			label="815\nWOODYARD\n1393\n1.33",
-			pos="552.62,2161.3",
+			pos="507,1739.5",
 			width=1.9444];
 		105 -- 815;
 		126 -- 137;
@@ -271,7 +271,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.9306,
 			label="833\nWHITE OAKS\n2518\n1.92",
-			pos="846.35,2437",
+			pos="736.5,2060.4",
 			width=1.9306];
 		127 -- 833;
 		130 -- 815;
@@ -279,14 +279,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.625,
 			label="842\nPARKWAY\n1926\n1.65",
-			pos="578.03,2394.6",
+			pos="498.47,1889.1",
 			width=1.625];
 		130 -- 842;
 		841	[fillcolor="#ff100100",
 			fontcolor=black,
 			height=2.0556,
 			label="841\nPOPES HEAD\n1336\n1.32",
-			pos="890.86,1757.1",
+			pos="964.15,1394.1",
 			width=2.0556];
 		137 -- 841;
 		129 -- 415;
@@ -295,7 +295,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.8194,
 			label="431\nWEST SPRINGFIELD\n2551\n2.32",
-			pos="1096.8,2862.7",
+			pos="919.51,2573.1",
 			width=2.8194];
 		129 -- 431;
 		135 -- 431;
@@ -303,14 +303,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.3611,
 			label="812\nVALLEY\n2411\n2.13",
-			pos="961.57,2701.1",
+			pos="799.36,2414.5",
 			width=1.3611];
 		135 -- 812;
 		109	[fillcolor="#d3d3ff",
 			fontcolor=black,
 			height=1.8472,
 			label="109\nLITTLE RUN\n1283\n2.38",
-			pos="1453.8,2173.9",
+			pos="1331.8,1936.4",
 			width=1.8472];
 		109 -- 113;
 		109 -- 116;
@@ -319,14 +319,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.0417,
 			label="114\nOLDE CREEK\n1874\n2.05",
-			pos="1299.7,2046.6",
+			pos="1271.7,1770.5",
 			width=2.0417];
 		109 -- 114;
 		118	[fillcolor="#dedeff",
 			fontcolor=black,
 			height=2.2361,
 			label="118\nLAKE BRADDOCK\n3236\n2.12",
-			pos="1137.2,2175.9",
+			pos="1109.7,1900.2",
 			width=2.2361];
 		109 -- 118;
 		114 -- 117;
@@ -341,7 +341,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6806,
 			label="119\nLAUREL\n3304\n2.08",
-			pos="1092.1,2026.8",
+			pos="1092.5,1700.3",
 			width=1.6806];
 		118 -- 119;
 		123 -- 136;
@@ -349,7 +349,7 @@ strict graph G {
 			fontcolor=white,
 			height=1.9306,
 			label="134\nUNIVERSITY\n682\n7.37",
-			pos="1231.1,1742.3",
+			pos="1319.3,1461.8",
 			width=1.9306];
 		123 -- 134;
 		136 -- 700;
@@ -359,7 +359,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.0556,
 			label="120\nSIDEBURN #1\n861\n1.93",
-			pos="1063,1865.1",
+			pos="1127.3,1539.8",
 			width=2.0556];
 		119 -- 120;
 		134 -- 700;
@@ -373,7 +373,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.3356,
 			label="121\nVILLA\n1723\n1.80",
-			pos="1134.5,1604.4",
+			pos="1247.2,1276.9",
 			width=1.3356];
 		121 -- 700;
 		121 -- 134;
@@ -381,14 +381,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.7778,
 			label="132\nMONUMENT\n3583\n2.24",
-			pos="1232.8,1439.9",
+			pos="1335.9,1150.1",
 			width=1.7778];
 		121 -- 132;
 		138	[fillcolor="#f2f2ff",
 			fontcolor=black,
 			height=2.3611,
 			label="138\nEAGLE VIEW #2\n1651\n1.65",
-			pos="934.16,1590.1",
+			pos="996.31,1227",
 			width=2.3611];
 		121 -- 138;
 		132 -- 700;
@@ -397,21 +397,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.6111,
 			label="848\nFAIR OAKS\n3102\n1.76",
-			pos="867.82,1331",
+			pos="999.86,947.03",
 			width=1.6111];
 		132 -- 848;
 		844	[fillcolor="#d2d2ff",
 			fontcolor=black,
 			height=2.4167,
 			label="844\nCENTERPOINTE\n2319\n2.41",
-			pos="1208.9,1232",
+			pos="1354.5,936.28",
 			width=2.4167];
 		132 -- 844;
 		856	[fillcolor="#ddddff",
 			fontcolor=black,
 			height=2.1528,
 			label="856\nPENDERBROOK\n2948\n2.15",
-			pos="1381.6,1289.4",
+			pos="1529.1,1090.7",
 			width=2.1528];
 		132 -- 856;
 		138 -- 848;
@@ -419,21 +419,21 @@ strict graph G {
 			fontcolor=black,
 			height=2.1667,
 			label="804\nCOLCHESTER\n1621\n1.22",
-			pos="725.19,1726.9",
+			pos="769.19,1347.7",
 			width=2.1667];
 		138 -- 804;
 		851	[fillcolor="#efefff",
 			fontcolor=black,
 			height=3.0972,
 			label="851\nWILLOW SPRINGS #1\n1008\n1.72",
-			pos="729.6,1525.7",
+			pos="791.81,1150",
 			width=3.0972];
 		138 -- 851;
 		131	[fillcolor="#dcdcff",
 			fontcolor=black,
 			height=2.3611,
 			label="131\nEAGLE VIEW #1\n1308\n2.18",
-			pos="1037.4,1412",
+			pos="1174,1048.8",
 			width=2.3611];
 		131 -- 132;
 		131 -- 138;
@@ -447,41 +447,41 @@ strict graph G {
 			fontcolor=black,
 			height=1.8194,
 			label="201\nARMSTRONG\n3141\n3.30",
-			pos="2184.3,308.58",
+			pos="2426.9,324.07",
 			width=1.8194];
 		233	[fillcolor="#dfdfff",
 			fontcolor=black,
 			height=2.1806,
 			label="233\nNORTH POINT\n2139\n2.11",
-			pos="2414.5,510.71",
+			pos="2597.4,606.83",
 			width=2.1806];
 		201 -- 233;
 		234	[fillcolor="#b0b0ff",
 			fontcolor=black,
 			height=1.3889,
 			label="234\nALDRIN\n2472\n3.21",
-			pos="2262.3,432.11",
+			pos="2459.6,480.12",
 			width=1.3889];
 		201 -- 234;
 		236	[fillcolor="#c5c5ff",
 			fontcolor=black,
 			height=1.3889,
 			label="236\nSTUART\n1164\n2.72",
-			pos="2301.6,108.44",
+			pos="2553.4,174.73",
 			width=1.3889];
 		201 -- 236;
 		238	[fillcolor="#ccccff",
 			fontcolor=black,
 			height=2.0972,
 			label="238\nCAMERON GLEN\n3572\n2.54",
-			pos="1973.9,337.71",
+			pos="2194.4,325.33",
 			width=2.0972];
 		201 -- 238;
 		327	[fillcolor="#ebebff",
 			fontcolor=black,
 			height=1.75,
 			label="327\nSUGARLAND\n2979\n1.83",
-			pos="2323.8,297.97",
+			pos="2563.8,333.29",
 			width=1.75];
 		201 -- 327;
 		233 -- 234;
@@ -490,21 +490,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.7639,
 			label="245\nPINEY RUN\n880\n1.82",
-			pos="2459.1,740.73",
+			pos="2662.4,819.07",
 			width=1.7639];
 		233 -- 245;
 		329	[fillcolor="#fffefe",
 			fontcolor=black,
 			height=1.5417,
 			label="329\nSENECA\n2910\n1.36",
-			pos="2559.2,514.44",
+			pos="2739.4,691.97",
 			width=1.5417];
 		233 -- 329;
 		208	[fillcolor="#b6b6ff",
 			fontcolor=black,
 			height=1.7222,
 			label="208\nRESTON #1\n3412\n3.07",
-			pos="2124.6,499.29",
+			pos="2310.8,509.4",
 			width=1.7222];
 		234 -- 208;
 		236 -- 327;
@@ -512,14 +512,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.75,
 			label="319\nHERNDON #1\n3270\n2.22",
-			pos="2047.6,190.33",
+			pos="2300.7,177.3",
 			width=1.75];
 		236 -- 319;
 		324	[fillcolor="#dbdbff",
 			fontcolor=black,
 			height=1.8333,
 			label="324\nHERNDON #3\n2893\n2.20",
-			pos="1819.1,252.33",
+			pos="2029.4,191.9",
 			width=1.8333];
 		238 -- 324;
 		245 -- 329;
@@ -527,14 +527,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.3356,
 			label="240\nCOLVIN\n2089\n1.84",
-			pos="2485.4,904.13",
+			pos="2670.8,1003.1",
 			width=1.3356];
 		245 -- 240;
 		322	[fillcolor="#ff101101",
 			fontcolor=black,
 			height=1.9722,
 			label="322\nFORESTVILLE\n2708\n1.29",
-			pos="2612.5,789.29",
+			pos="2827.7,883.42",
 			width=1.9722];
 		245 -- 322;
 		208 -- 238;
@@ -542,62 +542,62 @@ strict graph G {
 			fontcolor=black,
 			height=1.6667,
 			label="209\nRESTON #2\n3261\n3.17",
-			pos="2301.3,706.05",
+			pos="2441.5,757.12",
 			width=1.6667];
 		208 -- 209;
 		222	[fillcolor="#6d6dff",
 			fontcolor=white,
 			height=1.8056,
 			label="222\nRESTON #3\n1830\n4.80",
-			pos="2260.9,569.87",
+			pos="2445.9,619.96",
 			width=1.8056];
 		208 -- 222;
 		224	[fillcolor="#9a9aff",
 			fontcolor=black,
 			height=1.8611,
 			label="224\nSOUTH LAKES\n3817\n3.74",
-			pos="2104.8,636.32",
+			pos="2287.2,646.57",
 			width=1.8611];
 		208 -- 224;
 		202	[fillcolor="#e1e1ff",
 			fontcolor=black,
 			height=2.0556,
 			label="202\nFLINT HILL #1\n1306\n2.06",
-			pos="2127,1088.1",
+			pos="2266.7,1052.6",
 			width=2.0556];
 		218	[fillcolor="#bcbcff",
 			fontcolor=black,
 			height=1.6667,
 			label="218\nVIENNA #6\n2063\n2.92",
-			pos="2114.4,1265.7",
+			pos="2268.1,1312.9",
 			width=1.6667];
 		202 -- 218;
 		221	[fillcolor="#afafff",
 			fontcolor=black,
 			height=2.6944,
 			label="221\nHUNTERS WOODS\n2423\n3.23",
-			pos="1877.7,885.8",
+			pos="2048.6,811.1",
 			width=2.6944];
 		202 -- 221;
 		226	[fillcolor="#d3d3ff",
 			fontcolor=black,
 			height=1.6111,
 			label="226\nWOLFTRAP\n3009\n2.40",
-			pos="2309.2,1091.9",
+			pos="2450.7,1123.2",
 			width=1.6111];
 		202 -- 226;
 		241	[fillcolor="#ceceff",
 			fontcolor=black,
 			height=2.0556,
 			label="241\nFLINT HILL #2\n1329\n2.51",
-			pos="1957.1,1141",
+			pos="2103.8,1094.4",
 			width=2.0556];
 		202 -- 241;
 		243	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=2.9306,
 			label="243\nSUNRISE VALLEY #2\n858\n2.04",
-			pos="2321.7,920.31",
+			pos="2478.4,951.55",
 			width=2.9306];
 		202 -- 243;
 		218 -- 241;
@@ -605,42 +605,42 @@ strict graph G {
 			fontcolor=black,
 			height=1.7222,
 			label="229\nFOX MILL #1\n3431\n2.24",
-			pos="1710.6,745.36",
+			pos="1902.6,603.58",
 			width=1.7222];
 		221 -- 229;
 		227	[fillcolor="#bcbcff",
 			fontcolor=black,
 			height=2.9306,
 			label="227\nSUNRISE VALLEY #1\n1778\n2.93",
-			pos="2102.6,817.08",
+			pos="2259.3,827.19",
 			width=2.9306];
 		221 -- 227;
 		223	[fillcolor="#9e9eff",
 			fontcolor=black,
 			height=1.6389,
 			label="223\nGLADE\n3164\n3.65",
-			pos="1929.9,674.44",
+			pos="2110.9,645.93",
 			width=1.6389];
 		221 -- 223;
 		244	[fillcolor="#f1f1ff",
 			fontcolor=black,
 			height=1.9306,
 			label="244\nFOX MILL #2\n479\n1.69",
-			pos="1695.7,887.76",
+			pos="1873.3,743.21",
 			width=1.9306];
 		221 -- 244;
 		914	[fillcolor="#e4e4ff",
 			fontcolor=black,
 			height=1.3356,
 			label="914\nVALE\n2292\n1.98",
-			pos="1552.5,989.82",
+			pos="1747.7,834.13",
 			width=1.3356];
 		221 -- 914;
 		929	[fillcolor="#fbfbff",
 			fontcolor=black,
 			height=2.3194,
 			label="929\nDIFFICULT RUN\n452\n1.45",
-			pos="1791.5,1074.4",
+			pos="1938.1,1000.2",
 			width=2.3194];
 		221 -- 929;
 		226 -- 243;
@@ -649,7 +649,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.2778,
 			label="242\nWESTBRIAR #2\n1479\n2.25",
-			pos="2401,1242.6",
+			pos="2536.3,1271.2",
 			width=2.2778];
 		226 -- 242;
 		241 -- 929;
@@ -657,7 +657,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.4722,
 			label="727\nOAKTON\n2221\n2.16",
-			pos="1815.3,1291.8",
+			pos="1966.6,1198.2",
 			width=1.4722];
 		241 -- 727;
 		229 -- 244;
@@ -665,14 +665,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.7222,
 			label="220\nDOGWOOD\n3426\n2.50",
-			pos="1844.3,545.38",
+			pos="2034.6,503.07",
 			width=1.7222];
 		229 -- 220;
 		908	[fillcolor="#dadaff",
 			fontcolor=black,
 			height=2.6944,
 			label="908\nHIDDEN MEADOW\n2010\n2.22",
-			pos="1515.9,790.88",
+			pos="1693.9,657.54",
 			width=2.6944];
 		229 -- 908;
 		227 -- 243;
@@ -682,7 +682,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5972,
 			label="225\nHUGHES\n3079\n3.57",
-			pos="1972,531.5",
+			pos="2162.2,514",
 			width=1.5972];
 		223 -- 225;
 		244 -- 914;
@@ -691,21 +691,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.6528,
 			label="309\nKENMORE\n3207\n1.70",
-			pos="2683,1209.3",
+			pos="2826.8,1300.8",
 			width=1.6528];
 		240 -- 309;
 		323	[fillcolor="#dbdbff",
 			fontcolor=black,
 			height=1.4583,
 			label="323\nSHOUSE\n1878\n2.20",
-			pos="2543.5,1151.4",
+			pos="2704.5,1199.2",
 			width=1.4583];
 		240 -- 323;
 		328	[fillcolor="#f6f6ff",
 			fontcolor=black,
 			height=1.5139,
 			label="328\nHICKORY\n2843\n1.56",
-			pos="2643.4,1036.4",
+			pos="2851,1102.5",
 			width=1.5139];
 		240 -- 328;
 		242 -- 323;
@@ -713,35 +713,35 @@ strict graph G {
 			fontcolor=black,
 			height=1.6389,
 			label="203\nFLORIS\n3162\n2.11",
-			pos="1588.8,596.52",
+			pos="1771.5,493.46",
 			width=1.6389];
 		203 -- 229;
 		235	[fillcolor="#d1d1ff",
 			fontcolor=black,
 			height=1.875,
 			label="235\nFRYING PAN\n2501\n2.44",
-			pos="1706.8,461.88",
+			pos="1906.2,362.12",
 			width=1.875];
 		203 -- 235;
 		332	[fillcolor="#d1d1ff",
 			fontcolor=black,
 			height=2,
 			label="332\nCOATES\n4189\n2.43",
-			pos="1512,428.9",
+			pos="1754.7,219.21",
 			width=2];
 		203 -- 332;
 		909	[fillcolor="#d3d3ff",
 			fontcolor=black,
 			height=1.5278,
 			label="909\nOAK HILL\n1822\n2.39",
-			pos="1466.8,630.81",
+			pos="1733.7,363.8",
 			width=1.5278];
 		203 -- 909;
 		931	[fillcolor="#dcdcff",
 			fontcolor=black,
 			height=1.4722,
 			label="931\nCARSON\n1915\n2.18",
-			pos="1346.2,514.62",
+			pos="1616.2,238.06",
 			width=1.4722];
 		203 -- 931;
 		235 -- 324;
@@ -750,7 +750,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.625,
 			label="237\nMCNAIR\n3155\n2.52",
-			pos="1686.4,327.86",
+			pos="1896.8,228.1",
 			width=1.625];
 		235 -- 237;
 		220 -- 238;
@@ -768,7 +768,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5972,
 			label="204\nMADISON\n756\n2.27",
-			pos="1983.5,1280.6",
+			pos="2142.6,1235.1",
 			width=1.5972];
 		204 -- 218;
 		204 -- 241;
@@ -777,7 +777,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6389,
 			label="729\nNOTTOWAY\n3029\n3.15",
-			pos="1954,1405.2",
+			pos="2078.6,1359.9",
 			width=1.6389];
 		204 -- 729;
 		209 -- 233;
@@ -794,42 +794,42 @@ strict graph G {
 			fontcolor=black,
 			height=1.7639,
 			label="213\nVIENNA #1\n3546\n2.51",
-			pos="2227,1530.5",
+			pos="2227.6,1570.3",
 			width=1.7639];
 		213 -- 218;
 		214	[fillcolor="#d1d1ff",
 			fontcolor=black,
 			height=1.5278,
 			label="214\nVIENNA #2\n2885\n2.43",
-			pos="2256,1347.8",
+			pos="2391.2,1375.1",
 			width=1.5278];
 		213 -- 214;
 		216	[fillcolor="#cbcbff",
 			fontcolor=black,
 			height=1.6667,
 			label="216\nVIENNA #4\n1307\n2.58",
-			pos="2184.4,1662.7",
+			pos="2141.2,1704.3",
 			width=1.6667];
 		213 -- 216;
 		704	[fillcolor="#ceceff",
 			fontcolor=black,
 			height=2.3194,
 			label="704\nFREEDOM HILL\n1963\n2.51",
-			pos="2444.1,1591.9",
+			pos="2464.7,1618.1",
 			width=2.3194];
 		213 -- 704;
 		720	[fillcolor="#c4c4ff",
 			fontcolor=black,
 			height=1.5556,
 			label="720\nTHOREAU\n2519\n2.74",
-			pos="2282.5,1865.8",
+			pos="2254.9,1832",
 			width=1.5556];
 		213 -- 720;
 		733	[fillcolor="#c6c6ff",
 			fontcolor=black,
 			height=1.7778,
 			label="733\nKILMER\n3556\n2.69",
-			pos="2410.6,1747.5",
+			pos="2383.1,1774.5",
 			width=1.7778];
 		213 -- 733;
 		214 -- 202;
@@ -840,7 +840,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.2778,
 			label="219\nWESTBRIAR #1\n1534\n2.14",
-			pos="2484.4,1415",
+			pos="2576.5,1443.2",
 			width=2.2778];
 		214 -- 219;
 		216 -- 720;
@@ -848,7 +848,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5278,
 			label="714\nWALKER\n2856\n2.19",
-			pos="2061.2,1737.3",
+			pos="1991,1730.6",
 			width=1.5278];
 		216 -- 714;
 		219 -- 242;
@@ -857,7 +857,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.4306,
 			label="731\nTYSONS\n1934\n2.19",
-			pos="2630.2,1550.5",
+			pos="2682,1584.8",
 			width=1.4306];
 		219 -- 731;
 	}
@@ -890,14 +890,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.75,
 			label="320\nHERNDON #2\n3254\n2.13",
-			pos="1913,115.28",
+			pos="2166.5,79.062",
 			width=1.75];
 		319 -- 320;
 		321	[fillcolor="#e0e0ff",
 			fontcolor=black,
 			height=1.6944,
 			label="321\nCLEARVIEW\n3347\n2.09",
-			pos="2181.2,61",
+			pos="2432.9,87.532",
 			width=1.6944];
 		319 -- 321;
 		332;
@@ -906,7 +906,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.9306,
 			label="325\nHUTCHISON\n1652\n2.32",
-			pos="1613,191.72",
+			pos="1867.7,69.5",
 			width=1.9306];
 		324 -- 325;
 		240;
@@ -926,7 +926,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6528,
 			label="927\nARMFIELD\n2406\n1.96",
-			pos="1220.1,522.5",
+			pos="1492,221.04",
 			width=1.6528];
 		332 -- 927;
 		220;
@@ -942,7 +942,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.9861,
 			label="331\nSPRING HILL\n1895\n2.01",
-			pos="2830.1,1339.8",
+			pos="2984.2,1431",
 			width=1.9861];
 		309 -- 331;
 		219;
@@ -958,48 +958,48 @@ strict graph G {
 			fontcolor=black,
 			height=2.4167,
 			label="738\nJONES BRANCH\n1550\n2.35",
-			pos="2766.9,1707.9",
+			pos="2827.7,1731.4",
 			width=2.4167];
 		331 -- 738;
 		301	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=2,
 			label="301\nCHAIN BRIDGE\n2981\n2.03",
-			pos="3070.5,1603.9",
+			pos="3176,1710.3",
 			width=2];
 		302	[fillcolor="#cacaff",
 			fontcolor=black,
 			height=2.5694,
 			label="302\nCHESTERBROOK\n2283\n2.59",
-			pos="3290.3,1787",
+			pos="3304.1,1884.8",
 			width=2.5694];
 		301 -- 302;
 		303	[fillcolor="#e7e7ff",
 			fontcolor=black,
 			height=1.8472,
 			label="303\nCHURCHILL\n1371\n1.93",
-			pos="2981,1449.5",
+			pos="3131.5,1562.1",
 			width=1.8472];
 		301 -- 303;
 		311	[fillcolor="#ededff",
 			fontcolor=black,
 			height=1.5694,
 			label="311\nLANGLEY\n1751\n1.77",
-			pos="3076.9,1302",
+			pos="3262.5,1445.5",
 			width=1.5694];
 		301 -- 311;
 		314	[fillcolor="#dedeff",
 			fontcolor=black,
 			height=1.4583,
 			label="314\nMCLEAN\n2212\n2.13",
-			pos="2914.6,1717.5",
+			pos="2979.4,1760.8",
 			width=1.4583];
 		301 -- 314;
 		316	[fillcolor="#c4c4ff",
 			fontcolor=black,
 			height=1.4028,
 			label="316\nSALONA\n2347\n2.74",
-			pos="3139,1848.2",
+			pos="3152.9,1920.5",
 			width=1.4028];
 		301 -- 316;
 		302 -- 316;
@@ -1007,7 +1007,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.3889,
 			label="305\nEL NIDO\n2084\n2.68",
-			pos="3140,2003.7",
+			pos="3102.7,2074.6",
 			width=1.3889];
 		302 -- 305;
 		303 -- 311;
@@ -1016,7 +1016,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5139,
 			label="304\nCOOPER\n1906\n1.67",
-			pos="2836.7,1191.7",
+			pos="3033,1282.8",
 			width=1.5139];
 		303 -- 304;
 		314 -- 331;
@@ -1024,14 +1024,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.6389,
 			label="318\nWESTMORELAND\n1287\n3.02",
-			pos="2985.5,1878.7",
+			pos="2999.4,1921.4",
 			width=2.6389];
 		314 -- 318;
 		726	[fillcolor="#ceceff",
 			fontcolor=black,
 			height=1.7778,
 			label="726\nMAGARITY\n3583\n2.50",
-			pos="2600.9,1804.6",
+			pos="2632.7,1770.5",
 			width=1.7778];
 		314 -- 726;
 		316 -- 318;
@@ -1041,14 +1041,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.7222,
 			label="307\nHAYCOCK\n3426\n3.01",
-			pos="2971.9,2215",
+			pos="2862.9,2256.2",
 			width=1.7222];
 		305 -- 307;
 		312	[fillcolor="#b8b8ff",
 			fontcolor=black,
 			height=2.2222,
 			label="312\nLONGFELLOW\n2217\n3.03",
-			pos="2920.2,2062.6",
+			pos="2862.1,2104.5",
 			width=2.2222];
 		305 -- 312;
 		304 -- 309;
@@ -1059,7 +1059,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.0972,
 			label="306\nGREAT FALLS\n1767\n1.48",
-			pos="2781.5,930.59",
+			pos="2989.4,1035.2",
 			width=2.0972];
 		304 -- 306;
 		307 -- 312;
@@ -1067,7 +1067,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.4583,
 			label="317\nWESTHAMPTON\n860\n2.34",
-			pos="2743.6,2110.9",
+			pos="2682.4,2076.9",
 			width=2.4583];
 		307 -- 317;
 		312 -- 318;
@@ -1078,14 +1078,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.9306,
 			label="708\nMARSHALL\n3988\n3.10",
-			pos="2459.3,1917.5",
+			pos="2511.5,1916.7",
 			width=1.9306];
 		317 -- 708;
 		310	[fillcolor="#cacaff",
 			fontcolor=black,
 			height=1.3356,
 			label="310\nKIRBY\n1835\n2.60",
-			pos="2829.8,1892.1",
+			pos="2820.4,1902.9",
 			width=1.3356];
 		310 -- 314;
 		310 -- 318;
@@ -1094,7 +1094,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.4583,
 			label="315\nPIMMIT\n2676\n2.19",
-			pos="2647.7,1935.3",
+			pos="2641.7,1907.8",
 			width=1.4583];
 		310 -- 315;
 		315 -- 726;
@@ -1116,14 +1116,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.5417,
 			label="417\nGARFIELD\n2727\n1.46",
-			pos="1372.3,2953.1",
+			pos="1194.2,2693",
 			width=1.5417];
 		415 -- 417;
 		433	[fillcolor="#e3e3ff",
 			fontcolor=black,
 			height=2.1806,
 			label="433\nLYNBROOK #2\n118\n2.00",
-			pos="1824.3,3081.2",
+			pos="1661.8,2863.3",
 			width=2.1806];
 		418 -- 433;
 		527;
@@ -1139,14 +1139,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.3356,
 			label="623\nALBAN\n2156\n2.01",
-			pos="963.86,3144.8",
+			pos="772.52,2762.8",
 			width=1.3356];
 		431 -- 623;
 		855	[fillcolor="#ededff",
 			fontcolor=black,
 			height=1.625,
 			label="855\nSARATOGA\n2864\n1.78",
-			pos="834.07,3105.3",
+			pos="677.02,2648.1",
 			width=1.625];
 		431 -- 855;
 		417 -- 418;
@@ -1156,21 +1156,21 @@ strict graph G {
 			fontcolor=black,
 			height=2.3194,
 			label="426\nGREENSPRING\n1582\n3.60",
-			pos="1205.9,3056.8",
+			pos="1026.1,2766.1",
 			width=2.3194];
 		417 -- 426;
 		427	[fillcolor="#c1c1ff",
 			fontcolor=black,
 			height=2.2778,
 			label="427\nISLAND CREEK\n2270\n2.81",
-			pos="1379.5,3181.3",
+			pos="1205.8,2879.9",
 			width=2.2778];
 		417 -- 427;
 		630	[fillcolor="#dedeff",
 			fontcolor=black,
 			height=1.3356,
 			label="630\nARMY\n1856\n2.13",
-			pos="1203,3211.5",
+			pos="1000.3,2905.7",
 			width=1.3356];
 		417 -- 630;
 		433 -- 527;
@@ -1178,34 +1178,34 @@ strict graph G {
 			fontcolor=black,
 			height=1.5278,
 			label="401\nBUSH HILL\n2815\n2.21",
-			pos="1881.2,3424",
+			pos="1643.3,3154",
 			width=1.5278];
 		410	[fillcolor="#d9d9ff",
 			fontcolor=black,
 			height=1.8611,
 			label="410\nROSE HILL\n3792\n2.24",
-			pos="1701.2,3640.6",
+			pos="1446.7,3265.4",
 			width=1.8611];
 		401 -- 410;
 		422	[fillcolor="#bcbcff",
 			fontcolor=black,
 			height=1.5556,
 			label="422\nVAN DORN\n2941\n2.94",
-			pos="1840.2,3224.4",
+			pos="1630.5,3005.8",
 			width=1.5556];
 		401 -- 422;
 		423	[fillcolor="#d1d1ff",
 			fontcolor=black,
 			height=1.8472,
 			label="423\nCLERMONT\n2283\n2.44",
-			pos="1853.7,3745.1",
+			pos="1558.5,3438.4",
 			width=1.8472];
 		401 -- 423;
 		526	[fillcolor="#c5c5ff",
 			fontcolor=black,
 			height=1.5694,
 			label="526\nBREN MAR\n2868\n2.71",
-			pos="1983.4,3158.3",
+			pos="1805.4,2999.2",
 			width=1.5694];
 		401 -- 526;
 		410 -- 423;
@@ -1213,28 +1213,28 @@ strict graph G {
 			fontcolor=black,
 			height=1.8472,
 			label="420\nVILLAGES\n3779\n2.65",
-			pos="1420.1,3368.1",
+			pos="1208.5,3064.4",
 			width=1.8472];
 		410 -- 420;
 		411	[fillcolor="#ceceff",
 			fontcolor=black,
 			height=2.2917,
 			label="411\nVIRGINIA HILLS\n1894\n2.50",
-			pos="1536.5,3690.2",
+			pos="1340.9,3423",
 			width=2.2917];
 		410 -- 411;
 		432	[fillcolor="#c5c5ff",
 			fontcolor=black,
 			height=1.6111,
 			label="432\nEDISON #2\n2629\n2.71",
-			pos="1714.3,3277.1",
+			pos="1502.1,2995.8",
 			width=1.6111];
 		422 -- 432;
 		408	[fillcolor="#8e8eff",
 			fontcolor=black,
 			height=2.2917,
 			label="408\nMOUNT EAGLE\n2141\n4.02",
-			pos="1696.6,3863.4",
+			pos="1414.7,3596.1",
 			width=2.2917];
 		423 -- 408;
 		420 -- 427;
@@ -1243,14 +1243,14 @@ strict graph G {
 			fontcolor=black,
 			height=2,
 			label="421\nKINGSTOWNE\n2738\n2.96",
-			pos="1569.9,3403.6",
+			pos="1362.5,3109.5",
 			width=2];
 		420 -- 421;
 		635	[fillcolor="#cdcdff",
 			fontcolor=black,
 			height=2.375,
 			label="635\nWOODLAWN #2\n1609\n2.53",
-			pos="1191.5,3439",
+			pos="1014,3047.4",
 			width=2.375];
 		420 -- 635;
 		411 -- 423;
@@ -1258,7 +1258,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6111,
 			label="406\nHAYFIELD\n2028\n2.30",
-			pos="1506.4,3541.7",
+			pos="1297.3,3248.2",
 			width=1.6111];
 		411 -- 406;
 		408 -- 411;
@@ -1266,14 +1266,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.8889,
 			label="607\nHUNTINGTON\n2931\n3.33",
-			pos="1698.9,4022",
+			pos="1439.3,3754.7",
 			width=1.8889];
 		408 -- 607;
 		402	[fillcolor="#ccccff",
 			fontcolor=black,
 			height=1.7083,
 			label="402\nCAMERON\n947\n2.55",
-			pos="1849,3887.8",
+			pos="1577.2,3715.3",
 			width=1.7083];
 		402 -- 423;
 		402 -- 408;
@@ -1282,14 +1282,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.0972,
 			label="621\nGROSVENOR\n1860\n3.66",
-			pos="1689.2,4173.5",
+			pos="1397.5,3906.3",
 			width=2.0972];
 		402 -- 621;
 		403	[fillcolor="#e1e1ff",
 			fontcolor=black,
 			height=2.0972,
 			label="403\nFORESTDALE\n1049\n2.05",
-			pos="1545.1,3143.8",
+			pos="1376.5,2849.6",
 			width=2.0972];
 		403 -- 417;
 		403 -- 432;
@@ -1297,7 +1297,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5139,
 			label="409\nPIONEER\n2844\n1.68",
-			pos="1683.2,3007.8",
+			pos="1517.1,2809.5",
 			width=1.5139];
 		403 -- 409;
 		409 -- 417;
@@ -1310,7 +1310,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.7222,
 			label="404\nEDISON #1\n1473\n2.57",
-			pos="1725.1,3452.6",
+			pos="1504.5,3128.3",
 			width=1.7222];
 		404 -- 410;
 		404 -- 422;
@@ -1323,7 +1323,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8889,
 			label="405\nGROVETON\n1413\n2.55",
-			pos="1478.6,3939.9",
+			pos="1229.6,3682.6",
 			width=1.8889];
 		405 -- 411;
 		405 -- 408;
@@ -1331,28 +1331,28 @@ strict graph G {
 			fontcolor=black,
 			height=1.5694,
 			label="424\nHUNTLEY\n2226\n2.76",
-			pos="1389.4,3715.7",
+			pos="1190.9,3370.9",
 			width=1.5694];
 		405 -- 424;
 		429	[fillcolor="#c1c1ff",
 			fontcolor=black,
 			height=2.2361,
 			label="429\nHYBLA VALLEY\n2298\n2.82",
-			pos="1260.8,3988.8",
+			pos="1031.1,3633.7",
 			width=2.2361];
 		405 -- 429;
 		604	[fillcolor="#bdbdff",
 			fontcolor=black,
 			height=1.5694,
 			label="604\nBUCKNELL\n2846\n2.90",
-			pos="1336.6,4137.5",
+			pos="1076.1,3780.4",
 			width=1.5694];
 		405 -- 604;
 		601	[fillcolor="#eaeaff",
 			fontcolor=black,
 			height=2.125,
 			label="601\nBELLE HAVEN\n2082\n1.84",
-			pos="1514.8,4092.5",
+			pos="1233.6,3835.2",
 			width=2.125];
 		405 -- 601;
 		424 -- 411;
@@ -1362,14 +1362,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.8472,
 			label="428\nPINEWOOD\n2222\n2.86",
-			pos="1364.8,3541.6",
+			pos="1164.7,3207.4",
 			width=1.8472];
 		424 -- 428;
 		627	[fillcolor="#e8e8ff",
 			fontcolor=black,
 			height=2.375,
 			label="627\nWOODLAWN #1\n1411\n1.90",
-			pos="1191,3619.5",
+			pos="987.25,3226.5",
 			width=2.375];
 		424 -- 627;
 		429 -- 604;
@@ -1377,14 +1377,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.5694,
 			label="608\nKIRKSIDE\n1754\n3.87",
-			pos="1214,4134",
+			pos="926.54,3782.7",
 			width=1.5694];
 		429 -- 608;
 		610	[fillcolor="#bbbbff",
 			fontcolor=black,
 			height=1.9583,
 			label="610\nSHERWOOD\n1745\n2.96",
-			pos="1101.7,3977.6",
+			pos="852.47,3647.6",
 			width=1.9583];
 		429 -- 610;
 		406 -- 410;
@@ -1397,14 +1397,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.6944,
 			label="615\nWOODLEY\n2394\n1.87",
-			pos="1134.6,3776.6",
+			pos="933.49,3381",
 			width=1.6944];
 		428 -- 615;
 		413	[fillcolor="#bbbbff",
 			fontcolor=black,
 			height=1.6667,
 			label="413\nFAIRFIELD\n1743\n2.97",
-			pos="1265.3,3840.3",
+			pos="1066.1,3484.6",
 			width=1.6667];
 		413 -- 424;
 		413 -- 429;
@@ -1414,7 +1414,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.3356,
 			label="419\nLANE\n1879\n2.41",
-			pos="1555.1,3275.5",
+			pos="1368.6,2981.3",
 			width=1.3356];
 		419 -- 432;
 		419 -- 427;
@@ -1443,14 +1443,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.8611,
 			label="718\nPINE RIDGE\n1880\n2.12",
-			pos="1837.6,2026.9",
+			pos="1807.6,1894.5",
 			width=1.8611];
 		522 -- 718;
 		736	[fillcolor="#a2a2ff",
 			fontcolor=black,
 			height=1.625,
 			label="736\nBEDFORD\n367\n3.55",
-			pos="1971.1,2155.8",
+			pos="1975.5,2014.4",
 			width=1.625];
 		522 -- 736;
 		110;
@@ -1462,7 +1462,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.75,
 			label="518\nCOLUMBIA\n1947\n1.53",
-			pos="2004.1,2585.1",
+			pos="1936.5,2461",
 			width=1.75];
 		504 -- 518;
 		519 -- 522;
@@ -1470,7 +1470,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8472,
 			label="536\nWOODBURN\n2682\n2.19",
-			pos="2089.6,2291.3",
+			pos="2051.8,2148",
 			width=1.8472];
 		519 -- 536;
 		521 -- 527;
@@ -1478,7 +1478,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.3356,
 			label="523\nPOE\n2165\n1.92",
-			pos="1986.5,2734.5",
+			pos="1866.2,2664",
 			width=1.3356];
 		521 -- 523;
 		117;
@@ -1500,7 +1500,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.4583,
 			label="512\nSLEEPY HOLLOW\n2638\n2.45",
-			pos="2282.3,2556.5",
+			pos="2224.7,2473.7",
 			width=2.4583];
 		518 -- 512;
 		536 -- 736;
@@ -1508,7 +1508,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.0417,
 			label="710\nPINE SPRING\n1810\n2.45",
-			pos="2237.8,2215.7",
+			pos="2208.3,2155.2",
 			width=2.0417];
 		536 -- 710;
 		523 -- 527;
@@ -1517,55 +1517,55 @@ strict graph G {
 			fontcolor=black,
 			height=1.4583,
 			label="501\nBAILEYS\n2672\n2.47",
-			pos="2373.1,2932.7",
+			pos="2208.2,2851.7",
 			width=1.4583];
 		506	[fillcolor="#ff103103",
 			fontcolor=black,
 			height=1.4722,
 			label="506\nHOLMES\n497\n1.25",
-			pos="2655.8,2888.2",
+			pos="2490.9,2882.4",
 			width=1.4722];
 		501 -- 506;
 		510	[fillcolor="#e5e5ff",
 			fontcolor=black,
 			height=1.8056,
 			label="510\nPARKLAWN\n1743\n1.97",
-			pos="2247.6,2889.5",
+			pos="2082.6,2787.2",
 			width=1.8056];
 		501 -- 510;
 		520	[fillcolor="#a9a9ff",
 			fontcolor=black,
 			height=1.4583,
 			label="520\nSKYLINE\n1818\n3.39",
-			pos="2497.3,3087.4",
+			pos="2308.4,3048.7",
 			width=1.4583];
 		501 -- 520;
 		530	[fillcolor="#b8b8ff",
 			fontcolor=black,
 			height=1.3356,
 			label="530\nTRIPPS\n1223\n3.01",
-			pos="2608,2729.6",
+			pos="2446,2741.1",
 			width=1.3356];
 		506 -- 530;
 		502	[fillcolor="#bbbbff",
 			fontcolor=black,
 			height=1.8056,
 			label="502\nBARCROFT\n1227\n2.95",
-			pos="2503.6,2608.4",
+			pos="2390.5,2575.9",
 			width=1.8056];
 		502 -- 530;
 		503	[fillcolor="#c3c3ff",
 			fontcolor=black,
 			height=1.9028,
 			label="503\nBELVEDERE\n1467\n2.77",
-			pos="2361.7,2747.9",
+			pos="2220.6,2645.6",
 			width=1.9028];
 		502 -- 503;
 		511	[fillcolor="#b9b9ff",
 			fontcolor=black,
 			height=2.125,
 			label="511\nRAVENWOOD\n1458\n3.01",
-			pos="2664.1,2594.5",
+			pos="2542.6,2598.1",
 			width=2.125];
 		502 -- 511;
 		502 -- 512;
@@ -1576,7 +1576,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.2222,
 			label="513\nSAINT ALBANS\n2109\n2.41",
-			pos="2157.8,2736.2",
+			pos="2040.6,2616.9",
 			width=2.2222];
 		503 -- 513;
 		511 -- 530;
@@ -1585,7 +1585,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.7083,
 			label="517\nWILLSTON\n1201\n1.71",
-			pos="2765.5,2764",
+			pos="2629.1,2760.8",
 			width=1.7083];
 		511 -- 517;
 		512 -- 513;
@@ -1593,21 +1593,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.8889,
 			label="515\nWESTLAWN\n1369\n2.17",
-			pos="2446.9,2467.4",
+			pos="2389.2,2427.9",
 			width=1.8889];
 		512 -- 515;
 		525	[fillcolor="#e4e4ff",
 			fontcolor=black,
 			height=1.8889,
 			label="525\nWALNUT HILL\n2844\n2.00",
-			pos="2302.5,2366.3",
+			pos="2227.7,2307",
 			width=1.8889];
 		512 -- 525;
 		535	[fillcolor="#c7c7ff",
 			fontcolor=black,
 			height=2.3611,
 			label="535\nFORT BUFFALO\n1572\n2.67",
-			pos="2632.7,2393",
+			pos="2550.3,2351.2",
 			width=2.3611];
 		512 -- 535;
 		513 -- 518;
@@ -1618,7 +1618,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5,
 			label="705\nGRAHAM\n2807\n2.66",
-			pos="2482.7,2227.6",
+			pos="2415.8,2204.1",
 			width=1.5];
 		515 -- 705;
 		525 -- 536;
@@ -1629,7 +1629,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.2222,
 			label="505\nGLEN FOREST\n2168\n2.05",
-			pos="2796.9,2914.4",
+			pos="2632,2931.1",
 			width=2.2222];
 		505 -- 506;
 		505 -- 530;
@@ -1638,7 +1638,7 @@ strict graph G {
 			fontcolor=white,
 			height=2.2361,
 			label="514\nCROSSROADS\n896\n4.97",
-			pos="2514.3,2944.5",
+			pos="2349.3,2906.7",
 			width=2.2361];
 		505 -- 514;
 		514 -- 520;
@@ -1646,7 +1646,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6528,
 			label="507\nLINCOLNIA\n2555\n2.64",
-			pos="2114.1,2906.9",
+			pos="1949.9,2797.7",
 			width=1.6528];
 		507 -- 523;
 		507 -- 510;
@@ -1655,7 +1655,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8611,
 			label="516\nWEYANOKE\n2280\n1.89",
-			pos="1978.7,2962.9",
+			pos="1815.4,2806.9",
 			width=1.8611];
 		507 -- 516;
 		516 -- 527;
@@ -1665,7 +1665,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.0417,
 			label="508\nMASONVILLE\n1720\n1.95",
-			pos="2112.1,2439.3",
+			pos="2053.2,2310.2",
 			width=2.0417];
 		508 -- 518;
 		508 -- 536;
@@ -1675,7 +1675,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.3356,
 			label="509\nPLAZA\n724\n2.34",
-			pos="2651,3017.3",
+			pos="2490.7,2997.7",
 			width=1.3356];
 		509 -- 520;
 		509 -- 514;
@@ -1697,7 +1697,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.3472,
 			label="634\nNEWINGTON #2\n2397\n1.95",
-			pos="588.1,3098.8",
+			pos="445.9,2589.8",
 			width=2.3472];
 		623 -- 634;
 		420;
@@ -1715,7 +1715,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.3333,
 			label="631\nPOHICK CREEK\n1792\n1.94",
-			pos="1003.6,3315",
+			pos="808.53,2913.1",
 			width=2.3333];
 		630 -- 631;
 		405;
@@ -1736,7 +1736,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.4583,
 			label="609\nMARLAN\n1965\n2.05",
-			pos="1342,4254.6",
+			pos="1029.6,3899.8",
 			width=1.4583];
 		604 -- 609;
 		601;
@@ -1748,7 +1748,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8472,
 			label="602\nBELLEVIEW\n1832\n2.43",
-			pos="1483.8,4243.6",
+			pos="1177,3988",
 			width=1.8472];
 		601 -- 602;
 		406;
@@ -1764,21 +1764,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.9722,
 			label="606\nHOLLIN HALL\n2470\n2.43",
-			pos="1046.4,4127.2",
+			pos="761.08,3802.3",
 			width=1.9722];
 		608 -- 606;
 		611	[fillcolor="#d2d2ff",
 			fontcolor=black,
 			height=1.7778,
 			label="611\nSTRATFORD\n2769\n2.41",
-			pos="919.14,3963.1",
+			pos="677.57,3641.4",
 			width=1.7778];
 		610 -- 611;
 		614	[fillcolor="#e6e6ff",
 			fontcolor=black,
 			height=1.75,
 			label="614\nRIVERSIDE\n1817\n1.95",
-			pos="997.21,3827.6",
+			pos="801.37,3506.1",
 			width=1.75];
 		610 -- 614;
 		413;
@@ -1791,7 +1791,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.9722,
 			label="839\nSILVERBROOK\n3009\n1.58",
-			pos="403.95,2821",
+			pos="272.58,2277.4",
 			width=1.9722];
 		634 -- 839;
 		631 -- 635;
@@ -1802,7 +1802,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.1806,
 			label="612\nWAYNEWOOD\n1224\n2.29",
-			pos="752.63,3975.4",
+			pos="512.46,3643.5",
 			width=2.1806];
 		606 -- 612;
 		611 -- 614;
@@ -1812,7 +1812,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8611,
 			label="605\nFORT HUNT\n2173\n2.34",
-			pos="835.28,3821.4",
+			pos="642.97,3489.3",
 			width=1.8611];
 		605 -- 611;
 		605 -- 614;
@@ -1821,7 +1821,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6389,
 			label="613\nWESTGATE\n2854\n1.40",
-			pos="1003.8,3685.5",
+			pos="814.05,3248.8",
 			width=1.6389];
 		605 -- 613;
 		613 -- 635;
@@ -1832,7 +1832,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6944,
 			label="616\nGUNSTON\n1839\n0.93",
-			pos="984.93,3499.8",
+			pos="772.06,3074.2",
 			width=1.6944];
 		613 -- 616;
 		616 -- 635;
@@ -1841,7 +1841,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.4722,
 			label="617\nLORTON\n2732\n2.38",
-			pos="776.27,3408.3",
+			pos="584.71,2963.2",
 			width=1.4722];
 		616 -- 617;
 		617 -- 631;
@@ -1849,21 +1849,21 @@ strict graph G {
 			fontcolor=black,
 			height=2.4306,
 			label="622\nLORTON STATION\n2798\n2.33",
-			pos="818.1,3259.6",
+			pos="628.56,2812.9",
 			width=2.4306];
 		617 -- 622;
 		628	[fillcolor="#dbdbff",
 			fontcolor=black,
 			height=2.2917,
 			label="628\nLAUREL HILL #1\n2442\n2.21",
-			pos="597.2,3274.1",
+			pos="448.65,2764.8",
 			width=2.2917];
 		617 -- 628;
 		636	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=2.3611,
 			label="636\nLAUREL HILL #2\n1113\n2.02",
-			pos="419.78,3424",
+			pos="261.06,2869.5",
 			width=2.3611];
 		617 -- 636;
 		622 -- 623;
@@ -1876,7 +1876,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.4722,
 			label="629\nSOUTH COUNTY\n1978\n2.14",
-			pos="404.8,3120.4",
+			pos="231.15,2591.9",
 			width=2.4722];
 		628 -- 629;
 		636 -- 629;
@@ -1885,21 +1885,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.7083,
 			label="632\nHALLEY #1\n881\n1.24",
-			pos="377.1,2961.7",
+			pos="222.25,2419",
 			width=1.7083];
 		629 -- 632;
 		633	[fillcolor="#ff105105",
 			fontcolor=black,
 			height=1.7083,
 			label="633\nHALLEY #2\n267\n1.22",
-			pos="250.45,2829.5",
+			pos="131.94,2283.7",
 			width=1.7083];
 		629 -- 633;
 		618	[fillcolor="#f4f4ff",
 			fontcolor=black,
 			height=2.4028,
 			label="618\nNEWINGTON #1\n1800\n1.60",
-			pos="569.62,2901.2",
+			pos="438.12,2409",
 			width=2.4028];
 		618 -- 855;
 		618 -- 634;
@@ -1907,14 +1907,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.4167,
 			label="806\nSYDENSTRICKER\n2617\n2.05",
-			pos="767.81,2951.8",
+			pos="625.53,2492.1",
 			width=2.4167];
 		618 -- 806;
 		838	[fillcolor="#e6e6ff",
 			fontcolor=black,
 			height=1.8056,
 			label="838\nSANGSTER\n1980\n1.93",
-			pos="548.06,2732",
+			pos="416.8,2208.6",
 			width=1.8056];
 		618 -- 838;
 		618 -- 839;
@@ -1922,7 +1922,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8472,
 			label="850\nSOUTH RUN\n2519\n1.80",
-			pos="455.68,2527.8",
+			pos="365.38,1987.1",
 			width=1.8472];
 		618 -- 850;
 		632 -- 634;
@@ -1932,7 +1932,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.125,
 			label="845\nFOUNTAINHEAD\n3076\n1.24",
-			pos="304.63,2652.5",
+			pos="203.73,2105.2",
 			width=2.125];
 		632 -- 845;
 		633 -- 845;
@@ -1960,35 +1960,35 @@ strict graph G {
 			fontcolor=black,
 			height=1.8056,
 			label="701\nBLAKE\n3656\n2.52",
-			pos="1683.4,1469",
+			pos="1801.3,1320.4",
 			width=1.8056];
 		700 -- 701;
 		707	[fillcolor="#c5c5ff",
 			fontcolor=black,
 			height=1.4583,
 			label="707\nMANTUA\n2049\n2.71",
-			pos="1710,1945.9",
+			pos="1692.9,1759.6",
 			width=1.4583];
 		700 -- 707;
 		709	[fillcolor="#e0e0ff",
 			fontcolor=black,
 			height=1.6944,
 			label="709\nMOSBY #1\n1807\n2.09",
-			pos="1685.8,1644.1",
+			pos="1704.3,1546.8",
 			width=1.6944];
 		700 -- 709;
 		732	[fillcolor="#eeeeff",
 			fontcolor=black,
 			height=2.6806,
 			label="732\nOAKTREE CROSSING\n3253\n1.76",
-			pos="1609.2,1291.9",
+			pos="1750.1,1149.9",
 			width=2.6806];
 		700 -- 732;
 		857	[fillcolor="#e6e6ff",
 			fontcolor=black,
 			height=2.1389,
 			label="857\nISLAND POND\n159\n1.94",
-			pos="1452.3,1473.4",
+			pos="1568.5,1269.1",
 			width=2.1389];
 		700 -- 857;
 		136;
@@ -2018,7 +2018,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6944,
 			label="737\nMOSBY #2\n720\n2.97",
-			pos="1815.9,1745.2",
+			pos="1814.4,1699.1",
 			width=1.6944];
 		729 -- 737;
 		309;
@@ -2045,14 +2045,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.4583,
 			label="723\nGALLOWS EAST\n1764\n2.65",
-			pos="2129.9,2017.8",
+			pos="2155,1984.7",
 			width=2.4583];
 		720 -- 723;
 		721	[fillcolor="#a6a6ff",
 			fontcolor=black,
 			height=1.6806,
 			label="721\nMERRIFIELD\n3162\n3.44",
-			pos="1974.7,1860.8",
+			pos="1978.1,1854.4",
 			width=1.6806];
 		720 -- 721;
 		219;
@@ -2068,7 +2068,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6944,
 			label="735\nROTONDA\n954\n2.06",
-			pos="2817.5,1543.7",
+			pos="2878.2,1572.9",
 			width=1.6944];
 		731 -- 735;
 		331;
@@ -2087,14 +2087,14 @@ strict graph G {
 			fontcolor=black,
 			height=1.4167,
 			label="712\nSHREVE\n1299\n2.99",
-			pos="2595.9,2132",
+			pos="2513,2091",
 			width=1.4167];
 		708 -- 712;
 		713	[fillcolor="#d2d2ff",
 			fontcolor=black,
 			height=2,
 			label="713\nTIMBER LANE\n2542\n2.42",
-			pos="2391.5,2093.3",
+			pos="2361.8,2028.5",
 			width=2];
 		708 -- 713;
 		315;
@@ -2134,7 +2134,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.8056,
 			label="734\nHUNTERS BRANCH\n2251\n2.91",
-			pos="1936.7,1573.3",
+			pos="1978.6,1528.6",
 			width=2.8056];
 		709 -- 734;
 		732 -- 856;
@@ -2145,7 +2145,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8472,
 			label="916\nWAPLES MILL\n3753\n1.91",
-			pos="1480.5,1120.8",
+			pos="1684.4,957.66",
 			width=1.8472];
 		732 -- 916;
 		721 -- 723;
@@ -2192,7 +2192,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.8889,
 			label="860\nSANDY RUN\n1024\n1.21",
-			pos="388.71,2363.5",
+			pos="345.17,1806",
 			width=1.8889];
 		815 -- 860;
 		833 -- 861;
@@ -2209,7 +2209,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.3611,
 			label="811\nPOHICK\n1612\n2.14",
-			pos="880.28,2584.8",
+			pos="734.65,2187",
 			width=1.3611];
 		801 -- 811;
 		118;
@@ -2238,14 +2238,14 @@ strict graph G {
 			fontcolor=black,
 			height=3.0972,
 			label="862\nWILLOW SPRINGS #2\n1355\n1.91",
-			pos="498.59,1327.5",
+			pos="560.68,919.7",
 			width=3.0972];
 		848 -- 862;
 		926	[fillcolor="#f2f2ff",
 			fontcolor=black,
 			height=1.6944,
 			label="926\nPOWELL\n3344\n1.66",
-			pos="649.07,1128.9",
+			pos="710.72,738.94",
 			width=1.6944];
 		848 -- 926;
 		844 -- 848;
@@ -2254,7 +2254,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.625,
 			label="846\nGREENBRIAR EAST\n2759\n2.10",
-			pos="1181.3,1042.4",
+			pos="1359.3,746.57",
 			width=2.625];
 		844 -- 846;
 		856 -- 857;
@@ -2264,7 +2264,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6944,
 			label="911\nNAVY\n3318\n1.89",
-			pos="1344.9,1059.8",
+			pos="1536.2,840.58",
 			width=1.6944];
 		856 -- 911;
 		804 -- 805;
@@ -2274,7 +2274,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.4306,
 			label="859\nLIBERTY\n1825\n1.00",
-			pos="478.31,1630.4",
+			pos="482.6,1191",
 			width=1.4306];
 		804 -- 859;
 		851 -- 862;
@@ -2300,7 +2300,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.125,
 			label="807\nHUNT VALLEY\n1934\n1.80",
-			pos="827.99,2780.1",
+			pos="664.32,2320.6",
 			width=2.125];
 		806 -- 807;
 		838 -- 850;
@@ -2323,21 +2323,21 @@ strict graph G {
 			fontcolor=black,
 			height=1.6944,
 			label="824\nORANGE\n3330\n2.04",
-			pos="682.2,2679.4",
+			pos="550.82,2174.7",
 			width=1.6944];
 		811 -- 824;
 		825	[fillcolor="#dfdfff",
 			fontcolor=black,
 			height=2.0694,
 			label="825\nCHERRY RUN\n2404\n2.10",
-			pos="644.21,2535.9",
+			pos="547.07,2031",
 			width=2.0694];
 		811 -- 825;
 		918	[fillcolor="#eeeeff",
 			fontcolor=black,
 			height=1.7917,
 			label="918\nCENTREVILLE\n3567\n1.76",
-			pos="314.5,1251.7",
+			pos="376.51,807.7",
 			width=1.7917];
 		862 -- 918;
 		846 -- 911;
@@ -2345,14 +2345,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.9444,
 			label="847\nGREENBRIAR WEST\n1951\n1.85",
-			pos="1025.4,833.82",
+			pos="1278.4,531.77",
 			width=2.9444];
 		846 -- 847;
 		920	[fillcolor="#f3f3ff",
 			fontcolor=black,
 			height=1.7639,
 			label="920\nCHANTILLY\n1753\n1.63",
-			pos="1347.3,895.16",
+			pos="1525.3,681.49",
 			width=1.7639];
 		846 -- 920;
 		859 -- 851;
@@ -2371,7 +2371,7 @@ strict graph G {
 			fontcolor=black,
 			height=2,
 			label="802\nCEDAR LAKE\n1275\n2.23",
-			pos="1003.1,1187.1",
+			pos="1168,871.21",
 			width=2];
 		802 -- 848;
 		802 -- 844;
@@ -2380,7 +2380,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.7222,
 			label="843\nFAIR LAKES\n2630\n2.06",
-			pos="932.46,1033.1",
+			pos="1100.5,712.36",
 			width=1.7222];
 		802 -- 843;
 		843 -- 848;
@@ -2390,7 +2390,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.1389,
 			label="928\nPOPLAR TREE\n2425\n1.81",
-			pos="783.23,968.49",
+			pos="951.97,677.24",
 			width=2.1389];
 		843 -- 928;
 		847 -- 920;
@@ -2398,28 +2398,28 @@ strict graph G {
 			fontcolor=black,
 			height=1.7778,
 			label="902\nBROOKFIELD\n3184\n1.52",
-			pos="1067.4,567.09",
+			pos="1338.9,277.78",
 			width=1.7778];
 		847 -- 902;
 		913	[fillcolor="#f0f0ff",
 			fontcolor=black,
 			height=1.9444,
 			label="913\nROCKY RUN\n4017\n1.69",
-			pos="841.37,759.33",
+			pos="1091.6,506.06",
 			width=1.9444];
 		847 -- 913;
 		934	[fillcolor="#e2e2ff",
 			fontcolor=black,
 			height=1.9444,
 			label="934\nFOX VALLEY\n1088\n2.03",
-			pos="1209.6,679.87",
+			pos="1472.2,420.18",
 			width=1.9444];
 		847 -- 934;
 		803	[fillcolor="#ff10c10c",
 			fontcolor=black,
 			height=2.5,
 			label="803\nCLIFTON SOUTH\n2142\n1.05",
-			pos="370.76,2030.2",
+			pos="445.32,1570.9",
 			width=2.5];
 		803 -- 805;
 		803 -- 815;
@@ -2429,7 +2429,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.4028,
 			label="858\nCLIFTON TOWN\n177\n1.44",
-			pos="361.17,1841.8",
+			pos="430.27,1385.2",
 			width=2.4028];
 		803 -- 858;
 		858 -- 859;
@@ -2437,7 +2437,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.7083,
 			label="849\nNEWGATE NORTH\n2338\n1.64",
-			pos="281.21,1445.2",
+			pos="297.58,993.74",
 			width=2.7083];
 		849 -- 862;
 		849 -- 859;
@@ -2446,14 +2446,14 @@ strict graph G {
 			fontcolor=black,
 			height=2.6667,
 			label="854\nNEWGATE SOUTH\n2353\n1.35",
-			pos="103.93,1648.5",
+			pos="96,1185.4",
 			width=2.6667];
 		849 -- 854;
 		919	[fillcolor="#ededff",
 			fontcolor=black,
 			height=1.9306,
 			label="919\nGREEN TRAILS\n3416\n1.78",
-			pos="69.5,1383.7",
+			pos="113.48,885.63",
 			width=1.9306];
 		849 -- 919;
 		854 -- 859;
@@ -2512,7 +2512,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.6111,
 			label="905\nFRANKLIN\n2352\n2.21",
-			pos="1345.7,639.46",
+			pos="1612.3,379.49",
 			width=1.6111];
 		927 -- 905;
 		732;
@@ -2550,7 +2550,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.1806,
 			label="904\nSTONECROFT\n1376\n1.40",
-			pos="894.45,594.75",
+			pos="1184,330.76",
 			width=2.1806];
 		902 -- 904;
 		913 -- 928;
@@ -2558,7 +2558,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5833,
 			label="917\nSTONE\n3006\n1.89",
-			pos="559.04,663.72",
+			pos="748.79,318.88",
 			width=1.5833];
 		913 -- 917;
 		918 -- 926;
@@ -2572,7 +2572,7 @@ strict graph G {
 			fontcolor=black,
 			height=1.5694,
 			label="925\nOLD MILL\n1483\n1.66",
-			pos="97.231,1245.9",
+			pos="247.49,830.78",
 			width=1.5694];
 		919 -- 925;
 		905 -- 909;
@@ -2585,7 +2585,7 @@ strict graph G {
 			fontcolor=black,
 			height=2.125,
 			label="915\nVIRGINIA RUN\n2351\n1.20",
-			pos="619.69,823.06",
+			pos="786.97,507.57",
 			width=2.125];
 		904 -- 915;
 		917 -- 928;
@@ -2593,28 +2593,28 @@ strict graph G {
 			fontcolor=black,
 			height=1.4583,
 			label="924\nSPINDLE\n1612\n1.82",
-			pos="458.99,973.74",
+			pos="585.25,557.59",
 			width=1.4583];
 		917 -- 924;
 		935	[fillcolor="#efefff",
 			fontcolor=black,
 			height=2.4583,
 			label="935\nROBINSON MILL\n557\n1.72",
-			pos="248.24,924.78",
+			pos="403.24,481.05",
 			width=2.4583];
 		917 -- 935;
 		921	[fillcolor="#fafaff",
 			fontcolor=black,
 			height=1.7083,
 			label="921\nDEER PARK\n2728\n1.46",
-			pos="430.6,549.95",
+			pos="664.29,192.07",
 			width=1.7083];
 		917 -- 921;
 		901	[fillcolor="#eaeaff",
 			fontcolor=black,
 			height=2.1806,
 			label="901\nCENTRE RIDGE\n2620\n1.85",
-			pos="163.48,1100.5",
+			pos="325.49,656.35",
 			width=2.1806];
 		901 -- 918;
 		901 -- 925;
@@ -2627,21 +2627,21 @@ strict graph G {
 			fontcolor=black,
 			height=2.25,
 			label="910\nLONDON TOWNE\n3059\n1.80",
-			pos="409.08,746.58",
+			pos="599.54,361.53",
 			width=2.25];
 		915 -- 910;
 		923	[fillcolor="#ff107107",
 			fontcolor=black,
 			height=1.625,
 			label="923\nBULL RUN\n2197\n1.15",
-			pos="407.01,1106.5",
+			pos="490.03,676.65",
 			width=1.625];
 		915 -- 923;
 		903	[fillcolor="#f0f0ff",
 			fontcolor=black,
 			height=1.8333,
 			label="903\nCUB RUN\n3738\n1.70",
-			pos="658.48,532.34",
+			pos="909.96,254.09",
 			width=1.8333];
 		903 -- 913;
 		903 -- 904;
