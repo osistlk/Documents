@@ -29,14 +29,11 @@ function interpolateColor(ratio) {
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
     graph += '    layout=sfdp;\n';
-    graph += '    beautify=true;\n';
     graph += '    splines=none;\n';
     graph += '    overlap=false;\n';
-    graph += '    model=subset;\n';
-    graph += '    node [shape=circle, style=filled];\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFF5E6";\n';
-    graph += '    smoothing=triangle;\n';
+    graph += '    normalize=90;\n';
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -121,7 +118,7 @@ function createPrecinctGraph() {
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
             // normalize precinct size by total votes between 0.1 and 1.0
             const size = Math.max(0.1, Math.min(1.0, precinct.totalVotes / maxVotes)).toFixed(2);
-            graph += `    ${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}", color="${precinct.heat || 'gray10'}"];\n`;
+            graph += `    ${precinct.id} [shape = circle; style = filled;label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size * 5}", color="${precinct.heat || 'gray10'}"];\n`;
             if (precinct.neighbors.length > 0) {
                 graph += `    ${precinct.id} -- {${precinct.neighbors.join(',')}};\n`;
             }
