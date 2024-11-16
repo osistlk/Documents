@@ -6,7 +6,7 @@ function createPrecinctGraph() {
     graph += '    overlap=false;\n';
     graph += '    splines=true;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
-    graph += '    edge [color=black];\n';
+    graph += '    edge [color=darkgray];\n';
     graph += '    bgcolor="lightgray";\n'; // light gray
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
