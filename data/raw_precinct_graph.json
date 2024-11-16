@@ -1711,181 +1711,181 @@
         "id": 601,
         "name": "BELLE HAVEN",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [602,604,607,609,621]
     },
     {
         "id": 602,
         "name": "BELLEVIEW",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [601,609,621,405]
     },
     {
         "id": 604,
         "name": "BUCKNELL",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [601,608,609,405,429]
     },
     {
         "id": 605,
         "name": "FORT HUNT",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [611,612,613,614]
     },
     {
         "id": 606,
         "name": "HOLLIN HALL",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [609,610,611,612]
     },
     {
         "id": 607,
         "name": "HUNTINGTON",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [601,621,408]
     },
     {
         "id": 608,
         "name": "KIRKSIDE",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [604,606,609,610,429]
     },
     {
         "id": 609,
         "name": "MARLAN",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [601,602,604,606,608]
     },
     {
         "id": 610,
         "name": "SHERWOOD",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [606,608,611,614,429]
     },
     {
         "id": 611,
         "name": "STRATFORD",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [605,606,610,612,614]
     },
     {
         "id": 612,
         "name": "WAYNEWOOD",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [605,606,611]
     },
     {
         "id": 613,
         "name": "WESTGATE",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [605,614,615,616,635,627]
     },
     {
         "id": 614,
         "name": "RIVERSIDE",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [605,611,610,613,615]
     },
     {
         "id": 615,
         "name": "WOODLEY",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [613,614,627,413,428]
     },
     {
         "id": 616,
         "name": "GUNSTON",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [613,617,631,635]
     },
     {
         "id": 617,
         "name": "LORTON",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [616,622,628,631,636]
     },
     {
         "id": 618,
         "name": "NEWINGTON #1",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [634,806,838,839,850,855]
     },
     {
         "id": 621,
         "name": "GROSVENOR",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [601,602,607]
     },
     {
         "id": 622,
         "name": "LORTON STATION",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [617,623,628,631,634]
     },
     {
         "id": 623,
         "name": "ALBAN",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [622,630,634,417,431,855]
     },
     {
         "id": 627,
         "name": "WOODLAWN #1",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [613,615,635,424,428]
     },
     {
         "id": 628,
         "name": "LAUREL HILL #1",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [622,629,634,636]
     },
     {
         "id": 629,
         "name": "SOUTH COUNTY",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [628,632,633,634]
     },
     {
         "id": 630,
         "name": "ARMY",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [623,631,635,427]
     },
     {
         "id": 631,
         "name": "POHICK CREEK",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [616,622,630,635]
     },
     {
         "id": 632,
         "name": "HALLEY #1",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [629,633,634,839,845]
     },
     {
         "id": 633,
         "name": "HALLEY #2",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [629,632,845]
     },
     {
         "id": 634,
         "name": "NEWINGTON #2",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [618,623,628,629,632,839]
     },
     {
         "id": 635,
         "name": "WOODLAWN #2",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [613,616,630,631,406,420,424]
     },
     {
         "id": 636,
         "name": "LAUREL HILL #2",
         "district": "MOUNT VERNON",
-        "neighbors": []
+        "neighbors": [617,628,629]
     },
     {
         "id": 701,

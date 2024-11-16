@@ -44,7 +44,7 @@ function createPrecinctGraph() {
     precincts = precincts.filter(precinct => precinct.neighbors.length > 0);
     // filter out edges with ids not within the 100s
     for (const precinct of precincts) {
-        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 600);
+        precinct.neighbors = precinct.neighbors.filter(neighbor => neighbor >= 100 && neighbor < 700);
     }
 
     // node class
@@ -75,7 +75,7 @@ function createPrecinctGraph() {
     }
 
     graph += '}\n';
-    fs.writeFileSync('/home/jacquesdaytona/Code/nova-voting-heatmaps/data/precinct_graph.dot', graph);
+    fs.writeFileSync('data/precinct_graph.dot', graph);
 }
 
 createPrecinctGraph();
