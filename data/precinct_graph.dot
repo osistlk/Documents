@@ -3,7 +3,7 @@ graph G {
     overlap=false;
     splines=curved;
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
-    edge [color=darkgray];
+    edge [color="#666666"];
     bgcolor="#FFFFED";
 label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY";
 labelloc="t";
