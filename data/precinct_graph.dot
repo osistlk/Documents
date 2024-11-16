@@ -1,5 +1,6 @@
 strict graph G {
     layout=sfdp;
+    beautify=true;
     splines=none;
     overlap=false;
     model=subset;
