@@ -11,7 +11,6 @@ function createPrecinctGraph() {
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFFFED";\n';
     graph += '    smoothing=triangle;\n';
-    graph += '    rotate=0;\n';
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
