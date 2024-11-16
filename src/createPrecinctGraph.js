@@ -57,7 +57,7 @@ function createPrecinctGraph() {
 
     // bucket precincts by district
     const precinctsByDistrict = {};
-    for (const precinct of precincts) {
+    for (const precinct of precincts.reverse()) {
         if (!precinctsByDistrict[precinct.district]) {
             precinctsByDistrict[precinct.district] = [];
         }
