@@ -26,7 +26,9 @@ function createPrecinctGraph() {
     // for every precinct, add a new key alt_color and make it a hex color going from red to blue based on the ratio
     // Account for the fact that one or two precincts have a ratio 2 to 4 times higher than the rest
     precincts = precincts.map(precinct => {
-        const ratio = Math.min(1, precinct.ratio / 4); // Normalize ratio to be between 0 and 1
+        const maxRatio = Math.max(...precincts.map(p => p.ratio));
+        const minRatio = -1 * maxRatio;
+        const ratio = (precinct.ratio - minRatio) / (maxRatio - minRatio); // Normalize ratio to be between 0 and 1
         const red = Math.min(255, 255 * (1 - ratio));
         const blue = Math.min(255, 255 * ratio);
         precinct.alt_color = `#${Math.round(red).toString(16).padStart(2, '0')}00${Math.round(blue).toString(16).padStart(2, '0')}`;
