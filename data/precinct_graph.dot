@@ -1,6 +1,5 @@
 strict graph G {
     layout=neato;
-    mode=KK;
     overlap=false;
     splines=curved;
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
@@ -8,11 +7,13 @@ strict graph G {
     bgcolor="#FFFFED";
     pack=true;
     packmode="clust";
+    concentrate=true;
 label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY";
 labelloc="t";
 subgraph BRADDOCK {
     label="District BRADDOCK";
     color=blue;
+    concentrate=true;
     104 [label="104\nCHAPEL\n2061\n2.30", fillcolor="#d7d7ff", fontcolor="black", width="1.23800429696825", height="1.23800429696825"];
     104 -- {106,108,113,115,116,522};
     105 [label="105\nFAIRVIEW\n3907\n2.08", fillcolor="#e0e0ff", fontcolor="black", width="1.8990212461207925", height="1.8990212461207925"];
@@ -75,6 +76,7 @@ subgraph BRADDOCK {
 subgraph HUNTERMILL {
     label="District HUNTER MILL";
     color=blue;
+    concentrate=true;
     201 [label="201\nARMSTRONG\n3141\n3.30", fillcolor="#adadff", fontcolor="black", width="1.6247314394843637", height="1.6247314394843637"];
     201 -- {233,234,236,238,327};
     202 [label="202\nFLINT HILL #1\n1306\n2.06", fillcolor="#e1e1ff", fontcolor="black", width="0.9676533778944856", height="0.9676533778944856"];
@@ -143,6 +145,7 @@ subgraph HUNTERMILL {
 subgraph DRANESVILLE {
     label="District DRANESVILLE";
     color=blue;
+    concentrate=true;
     301 [label="301\nCHAIN BRIDGE\n2981\n2.03", fillcolor="#e2e2ff", fontcolor="black", width="1.5674385294819766", height="1.5674385294819766"];
     301 -- {302,303,311,314,316};
     302 [label="302\nCHESTERBROOK\n2283\n2.59", fillcolor="#cacaff", fontcolor="black", width="1.3174982095965624", height="1.3174982095965624"];
@@ -203,6 +206,7 @@ subgraph DRANESVILLE {
 subgraph FRANCONIA {
     label="District FRANCONIA";
     color=blue;
+    concentrate=true;
     401 [label="401\nBUSH HILL\n2815\n2.21", fillcolor="#dadaff", fontcolor="black", width="1.5079971353544999", height="1.5079971353544999"];
     401 -- {410,422,423,526};
     402 [label="402\nCAMERON\n947\n2.55", fillcolor="#ccccff", fontcolor="black", width="0.8391024110766292", height="0.8391024110766292"];
@@ -261,6 +265,7 @@ subgraph FRANCONIA {
 subgraph MASON {
     label="District MASON";
     color=blue;
+    concentrate=true;
     501 [label="501\nBAILEYS\n2672\n2.47", fillcolor="#d0d0ff", fontcolor="black", width="1.4567915970398664", height="1.4567915970398664"];
     501 -- {506,510,520};
     502 [label="502\nBARCROFT\n1227\n2.95", fillcolor="#bbbbff", fontcolor="black", width="0.9393650035808069", height="0.9393650035808069"];
@@ -325,6 +330,7 @@ subgraph MASON {
 subgraph MOUNTVERNON {
     label="District MOUNT VERNON";
     color=blue;
+    concentrate=true;
     601 [label="601\nBELLE HAVEN\n2082\n1.84", fillcolor="#eaeaff", fontcolor="black", width="1.2455239914060634", height="1.2455239914060634"];
     601 -- {602,604,607,609,621};
     602 [label="602\nBELLEVIEW\n1832\n2.43", fillcolor="#d1d1ff", fontcolor="black", width="1.1560038195273337", height="1.1560038195273337"];
@@ -389,6 +395,7 @@ subgraph MOUNTVERNON {
 subgraph PROVIDENCE {
     label="District PROVIDENCE";
     color=blue;
+    concentrate=true;
     700 [label="700\nFAIRFAX COURT\n0\n2.24", fillcolor="#d9d9ff", fontcolor="black", width="0.5", height="0.5"];
     700 -- {117,121,132,134,136,701,707,709,711,732,856,857};
     701 [label="701\nBLAKE\n3656\n2.52", fillcolor="#cdcdff", fontcolor="black", width="1.8091429935545476", height="1.8091429935545476"];
@@ -447,6 +454,7 @@ subgraph PROVIDENCE {
 subgraph SPRINGFIELD {
     label="District SPRINGFIELD";
     color=blue;
+    concentrate=true;
     801 [label="801\nBURKE #1\n2073\n2.04", fillcolor="#e2e2ff", fontcolor="black", width="1.2423012652184293", height="1.2423012652184293"];
     801 -- {811,812,861,128};
     802 [label="802\nCEDAR LAKE\n1275\n2.23", fillcolor="#dadaff", fontcolor="black", width="0.9565528765815231", height="0.9565528765815231"];
@@ -521,6 +529,7 @@ subgraph SPRINGFIELD {
 subgraph SULLY {
     label="District SULLY";
     color=blue;
+    concentrate=true;
     901 [label="901\nCENTRE RIDGE\n2620\n1.85", fillcolor="#eaeaff", fontcolor="black", width="1.4381714012890905", height="1.4381714012890905"];
     901 -- {918,924,925,935};
     902 [label="902\nBROOKFIELD\n3184\n1.52", fillcolor="#f8f8ff", fontcolor="black", width="1.6401289090475053", height="1.6401289090475053"];
