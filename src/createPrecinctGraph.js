@@ -28,12 +28,14 @@ function interpolateColor(ratio) {
 
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
-    graph += '    layout=sfdp;\n';
+    graph += '    layout=neato;\n';
+    graph += '    model=subset;\n';
     graph += '    splines=none;\n';
     graph += '    overlap=false;\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFF5E6";\n';
     graph += '    smoothing=triangle;\n';
+    graph += '    size="3840,2160";\n'; // Set graph size to 3840x2160
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -107,7 +109,7 @@ function createPrecinctGraph() {
     precincts.find(p => p.id === 700).totalVotes = meanVotes.toFixed(2);
     for (const district in precinctsByDistrict) {
         const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
-        graph += `subgraph cluster_${sanitizedDistrict} {\n`;
+        graph += `subgraph ${sanitizedDistrict} {\n`;
         graph += `    label="District ${district}";\n`;
         graph += `    color=blue;\n`;
 
@@ -118,7 +120,8 @@ function createPrecinctGraph() {
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
             // normalize precinct size by total votes between 0.1 and 1.0
             const size = Math.max(0.1, Math.min(1.0, precinct.totalVotes / maxVotes)).toFixed(2);
-            graph += `    ${precinct.id} [shape = circle; style = filled;label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}", color="${precinct.heat || 'gray10'}"];\n`;
+            const scaledSize = (size * 3840 / 2160).toFixed(2); // Scale node size to graph size
+            graph += `    ${precinct.id} [shape = circle; style = filled;label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${scaledSize}", height="${scaledSize}", color="${precinct.heat || 'gray10'}"];\n`;
             if (precinct.neighbors.length > 0) {
                 graph += `    ${precinct.id} -- {${precinct.neighbors.join(',')}};\n`;
             }
