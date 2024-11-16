@@ -4,7 +4,7 @@ graph G {
     splines=true;
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
     edge [color=darkgray];
-    bgcolor="lightgray";
+    bgcolor="#FFFFED";
 label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY";
 labelloc="t";
 935 [label="935\nROBINSON MILL\n557\n1.72", fillcolor="#efefff", fontcolor="black", width="0.5", height="0.5"];

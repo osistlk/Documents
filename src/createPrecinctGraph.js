@@ -7,7 +7,7 @@ function createPrecinctGraph() {
     graph += '    splines=true;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
     graph += '    edge [color=darkgray];\n';
-    graph += '    bgcolor="lightgray";\n'; // light gray
+    graph += '    bgcolor="#FFFFED";\n';
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
