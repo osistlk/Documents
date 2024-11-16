@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function createPrecinctGraph() {
-    let graph = 'graph G {\n';
+    let graph = 'strict graph G {\n';
     graph += '    layout=neato;\n';
     graph += '    overlap=false;\n';
     graph += '    splines=curved;\n';
