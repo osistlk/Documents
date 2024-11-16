@@ -1,14 +1,15 @@
 strict graph G {
-	graph [bb="0,0,1496.5,1112.7",
+	graph [bb="0,0,1109,1378.5",
 		bgcolor="#FFF5E6",
 		label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY",
 		labelloc=t,
 		layout=sfdp,
 		lheight=0.21,
-		lp="748.25,1101.2",
+		lp="554.5,1367",
 		lwidth=15.18,
 		model=subset,
 		overlap=false,
+		rotation=115,
 		smoothing=triangle,
 		splines=none
 	];
@@ -23,7 +24,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="659.8,601.35",
+			pos="542.11,721.89",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -32,7 +33,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="618.09,649.37",
+			pos="562.49,769.94",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -42,7 +43,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="601.69,529.79",
+			pos="458.19,756.92",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -52,7 +53,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="659.27,546.7",
+			pos="489.49,698.59",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -62,7 +63,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="606.39,572.8",
+			pos="504.25,778.57",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -72,7 +73,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="711.32,590.97",
+			pos="541.67,672.07",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -82,7 +83,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="710.53,639.86",
+			pos="583.15,691.27",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -92,7 +93,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="556.86,609.54",
+			pos="511.7,829.49",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -102,7 +103,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="595.8,695.91",
+			pos="603.04,817.71",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -112,7 +113,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="660.67,693.06",
+			pos="616.85,761.68",
 			shape=circle,
 			style=filled,
 			width=0.125];
@@ -122,7 +123,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.40278,
 			label="",
-			pos="555.6,686.82",
+			pos="564.3,852.68",
 			shape=circle,
 			style=filled,
 			width=0.40278];
@@ -134,7 +135,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="637.74,476.25",
+			pos="411.42,701.84",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -144,7 +145,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="554.4,484.6",
+			pos="390.55,774.54",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -157,7 +158,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="748.06,512.21",
+			pos="495.46,603.32",
 			shape=circle,
 			style=filled,
 			width=0.375];
@@ -167,17 +168,132 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="740.83,604.1",
+			pos="567.58,642.49",
 			shape=circle,
 			style=filled,
 			width=0.125];
 		116 -- 528;
+		110 -- 115;
+		110 -- 521;
+		415	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="455.67,828.27",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		110 -- 415;
+		418	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="502.64,880.19",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		110 -- 418;
+		527	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.38889,
+			label="",
+			pos="547.52,889.27",
+			shape=circle,
+			style=filled,
+			width=0.38889];
+		110 -- 527;
+		861	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="340.05,706.18",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		125 -- 861;
+		128 -- 861;
+		128 -- 415;
+		129	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="380.53,831.47",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		128 -- 129;
+		135	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="335.3,798.16",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		128 -- 135;
+		801	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="318.65,752.83",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		128 -- 801;
+		117 -- 528;
+		123	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.91667,
+			label="",
+			pos="440.66,551.83",
+			shape=circle,
+			style=filled,
+			width=0.91667];
+		117 -- 123;
+		700	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="507.68,507.48",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		117 -- 700;
+		136	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="489.37,544.18",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		117 -- 136;
+		711	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="532.01,595.11",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		117 -- 711;
 		105	[color="#d8d8ff",
 			fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=0.93056,
 			label="",
-			pos="697.32,266.56",
+			pos="258.98,561.02",
 			shape=circle,
 			style=filled,
 			width=0.93056];
@@ -186,7 +302,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="715.82,327.85",
+			pos="317.53,567.74",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -196,7 +312,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.86111,
 			label="",
-			pos="645.54,344.04",
+			pos="303.53,640.57",
 			shape=circle,
 			style=filled,
 			width=0.86111];
@@ -206,7 +322,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="638.77,257.55",
+			pos="225.62,620.02",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -216,7 +332,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="753.88,287.8",
+			pos="316.9,522.93",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -226,7 +342,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="755.31,219.36",
+			pos="230.11,506.71",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -236,29 +352,20 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="634.54,203.56",
+			pos="188.59,595.42",
 			shape=circle,
 			style=filled,
 			width=0.33333];
 		105 -- 815;
 		126 -- 137;
 		127 -- 130;
-		861	[color="#dcdcff",
-			fillcolor="#dcdcff",
-			fontcolor=black,
-			height=0.41667,
-			label="",
-			pos="604.3,412.93",
-			shape=circle,
-			style=filled,
-			width=0.41667];
 		127 -- 861;
 		833	[color="#dadaff",
 			fillcolor="#dadaff",
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="583.08,332.96",
+			pos="244.77,701.09",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -269,7 +376,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="597.24,237.04",
+			pos="176.7,637.19",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -279,174 +386,91 @@ strict graph G {
 			fontcolor=black,
 			height=0.31944,
 			label="",
-			pos="788.4,290.82",
+			pos="338.47,488.3",
 			shape=circle,
 			style=filled,
 			width=0.31944];
 		137 -- 841;
-		110 -- 115;
-		110 -- 521;
-		415	[color="#e1e1ff",
-			fillcolor="#e1e1ff",
+		129 -- 415;
+		129 -- 135;
+		431	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
 			fontcolor=black,
-			height=0.48611,
+			height=0.61111,
 			label="",
-			pos="504.32,541.04",
+			pos="319.58,848.27",
 			shape=circle,
 			style=filled,
-			width=0.48611];
-		110 -- 415;
-		418	[color="#e0e0ff",
-			fillcolor="#e0e0ff",
+			width=0.61111];
+		129 -- 431;
+		135 -- 431;
+		812	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
 			fontcolor=black,
-			height=0.33333,
+			height=0.58333,
 			label="",
-			pos="507.82,607.24",
+			pos="271.83,797.27",
 			shape=circle,
 			style=filled,
-			width=0.33333];
-		110 -- 418;
-		527	[color="#dedeff",
-			fillcolor="#dedeff",
-			fontcolor=black,
-			height=0.38889,
-			label="",
-			pos="514.89,679.64",
-			shape=circle,
-			style=filled,
-			width=0.38889];
-		110 -- 527;
-		125 -- 861;
-		128 -- 415;
-		128 -- 861;
-		129	[color="#d8d8ff",
-			fillcolor="#d8d8ff",
-			fontcolor=black,
-			height=0.34722,
-			label="",
-			pos="506.18,502.48",
-			shape=circle,
-			style=filled,
-			width=0.34722];
-		128 -- 129;
-		135	[color="#d6d6ff",
-			fillcolor="#d6d6ff",
-			fontcolor=black,
-			height=0.52778,
-			label="",
-			pos="510.9,462.98",
-			shape=circle,
-			style=filled,
-			width=0.52778];
-		128 -- 135;
-		801	[color="#d8d8ff",
-			fillcolor="#d8d8ff",
-			fontcolor=black,
-			height=0.48611,
-			label="",
-			pos="555.44,420.65",
-			shape=circle,
-			style=filled,
-			width=0.48611];
-		128 -- 801;
+			width=0.58333];
+		135 -- 812;
 		109	[color="#d5d5ff",
 			fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="705.76,514.34",
+			pos="490.38,647.7",
 			shape=circle,
 			style=filled,
 			width=0.30556];
 		109 -- 113;
 		109 -- 116;
+		109 -- 117;
 		114	[color="#d8d8ff",
 			fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="713.37,471.65",
+			pos="456.02,612.67",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		109 -- 114;
-		109 -- 117;
 		118	[color="#d8d8ff",
 			fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="663.24,417.72",
+			pos="388.29,641.75",
 			shape=circle,
 			style=filled,
 			width=0.76389];
 		109 -- 118;
 		114 -- 117;
 		114 -- 118;
-		123	[color="#d7d7ff",
-			fillcolor="#d7d7ff",
-			fontcolor=black,
-			height=0.91667,
-			label="",
-			pos="795.02,450.93",
-			shape=circle,
-			style=filled,
-			width=0.91667];
 		114 -- 123;
-		117 -- 123;
-		117 -- 528;
-		700	[color="#d6d6ff",
-			fillcolor="#d6d6ff",
-			fontcolor=black,
-			height=0.51389,
-			label="",
-			pos="877.59,478.68",
-			shape=circle,
-			style=filled,
-			width=0.51389];
-		117 -- 700;
-		136	[color="#d9d9ff",
-			fillcolor="#d9d9ff",
-			fontcolor=black,
-			height=0.20833,
-			label="",
-			pos="843.56,481.51",
-			shape=circle,
-			style=filled,
-			width=0.20833];
-		117 -- 136;
-		711	[color="#d6d6ff",
-			fillcolor="#d6d6ff",
-			fontcolor=black,
-			height=0.41667,
-			label="",
-			pos="774.95,550.26",
-			shape=circle,
-			style=filled,
-			width=0.41667];
-		117 -- 711;
+		118 -- 125;
 		118 -- 126;
 		118 -- 127;
-		118 -- 125;
+		118 -- 861;
 		118 -- 123;
 		119	[color="#d8d8ff",
 			fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=0.79167,
 			label="",
-			pos="727.26,381.36",
+			pos="371.09,574.7",
 			shape=circle,
 			style=filled,
 			width=0.79167];
 		118 -- 119;
-		118 -- 861;
 		123 -- 136;
 		134	[color="#b5b5ff",
 			fillcolor="#b5b5ff",
 			fontcolor=black,
 			height=0.16667,
 			label="",
-			pos="842.07,438.03",
+			pos="434.29,504.74",
 			shape=circle,
 			style=filled,
 			width=0.16667];
@@ -459,24 +483,24 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="780.05,356.3",
+			pos="359.04,530.69",
 			shape=circle,
 			style=filled,
 			width=0.20833];
 		119 -- 120;
-		120 -- 126;
-		120 -- 137;
-		120 -- 123;
-		120 -- 134;
-		120 -- 841;
 		134 -- 700;
 		134 -- 136;
+		120 -- 126;
+		120 -- 137;
+		120 -- 841;
+		120 -- 123;
+		120 -- 134;
 		121	[color="#dbdbff",
 			fillcolor="#dbdbff",
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="813.49,352.81",
+			pos="373,500.16",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -487,7 +511,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.86111,
 			label="",
-			pos="874.27,363.58",
+			pos="409.34,446.15",
 			shape=circle,
 			style=filled,
 			width=0.86111];
@@ -497,7 +521,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.38889,
 			label="",
-			pos="821.92,286.41",
+			pos="321.02,454.79",
 			shape=circle,
 			style=filled,
 			width=0.38889];
@@ -509,7 +533,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="870.42,250.3",
+			pos="313.51,399.48",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -519,7 +543,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="940.27,327.37",
+			pos="408.43,377.16",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -529,7 +553,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="947.72,401.55",
+			pos="473.37,423.84",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -540,7 +564,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.38889,
 			label="",
-			pos="790.68,250.37",
+			pos="255.58,469.59",
 			shape=circle,
 			style=filled,
 			width=0.38889];
@@ -550,40 +574,17 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="821.9,229.21",
+			pos="264.06,437.71",
 			shape=circle,
 			style=filled,
 			width=0.23611];
 		138 -- 851;
-		129 -- 415;
-		129 -- 135;
-		431	[color="#d5d5ff",
-			fillcolor="#d5d5ff",
-			fontcolor=black,
-			height=0.61111,
-			label="",
-			pos="461.03,457.22",
-			shape=circle,
-			style=filled,
-			width=0.61111];
-		129 -- 431;
-		135 -- 431;
-		812	[color="#d7d7ff",
-			fillcolor="#d7d7ff",
-			fontcolor=black,
-			height=0.58333,
-			label="",
-			pos="470.96,406.22",
-			shape=circle,
-			style=filled,
-			width=0.58333];
-		135 -- 812;
 		131	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="855.12,300.87",
+			pos="359.31,435.93",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -600,7 +601,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="1364.2,647.38",
+			pos="879.06,166.15",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -609,7 +610,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="1277.2,758.92",
+			pos="940.74,270.3",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -619,7 +620,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="1309.5,706.37",
+			pos="894.04,222.28",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -629,7 +630,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.27778,
 			label="",
-			pos="1426.1,679.12",
+			pos="935.76,97.027",
 			shape=circle,
 			style=filled,
 			width=0.27778];
@@ -639,7 +640,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="1314.8,564.2",
+			pos="774.6,161.09",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -649,7 +650,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.70833,
 			label="",
-			pos="1382,711.91",
+			pos="939.59,166.16",
 			shape=circle,
 			style=filled,
 			width=0.70833];
@@ -661,7 +662,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="1202.3,778.44",
+			pos="922.36,331.53",
 			shape=circle,
 			style=filled,
 			width=0.20833];
@@ -671,7 +672,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="1290.1,810.48",
+			pos="992.49,283.89",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -681,7 +682,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="1254.3,647.58",
+			pos="833.21,230.21",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -692,7 +693,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="1402.5,572.48",
+			pos="823.33,94.54",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -702,17 +703,69 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="1352.1,483.78",
+			pos="707.02,74.48",
 			shape=circle,
 			style=filled,
 			width=0.69444];
 		238 -- 324;
+		245 -- 329;
+		240	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.5,
+			label="",
+			pos="902.13,382.82",
+			shape=circle,
+			style=filled,
+			width=0.5];
+		245 -- 240;
+		322	[color="#e2e2ff",
+			fillcolor="#e2e2ff",
+			fontcolor=black,
+			height=0.65278,
+			label="",
+			pos="962.4,348.98",
+			shape=circle,
+			style=filled,
+			width=0.65278];
+		245 -- 322;
+		208 -- 238;
+		209	[color="#ceceff",
+			fillcolor="#ceceff",
+			fontcolor=black,
+			height=0.77778,
+			label="",
+			pos="877.04,328.81",
+			shape=circle,
+			style=filled,
+			width=0.77778];
+		208 -- 209;
+		222	[color="#c2c2ff",
+			fillcolor="#c2c2ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="886.5,267.34",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		208 -- 222;
+		224	[color="#c9c9ff",
+			fillcolor="#c9c9ff",
+			fontcolor=black,
+			height=0.91667,
+			label="",
+			pos="807.98,300.31",
+			shape=circle,
+			style=filled,
+			width=0.91667];
+		208 -- 224;
 		202	[color="#d8d8ff",
 			fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="1051.3,631.85",
+			pos="719.68,423.03",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -721,7 +774,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="1010,659.75",
+			pos="712.3,459.54",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -731,7 +784,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="1082.6,571.34",
+			pos="665.3,371.4",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -741,7 +794,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="1061.6,698.72",
+			pos="764.87,418.4",
 			shape=circle,
 			style=filled,
 			width=0.72222];
@@ -751,7 +804,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.31944,
 			label="",
-			pos="1019.8,608.08",
+			pos="675.22,422.22",
 			shape=circle,
 			style=filled,
 			width=0.31944];
@@ -761,7 +814,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.19444,
 			label="",
-			pos="1102.6,660.23",
+			pos="781.45,377.39",
 			shape=circle,
 			style=filled,
 			width=0.19444];
@@ -772,7 +825,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="1139.7,494.63",
+			pos="635.11,287.61",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -782,7 +835,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1125.3,630.22",
+			pos="751.42,355.37",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -792,7 +845,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="1141.6,579.7",
+			pos="715.61,304.76",
 			shape=circle,
 			style=filled,
 			width=0.76389];
@@ -802,7 +855,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.11111,
 			label="",
-			pos="1095,506.47",
+			pos="614.77,245.39",
 			shape=circle,
 			style=filled,
 			width=0.11111];
@@ -812,7 +865,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="1081,437.01",
+			pos="577.58,297.8",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -822,49 +875,107 @@ strict graph G {
 			fontcolor=black,
 			height=0.11111,
 			label="",
-			pos="1034.7,517.76",
+			pos="616.13,387.66",
 			shape=circle,
 			style=filled,
 			width=0.11111];
 		221 -- 929;
 		226 -- 243;
-		240	[color="#dbdbff",
-			fillcolor="#dbdbff",
-			fontcolor=black,
-			height=0.5,
-			label="",
-			pos="1118.3,753.9",
-			shape=circle,
-			style=filled,
-			width=0.5];
 		226 -- 240;
 		242	[color="#d6d6ff",
 			fillcolor="#d6d6ff",
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="1044.3,745.91",
+			pos="822.23,453.21",
 			shape=circle,
 			style=filled,
 			width=0.34722];
 		226 -- 242;
+		241 -- 929;
 		727	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="984.39,568.03",
+			pos="630.25,437.42",
 			shape=circle,
 			style=filled,
 			width=0.52778];
 		241 -- 727;
-		241 -- 929;
+		229 -- 244;
+		220	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.81944,
+			label="",
+			pos="696.64,220.57",
+			shape=circle,
+			style=filled,
+			width=0.81944];
+		229 -- 220;
+		908	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="527.21,262.22",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		229 -- 908;
+		227 -- 243;
+		223 -- 227;
+		223 -- 224;
+		225	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.73611,
+			label="",
+			pos="760.65,232.35",
+			shape=circle,
+			style=filled,
+			width=0.73611];
+		223 -- 225;
+		244 -- 914;
+		240 -- 243;
+		309	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.76389,
+			label="",
+			pos="931.42,465.08",
+			shape=circle,
+			style=filled,
+			width=0.76389];
+		240 -- 309;
+		323	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="866.65,427.7",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		240 -- 323;
+		328	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="952.68,405.04",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		240 -- 328;
+		242 -- 323;
 		203	[color="#d8d8ff",
 			fillcolor="#d8d8ff",
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="1179.1,425.77",
+			pos="575.6,208.52",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -874,7 +985,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="1235.6,459.96",
+			pos="640.69,161.55",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -884,7 +995,7 @@ strict graph G {
 			fontcolor=black,
 			height=1,
 			label="",
-			pos="1249.2,354.74",
+			pos="575.09,135.94",
 			shape=circle,
 			style=filled,
 			width=1];
@@ -894,7 +1005,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="1168.2,365.5",
+			pos="523.11,221.14",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -904,50 +1015,40 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="1181.9,320.26",
+			pos="514.44,166.68",
 			shape=circle,
 			style=filled,
 			width=0.45833];
 		203 -- 931;
-		220	[color="#d4d4ff",
-			fillcolor="#d4d4ff",
-			fontcolor=black,
-			height=0.81944,
-			label="",
-			pos="1209.6,519",
-			shape=circle,
-			style=filled,
-			width=0.81944];
-		229 -- 220;
-		229 -- 244;
-		908	[color="#d7d7ff",
-			fillcolor="#d7d7ff",
-			fontcolor=black,
-			height=0.48611,
-			label="",
-			pos="1126.5,400.47",
-			shape=circle,
-			style=filled,
-			width=0.48611];
-		229 -- 908;
+		235 -- 324;
 		235 -- 332;
 		237	[color="#d3d3ff",
 			fillcolor="#d3d3ff",
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="1292.1,441.14",
+			pos="646.82,105.03",
 			shape=circle,
 			style=filled,
 			width=0.75];
 		235 -- 237;
-		235 -- 324;
+		220 -- 238;
+		220 -- 208;
+		220 -- 324;
+		220 -- 221;
+		220 -- 223;
+		220 -- 203;
+		220 -- 235;
+		220 -- 237;
+		220 -- 225;
+		237 -- 324;
+		237 -- 332;
 		204	[color="#d6d6ff",
 			fillcolor="#d6d6ff",
 			fontcolor=black,
 			height=0.18056,
 			label="",
-			pos="979.73,624.68",
+			pos="678.41,450.44",
 			shape=circle,
 			style=filled,
 			width=0.18056];
@@ -959,111 +1060,27 @@ strict graph G {
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="939.2,626.51",
+			pos="660.67,490.98",
 			shape=circle,
 			style=filled,
 			width=0.72222];
 		204 -- 729;
-		208 -- 238;
-		209	[color="#ceceff",
-			fillcolor="#ceceff",
-			fontcolor=black,
-			height=0.77778,
-			label="",
-			pos="1182.6,734.71",
-			shape=circle,
-			style=filled,
-			width=0.77778];
-		208 -- 209;
-		222	[color="#c2c2ff",
-			fillcolor="#c2c2ff",
-			fontcolor=black,
-			height=0.44444,
-			label="",
-			pos="1234.6,717.5",
-			shape=circle,
-			style=filled,
-			width=0.44444];
-		208 -- 222;
-		224	[color="#c9c9ff",
-			fillcolor="#c9c9ff",
-			fontcolor=black,
-			height=0.91667,
-			label="",
-			pos="1183.7,660.48",
-			shape=circle,
-			style=filled,
-			width=0.91667];
-		208 -- 224;
 		209 -- 233;
-		209 -- 222;
-		209 -- 224;
+		209 -- 245;
 		209 -- 227;
 		209 -- 240;
-		209 -- 245;
+		209 -- 222;
+		209 -- 224;
 		222 -- 234;
 		224 -- 227;
 		224 -- 220;
-		225	[color="#cacaff",
-			fillcolor="#cacaff",
-			fontcolor=black,
-			height=0.73611,
-			label="",
-			pos="1213.2,583.78",
-			shape=circle,
-			style=filled,
-			width=0.73611];
 		224 -- 225;
-		227 -- 243;
-		240 -- 243;
-		309	[color="#ddddff",
-			fillcolor="#ddddff",
-			fontcolor=black,
-			height=0.76389,
-			label="",
-			pos="1068.5,833.98",
-			shape=circle,
-			style=filled,
-			width=0.76389];
-		240 -- 309;
-		323	[color="#d7d7ff",
-			fillcolor="#d7d7ff",
-			fontcolor=black,
-			height=0.44444,
-			label="",
-			pos="1070.2,782.45",
-			shape=circle,
-			style=filled,
-			width=0.44444];
-		240 -- 323;
-		328	[color="#dedeff",
-			fillcolor="#dedeff",
-			fontcolor=black,
-			height=0.68056,
-			label="",
-			pos="1128.7,819.4",
-			shape=circle,
-			style=filled,
-			width=0.68056];
-		240 -- 328;
-		245 -- 240;
-		245 -- 329;
-		322	[color="#e2e2ff",
-			fillcolor="#e2e2ff",
-			fontcolor=black,
-			height=0.65278,
-			label="",
-			pos="1203.5,817.91",
-			shape=circle,
-			style=filled,
-			width=0.65278];
-		245 -- 322;
 		213	[color="#d4d4ff",
 			fillcolor="#d4d4ff",
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="935.26,691.04",
+			pos="725.39,543.2",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -1073,7 +1090,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="998.76,710.31",
+			pos="774.44,479.64",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -1083,7 +1100,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="862.66,699.17",
+			pos="690.92,600.74",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -1093,7 +1110,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="970.7,763.23",
+			pos="812.37,532.68",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -1103,7 +1120,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="851.6,739.72",
+			pos="718.35,652.49",
 			shape=circle,
 			style=filled,
 			width=0.59722];
@@ -1113,7 +1130,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.84722,
 			label="",
-			pos="913.5,760.83",
+			pos="794.83,605.44",
 			shape=circle,
 			style=filled,
 			width=0.84722];
@@ -1121,56 +1138,40 @@ strict graph G {
 		214 -- 202;
 		214 -- 218;
 		214 -- 226;
+		214 -- 242;
 		219	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="1010.1,779.05",
+			pos="838.95,491.09",
 			shape=circle,
 			style=filled,
 			width=0.375];
 		214 -- 219;
-		214 -- 242;
 		216 -- 720;
 		714	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="833.67,655.66",
+			pos="647.25,599.15",
 			shape=circle,
 			style=filled,
 			width=0.68056];
 		216 -- 714;
-		219 -- 704;
 		219 -- 242;
+		219 -- 704;
 		731	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="1010.6,824.08",
+			pos="895.43,531.93",
 			shape=circle,
 			style=filled,
 			width=0.45833];
 		219 -- 731;
-		242 -- 323;
-		220 -- 238;
-		220 -- 221;
-		220 -- 203;
-		220 -- 235;
-		220 -- 208;
-		220 -- 223;
-		220 -- 225;
-		220 -- 237;
-		220 -- 324;
-		223 -- 224;
-		223 -- 227;
-		223 -- 225;
-		237 -- 332;
-		237 -- 324;
-		244 -- 914;
 	}
 	subgraph cluster_DRANESVILLE {
 		graph [color=blue,
@@ -1191,52 +1192,10 @@ strict graph G {
 		324;
 		238 -- 324;
 		327 -- 329;
-		203;
-		332;
-		203 -- 332;
-		235;
-		235 -- 332;
-		927	[color="#d9d9ff",
-			fillcolor="#d9d9ff",
-			fontcolor=black,
-			height=0.56944,
-			label="",
-			pos="1158.9,275.2",
-			shape=circle,
-			style=filled,
-			width=0.56944];
-		332 -- 927;
-		240;
-		309;
-		240 -- 309;
-		323;
-		240 -- 323;
-		328;
-		240 -- 328;
 		245;
 		245 -- 329;
 		322;
 		245 -- 322;
-		219;
-		242;
-		242 -- 323;
-		731;
-		220;
-		220 -- 324;
-		237;
-		237 -- 332;
-		237 -- 324;
-		324 -- 332;
-		325	[color="#d5d5ff",
-			fillcolor="#d5d5ff",
-			fontcolor=black,
-			height=0.38889,
-			label="",
-			pos="1350,395.31",
-			shape=circle,
-			style=filled,
-			width=0.38889];
-		324 -- 325;
 		319 -- 327;
 		319 -- 324;
 		320	[color="#d7d7ff",
@@ -1244,7 +1203,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="1413.2,508.42",
+			pos="769.26,28",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -1254,33 +1213,90 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="1467.5,600.14",
+			pos="888.35,54.023",
 			shape=circle,
 			style=filled,
 			width=0.80556];
 		319 -- 321;
-		309 -- 731;
+		332;
+		324 -- 332;
+		325	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.38889,
+			label="",
+			pos="629.76,55.986",
+			shape=circle,
+			style=filled,
+			width=0.38889];
+		324 -- 325;
+		240;
+		309;
+		240 -- 309;
+		323;
+		240 -- 323;
+		328;
+		240 -- 328;
+		242;
+		242 -- 323;
+		203;
+		203 -- 332;
+		235;
+		235 -- 332;
+		927	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="469.33,158.57",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		332 -- 927;
+		220;
+		220 -- 324;
+		237;
+		237 -- 324;
+		237 -- 332;
 		309 -- 323;
 		309 -- 328;
+		731;
+		309 -- 731;
 		331	[color="#d9d9ff",
 			fillcolor="#d9d9ff",
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="1057.8,890.41",
+			pos="981.37,516.62",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		309 -- 331;
+		219;
 		323 -- 219;
 		322 -- 329;
 		322 -- 328;
+		325 -- 332;
+		320 -- 324;
+		320 -- 325;
+		320 -- 321;
+		321 -- 327;
+		738	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="940.36,572.28",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		331 -- 738;
 		301	[color="#d9d9ff",
 			fillcolor="#d9d9ff",
 			fontcolor=black,
 			height=0.70833,
 			label="",
-			pos="1026,977.93",
+			pos="1033.5,609.41",
 			shape=circle,
 			style=filled,
 			width=0.70833];
@@ -1289,7 +1305,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="990.99,1070.2",
+			pos="1065.3,667.07",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -1299,7 +1315,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="1049.7,926.59",
+			pos="1002.7,562.2",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -1309,7 +1325,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1085.2,943.4",
+			pos="1038.1,529.93",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1319,7 +1335,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="998.86,923.01",
+			pos="980.94,605.9",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1329,7 +1345,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="960.01,1022.7",
+			pos="1017.4,679.1",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -1340,7 +1356,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="912.79,1029.3",
+			pos="1001.9,727.5",
 			shape=circle,
 			style=filled,
 			width=0.5];
@@ -1352,7 +1368,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="1101.3,886.29",
+			pos="995.52,467",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -1363,7 +1379,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="940.38,983.62",
+			pos="975.3,686.63",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -1373,19 +1389,20 @@ strict graph G {
 			fontcolor=black,
 			height=0.86111,
 			label="",
-			pos="942.02,830.75",
+			pos="887.84,604.95",
 			shape=circle,
 			style=filled,
 			width=0.86111];
 		314 -- 726;
 		316 -- 318;
 		305 -- 316;
+		305 -- 318;
 		307	[color="#cfcfff",
 			fillcolor="#cfcfff",
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="826.03,1004.3",
+			pos="944.77,781.49",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -1395,57 +1412,46 @@ strict graph G {
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="882.79,980.62",
+			pos="950.53,724.65",
 			shape=circle,
 			style=filled,
 			width=0.52778];
 		305 -- 312;
-		305 -- 318;
 		304 -- 309;
 		304 -- 328;
+		304 -- 331;
 		304 -- 311;
 		306	[color="#e0e0ff",
 			fillcolor="#e0e0ff",
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1176.4,865.24",
+			pos="1008.9,376.81",
 			shape=circle,
 			style=filled,
 			width=0.41667];
 		304 -- 306;
-		304 -- 331;
-		306 -- 328;
-		306 -- 322;
-		738	[color="#d5d5ff",
-			fillcolor="#d5d5ff",
-			fontcolor=black,
-			height=0.375,
-			label="",
-			pos="994.53,872.06",
-			shape=circle,
-			style=filled,
-			width=0.375];
-		331 -- 738;
 		307 -- 312;
 		317	[color="#d5d5ff",
 			fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=0.20833,
 			label="",
-			pos="851.14,936.55",
+			pos="898.75,742.28",
 			shape=circle,
 			style=filled,
 			width=0.20833];
 		307 -- 317;
 		312 -- 318;
 		312 -- 317;
+		306 -- 328;
+		306 -- 322;
 		708	[color="#ceceff",
 			fillcolor="#ceceff",
 			fontcolor=black,
 			height=0.94444,
 			label="",
-			pos="866,836.57",
+			pos="828.25,677.98",
 			shape=circle,
 			style=filled,
 			width=0.94444];
@@ -1455,31 +1461,26 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="933.07,948.61",
+			pos="940.28,681.3",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		310 -- 314;
-		310 -- 312;
 		310 -- 318;
+		310 -- 312;
 		315	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="889.71,901.57",
+			pos="893.25,691.44",
 			shape=circle,
 			style=filled,
 			width=0.63889];
 		310 -- 315;
-		315 -- 317;
 		315 -- 726;
+		315 -- 317;
 		315 -- 708;
-		320 -- 324;
-		320 -- 321;
-		320 -- 325;
-		321 -- 327;
-		325 -- 332;
 	}
 	subgraph cluster_FRANCONIA {
 		graph [color=blue,
@@ -1497,7 +1498,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="454.25,535.55",
+			pos="412.36,877.34",
 			shape=circle,
 			style=filled,
 			width=0.65278];
@@ -1507,7 +1508,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="469.67,686.14",
+			pos="534.15,914.83",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -1526,7 +1527,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="333.61,440.61",
+			pos="278.26,947.22",
 			shape=circle,
 			style=filled,
 			width=0.51389];
@@ -1536,17 +1537,51 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="378.32,389.57",
+			pos="243.88,894.62",
 			shape=circle,
 			style=filled,
 			width=0.68056];
 		431 -- 855;
+		417 -- 418;
+		417 -- 431;
+		417 -- 623;
+		426	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="359.73,891.79",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		417 -- 426;
+		427	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="400.74,930.37",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		417 -- 427;
+		630	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="332.1,929.7",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		417 -- 630;
+		433 -- 527;
 		401	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="365.23,737.72",
+			pos="547.12,1053",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -1555,7 +1590,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.91667,
 			label="",
-			pos="279.98,667.67",
+			pos="457.6,1085.9",
 			shape=circle,
 			style=filled,
 			width=0.91667];
@@ -1565,7 +1600,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.69444,
 			label="",
-			pos="428.97,694.29",
+			pos="541.56,985.95",
 			shape=circle,
 			style=filled,
 			width=0.69444];
@@ -1575,7 +1610,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="242.43,731.11",
+			pos="489.27,1147",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -1585,7 +1620,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="462.3,751.79",
+			pos="599.1,975.92",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1596,7 +1631,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.90278,
 			label="",
-			pos="331.99,539.07",
+			pos="366.19,994.36",
 			shape=circle,
 			style=filled,
 			width=0.90278];
@@ -1606,7 +1641,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="222.89,637.2",
+			pos="406.98,1143",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1616,7 +1651,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="393.43,638.75",
+			pos="486.04,982.96",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -1626,138 +1661,118 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="213.86,684.42",
+			pos="432.85,1186.1",
 			shape=circle,
 			style=filled,
 			width=0.51389];
 		423 -- 408;
-		402	[color="#d3d3ff",
-			fillcolor="#d3d3ff",
-			fontcolor=black,
-			height=0.23611,
-			label="",
-			pos="206.43,752.94",
-			shape=circle,
-			style=filled,
-			width=0.23611];
-		402 -- 423;
-		402 -- 408;
-		607	[color="#ccccff",
-			fillcolor="#ccccff",
-			fontcolor=black,
-			height=0.69444,
-			label="",
-			pos="161.49,706.38",
-			shape=circle,
-			style=filled,
-			width=0.69444];
-		402 -- 607;
-		621	[color="#cacaff",
-			fillcolor="#cacaff",
-			fontcolor=black,
-			height=0.44444,
-			label="",
-			pos="112.42,707.77",
-			shape=circle,
-			style=filled,
-			width=0.44444];
-		402 -- 621;
-		408 -- 607;
-		408 -- 411;
-		403	[color="#d8d8ff",
-			fillcolor="#d8d8ff",
-			fontcolor=black,
-			height=0.25,
-			label="",
-			pos="421.67,582.16",
-			shape=circle,
-			style=filled,
-			width=0.25];
-		409	[color="#ddddff",
-			fillcolor="#ddddff",
-			fontcolor=black,
-			height=0.68056,
-			label="",
-			pos="463.3,617.53",
-			shape=circle,
-			style=filled,
-			width=0.68056];
-		403 -- 409;
-		403 -- 417;
-		403 -- 432;
-		409 -- 422;
-		409 -- 526;
-		409 -- 417;
-		409 -- 433;
-		417 -- 418;
-		417 -- 431;
-		426	[color="#cacaff",
-			fillcolor="#cacaff",
-			fontcolor=black,
-			height=0.375,
-			label="",
-			pos="417.49,490.54",
-			shape=circle,
-			style=filled,
-			width=0.375];
-		417 -- 426;
-		427	[color="#d1d1ff",
-			fillcolor="#d1d1ff",
-			fontcolor=black,
-			height=0.54167,
-			label="",
-			pos="402.08,535.37",
-			shape=circle,
-			style=filled,
-			width=0.54167];
-		417 -- 427;
-		417 -- 623;
-		630	[color="#d8d8ff",
-			fillcolor="#d8d8ff",
-			fontcolor=black,
-			height=0.44444,
-			label="",
-			pos="377,482.55",
-			shape=circle,
-			style=filled,
-			width=0.44444];
-		417 -- 630;
-		404	[color="#d3d3ff",
-			fillcolor="#d3d3ff",
-			fontcolor=black,
-			height=0.34722,
-			label="",
-			pos="348.06,659.77",
-			shape=circle,
-			style=filled,
-			width=0.34722];
-		404 -- 410;
-		404 -- 422;
-		404 -- 432;
-		404 -- 420;
+		420 -- 427;
+		420 -- 630;
 		421	[color="#cfcfff",
 			fillcolor="#cfcfff",
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="339.39,603.08",
+			pos="430.25,1021.4",
 			shape=circle,
 			style=filled,
 			width=0.65278];
-		404 -- 421;
 		420 -- 421;
 		635	[color="#d3d3ff",
 			fillcolor="#d3d3ff",
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="299.27,484.62",
+			pos="308.64,1013.2",
 			shape=circle,
 			style=filled,
 			width=0.375];
 		420 -- 635;
-		420 -- 427;
-		420 -- 630;
+		411 -- 423;
+		406	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="399.01,1080.7",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		411 -- 406;
+		408 -- 411;
+		607	[color="#ccccff",
+			fillcolor="#ccccff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="430.35,1237.8",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		408 -- 607;
+		402	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.23611,
+			label="",
+			pos="471.87,1206",
+			shape=circle,
+			style=filled,
+			width=0.23611];
+		402 -- 423;
+		402 -- 408;
+		402 -- 607;
+		621	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="421.37,1306",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		402 -- 621;
+		403	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.25,
+			label="",
+			pos="445.87,933.41",
+			shape=circle,
+			style=filled,
+			width=0.25];
+		403 -- 417;
+		403 -- 432;
+		409	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="498.06,925.63",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		403 -- 409;
+		409 -- 417;
+		409 -- 433;
+		409 -- 422;
+		409 -- 526;
+		426 -- 431;
+		427 -- 630;
+		404	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="487.2,1031.8",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		404 -- 410;
+		404 -- 422;
+		404 -- 420;
+		404 -- 432;
+		404 -- 421;
 		421 -- 432;
 		421 -- 427;
 		405	[color="#d3d3ff",
@@ -1765,18 +1780,18 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="148.08,621.68",
+			pos="378.95,1227.6",
 			shape=circle,
 			style=filled,
 			width=0.33333];
-		405 -- 408;
 		405 -- 411;
+		405 -- 408;
 		424	[color="#d1d1ff",
 			fillcolor="#d1d1ff",
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="205.45,551.14",
+			pos="363.46,1125.2",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1786,7 +1801,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="108.86,545.04",
+			pos="319.24,1235.7",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -1796,7 +1811,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="66.526,597.62",
+			pos="328.3,1288.3",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -1806,31 +1821,20 @@ strict graph G {
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="110.05,655.86",
+			pos="379.27,1287.2",
 			shape=circle,
 			style=filled,
 			width=0.5];
 		405 -- 601;
-		411 -- 423;
-		406	[color="#d6d6ff",
-			fillcolor="#d6d6ff",
-			fontcolor=black,
-			height=0.48611,
-			label="",
-			pos="255.43,573.12",
-			shape=circle,
-			style=filled,
-			width=0.48611];
-		411 -- 406;
 		424 -- 411;
-		424 -- 429;
 		424 -- 635;
+		424 -- 429;
 		428	[color="#d0d0ff",
 			fillcolor="#d0d0ff",
 			fontcolor=black,
 			height=0.52778,
 			label="",
-			pos="272.48,528.58",
+			pos="345.91,1053.9",
 			shape=circle,
 			style=filled,
 			width=0.52778];
@@ -1840,7 +1844,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="233.46,490.02",
+			pos="306.88,1076.2",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -1851,7 +1855,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="50.707,548.57",
+			pos="278.18,1286.8",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -1861,55 +1865,52 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="85.977,501.99",
+			pos="261.63,1229.4",
 			shape=circle,
 			style=filled,
 			width=0.41667];
 		429 -- 610;
 		406 -- 410;
 		406 -- 420;
-		406 -- 424;
 		406 -- 635;
-		433 -- 527;
+		406 -- 424;
+		428 -- 403;
+		428 -- 627;
+		615	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="307.34,1149",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		428 -- 615;
 		413	[color="#cfcfff",
 			fillcolor="#cfcfff",
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="151.87,536.77",
+			pos="345.85,1192.6",
 			shape=circle,
 			style=filled,
 			width=0.41667];
 		413 -- 424;
 		413 -- 429;
 		413 -- 428;
-		615	[color="#dbdbff",
-			fillcolor="#dbdbff",
-			fontcolor=black,
-			height=0.56944,
-			label="",
-			pos="192.95,492.47",
-			shape=circle,
-			style=filled,
-			width=0.56944];
 		413 -- 615;
-		428 -- 403;
-		428 -- 615;
-		428 -- 627;
-		426 -- 431;
-		427 -- 630;
 		419	[color="#d5d5ff",
 			fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="388.65,592.23",
+			pos="439.52,973.89",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		419 -- 432;
-		419 -- 421;
 		419 -- 427;
+		419 -- 421;
 	}
 	subgraph cluster_MASON {
 		graph [color=blue,
@@ -1935,7 +1936,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="755.06,635.13",
+			pos="609.68,651.67",
 			shape=circle,
 			style=filled,
 			width=0.44444];
@@ -1945,7 +1946,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="735.64,691.52",
+			pos="644,699.39",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -1960,7 +1961,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="615.35,738.64",
+			pos="643.73,831.5",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -1971,7 +1972,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="700.99,733.65",
+			pos="672.06,760.46",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -1982,30 +1983,55 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="560.33,738.41",
+			pos="628.03,876.27",
 			shape=circle,
 			style=filled,
 			width=0.51389];
 		521 -- 523;
 		117;
 		117 -- 528;
-		418;
-		527 -- 418;
 		711;
 		528 -- 711;
 		528 -- 718;
+		418;
+		527 -- 418;
+		433;
+		433 -- 527;
 		401;
 		526;
 		401 -- 526;
 		526 -- 527;
-		433;
-		433 -- 527;
+		518 -- 519;
+		518 -- 521;
+		512	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="734.49,849.16",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		518 -- 512;
+		536 -- 736;
+		710	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="718.7,746.08",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		536 -- 710;
+		523 -- 527;
+		523 -- 518;
 		501	[color="#d4d4ff",
 			fillcolor="#d4d4ff",
 			fontcolor=black,
 			height=0.63889,
 			label="",
-			pos="578.05,870.4",
+			pos="766.91,961.3",
 			shape=circle,
 			style=filled,
 			width=0.63889];
@@ -2014,7 +2040,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.125,
 			label="",
-			pos="600.96,926.87",
+			pos="804.81,960.03",
 			shape=circle,
 			style=filled,
 			width=0.125];
@@ -2024,7 +2050,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="587.82,824.39",
+			pos="720.87,927.8",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -2034,7 +2060,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="530.42,898.12",
+			pos="770.01,1009.5",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2044,7 +2070,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="625.56,875.48",
+			pos="797.97,899.93",
 			shape=circle,
 			style=filled,
 			width=0.29167];
@@ -2054,16 +2080,17 @@ strict graph G {
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="656.25,841.56",
+			pos="787.41,863.66",
 			shape=circle,
 			style=filled,
 			width=0.29167];
+		502 -- 530;
 		503	[color="#d1d1ff",
 			fillcolor="#d1d1ff",
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="623.34,840.66",
+			pos="750.28,892.28",
 			shape=circle,
 			style=filled,
 			width=0.34722];
@@ -2073,43 +2100,33 @@ strict graph G {
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="663.76,872.69",
+			pos="818.42,867.51",
 			shape=circle,
 			style=filled,
 			width=0.34722];
 		502 -- 511;
-		512	[color="#d4d4ff",
-			fillcolor="#d4d4ff",
-			fontcolor=black,
-			height=0.625,
-			label="",
-			pos="653.2,797.64",
-			shape=circle,
-			style=filled,
-			width=0.625];
 		502 -- 512;
-		502 -- 530;
 		503 -- 510;
-		503 -- 512;
 		503 -- 530;
+		503 -- 512;
 		513	[color="#d5d5ff",
 			fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=0.5,
 			label="",
-			pos="604.69,782.94",
+			pos="685.94,882.09",
 			shape=circle,
 			style=filled,
 			width=0.5];
 		503 -- 513;
-		511 -- 512;
 		511 -- 530;
+		511 -- 512;
 		517	[color="#ddddff",
 			fillcolor="#ddddff",
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="646.05,904.5",
+			pos="827.01,898.6",
 			shape=circle,
 			style=filled,
 			width=0.29167];
@@ -2120,7 +2137,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="690.86,840.17",
+			pos="776.99,831.95",
 			shape=circle,
 			style=filled,
 			width=0.33333];
@@ -2130,7 +2147,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="708.23,795.5",
+			pos="732.01,794.11",
 			shape=circle,
 			style=filled,
 			width=0.68056];
@@ -2140,101 +2157,13 @@ strict graph G {
 			fontcolor=black,
 			height=0.375,
 			label="",
-			pos="724.38,873.18",
+			pos="810.51,831.64",
 			shape=circle,
 			style=filled,
 			width=0.375];
 		512 -- 535;
 		513 -- 518;
 		513 -- 523;
-		518 -- 519;
-		518 -- 521;
-		518 -- 512;
-		505	[color="#d8d8ff",
-			fillcolor="#d8d8ff",
-			fontcolor=black,
-			height=0.51389,
-			label="",
-			pos="613.27,957.89",
-			shape=circle,
-			style=filled,
-			width=0.51389];
-		505 -- 506;
-		505 -- 530;
-		514	[color="#c1c1ff",
-			fillcolor="#c1c1ff",
-			fontcolor=black,
-			height=0.20833,
-			label="",
-			pos="580.94,908.91",
-			shape=circle,
-			style=filled,
-			width=0.20833];
-		505 -- 514;
-		505 -- 517;
-		514 -- 520;
-		507	[color="#d2d2ff",
-			fillcolor="#d2d2ff",
-			fontcolor=black,
-			height=0.61111,
-			label="",
-			pos="542.79,792.09",
-			shape=circle,
-			style=filled,
-			width=0.61111];
-		507 -- 510;
-		507 -- 513;
-		516	[color="#dadaff",
-			fillcolor="#dadaff",
-			fontcolor=black,
-			height=0.54167,
-			label="",
-			pos="514.33,742.54",
-			shape=circle,
-			style=filled,
-			width=0.54167];
-		507 -- 516;
-		507 -- 523;
-		516 -- 527;
-		516 -- 526;
-		516 -- 523;
-		523 -- 527;
-		523 -- 518;
-		508	[color="#dadaff",
-			fillcolor="#dadaff",
-			fontcolor=black,
-			height=0.41667,
-			label="",
-			pos="654.91,752.04",
-			shape=circle,
-			style=filled,
-			width=0.41667];
-		508 -- 512;
-		508 -- 513;
-		508 -- 518;
-		508 -- 536;
-		536 -- 736;
-		710	[color="#d4d4ff",
-			fillcolor="#d4d4ff",
-			fontcolor=black,
-			height=0.43056,
-			label="",
-			pos="756.25,781.72",
-			shape=circle,
-			style=filled,
-			width=0.43056];
-		536 -- 710;
-		509	[color="#d5d5ff",
-			fillcolor="#d5d5ff",
-			fontcolor=black,
-			height=0.16667,
-			label="",
-			pos="567.94,930.43",
-			shape=circle,
-			style=filled,
-			width=0.16667];
-		509 -- 520;
-		509 -- 514;
 		515 -- 525;
 		515 -- 535;
 		705	[color="#d2d2ff",
@@ -2242,15 +2171,87 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="769.91,860.75",
+			pos="790.36,773.76",
 			shape=circle,
 			style=filled,
 			width=0.66667];
 		515 -- 705;
 		525 -- 536;
-		525 -- 705;
 		525 -- 710;
+		525 -- 705;
 		535 -- 705;
+		505	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="839.46,966.87",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		505 -- 506;
+		505 -- 530;
+		505 -- 517;
+		514	[color="#c1c1ff",
+			fillcolor="#c1c1ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="805.43,981.18",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		505 -- 514;
+		514 -- 520;
+		507	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.61111,
+			label="",
+			pos="675.86,930.14",
+			shape=circle,
+			style=filled,
+			width=0.61111];
+		507 -- 523;
+		507 -- 510;
+		507 -- 513;
+		516	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="626.32,923.86",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		507 -- 516;
+		516 -- 527;
+		516 -- 526;
+		516 -- 523;
+		508	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="683.82,813.23",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		508 -- 518;
+		508 -- 536;
+		508 -- 512;
+		508 -- 513;
+		509	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.16667,
+			label="",
+			pos="803.28,1016",
+			shape=circle,
+			style=filled,
+			width=0.16667];
+		509 -- 520;
+		509 -- 514;
 	}
 	subgraph cluster_MOUNTVERNON {
 		graph [color=blue,
@@ -2259,16 +2260,43 @@ strict graph G {
 		431;
 		623;
 		431 -- 623;
+		417;
+		417 -- 623;
+		855;
+		623 -- 855;
+		630;
+		623 -- 630;
+		634	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="152.64,869.85",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		623 -- 634;
+		420;
+		635;
+		420 -- 635;
 		408;
 		607;
 		408 -- 607;
 		621;
 		607 -- 621;
-		417;
-		417 -- 623;
-		420;
-		635;
-		420 -- 635;
+		427;
+		427 -- 630;
+		630 -- 635;
+		631	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="260.88,990.1",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		630 -- 631;
 		405;
 		604;
 		405 -- 604;
@@ -2288,7 +2316,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="17,590.72",
+			pos="305.22,1338.5",
 			shape=circle,
 			style=filled,
 			width=0.47222];
@@ -2297,53 +2325,23 @@ strict graph G {
 		601 -- 607;
 		601 -- 621;
 		601 -- 604;
+		601 -- 609;
 		602	[color="#d4d4ff",
 			fillcolor="#d4d4ff",
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="62.812,661.14",
+			pos="360.03,1336.8",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		601 -- 602;
-		601 -- 609;
 		406;
 		406 -- 635;
-		413;
-		615;
-		413 -- 615;
 		428;
-		428 -- 615;
 		428 -- 627;
-		615 -- 627;
-		427;
-		630;
-		427 -- 630;
-		623 -- 630;
-		855;
-		623 -- 855;
-		634	[color="#dadaff",
-			fillcolor="#dadaff",
-			fontcolor=black,
-			height=0.56944,
-			label="",
-			pos="355.96,300.03",
-			shape=circle,
-			style=filled,
-			width=0.56944];
-		623 -- 634;
-		630 -- 635;
-		631	[color="#dadaff",
-			fillcolor="#dadaff",
-			fontcolor=black,
-			height=0.43056,
-			label="",
-			pos="291.52,447.47",
-			shape=circle,
-			style=filled,
-			width=0.43056];
-		630 -- 631;
+		615;
+		428 -- 615;
 		627 -- 635;
 		608 -- 610;
 		608 -- 609;
@@ -2352,7 +2350,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="41.948,503.3",
+			pos="231.44,1280.1",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -2362,7 +2360,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="85.739,448.4",
+			pos="212.61,1213.9",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2372,85 +2370,99 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="142.6,468.15",
+			pos="260.29,1177.6",
 			shape=circle,
 			style=filled,
 			width=0.43056];
 		610 -- 614;
+		413;
+		413 -- 615;
+		615 -- 627;
 		602 -- 621;
 		602 -- 405;
 		602 -- 609;
-		605	[color="#d5d5ff",
-			fillcolor="#d5d5ff",
+		839	[color="#dedeff",
+			fillcolor="#dedeff",
 			fontcolor=black,
-			height=0.51389,
+			height=0.72222,
 			label="",
-			pos="138.93,423.92",
+			pos="79.978,780.41",
 			shape=circle,
 			style=filled,
-			width=0.51389];
-		605 -- 611;
+			width=0.72222];
+		634 -- 839;
+		631 -- 635;
+		606 -- 610;
+		606 -- 609;
+		606 -- 611;
 		612	[color="#d6d6ff",
 			fillcolor="#d6d6ff",
 			fontcolor=black,
 			height=0.29167,
 			label="",
-			pos="76.044,405.71",
+			pos="167.53,1208.4",
 			shape=circle,
 			style=filled,
 			width=0.29167];
+		606 -- 612;
+		611 -- 614;
+		611 -- 612;
+		614 -- 615;
+		605	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="213.42,1161.8",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		605 -- 611;
+		605 -- 614;
 		605 -- 612;
 		613	[color="#e1e1ff",
 			fillcolor="#e1e1ff",
 			fontcolor=black,
 			height=0.68056,
 			label="",
-			pos="203.43,435.61",
+			pos="262.32,1096",
 			shape=circle,
 			style=filled,
 			width=0.68056];
 		605 -- 613;
-		605 -- 614;
-		611 -- 612;
-		611 -- 614;
 		613 -- 635;
-		613 -- 615;
 		613 -- 627;
+		613 -- 615;
 		613 -- 614;
 		616	[color="#e8e8ff",
 			fillcolor="#e8e8ff",
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="252,429.12",
+			pos="213.82,1054.6",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		613 -- 616;
-		614 -- 615;
-		606 -- 610;
-		606 -- 609;
-		606 -- 611;
-		606 -- 612;
 		616 -- 635;
+		616 -- 631;
 		617	[color="#d5d5ff",
 			fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="236.39,379.56",
+			pos="169.91,1006.9",
 			shape=circle,
 			style=filled,
 			width=0.65278];
 		616 -- 617;
-		616 -- 631;
 		617 -- 631;
 		622	[color="#d5d5ff",
 			fillcolor="#d5d5ff",
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="298.59,380.99",
+			pos="197.75,951.3",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2460,7 +2472,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.58333,
 			label="",
-			pos="298.68,309.61",
+			pos="144.24,933.07",
 			shape=circle,
 			style=filled,
 			width=0.58333];
@@ -2470,35 +2482,55 @@ strict graph G {
 			fontcolor=black,
 			height=0.26389,
 			label="",
-			pos="256.32,285.35",
+			pos="105.66,960.97",
 			shape=circle,
 			style=filled,
 			width=0.26389];
 		617 -- 636;
-		631 -- 635;
 		622 -- 623;
+		622 -- 634;
 		622 -- 631;
 		622 -- 628;
-		622 -- 634;
-		628 -- 636;
 		628 -- 634;
+		628 -- 636;
 		629	[color="#d7d7ff",
 			fillcolor="#d7d7ff",
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="308.06,239.43",
+			pos="89.943,869.84",
 			shape=circle,
 			style=filled,
 			width=0.47222];
 		628 -- 629;
 		636 -- 629;
+		629 -- 634;
+		632	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="51.909,823.97",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		629 -- 632;
+		633	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="39.132,792.16",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		629 -- 633;
 		618	[color="#dedeff",
 			fillcolor="#dedeff",
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="399.98,288.52",
+			pos="129.55,822.22",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2509,7 +2541,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.625,
 			label="",
-			pos="427.4,334.54",
+			pos="203.71,839.46",
 			shape=circle,
 			style=filled,
 			width=0.625];
@@ -2519,53 +2551,22 @@ strict graph G {
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="441.26,255.69",
+			pos="131.02,757.89",
 			shape=circle,
 			style=filled,
 			width=0.47222];
 		618 -- 838;
-		839	[color="#dedeff",
-			fillcolor="#dedeff",
-			fontcolor=black,
-			height=0.72222,
-			label="",
-			pos="382.43,227.02",
-			shape=circle,
-			style=filled,
-			width=0.72222];
 		618 -- 839;
 		850	[color="#dbdbff",
 			fillcolor="#dbdbff",
 			fontcolor=black,
 			height=0.59722,
 			label="",
-			pos="528.84,217.86",
+			pos="127.87,673.18",
 			shape=circle,
 			style=filled,
 			width=0.59722];
 		618 -- 850;
-		634 -- 839;
-		629 -- 634;
-		632	[color="#e3e3ff",
-			fillcolor="#e3e3ff",
-			fontcolor=black,
-			height=0.20833,
-			label="",
-			pos="340.58,222.91",
-			shape=circle,
-			style=filled,
-			width=0.20833];
-		629 -- 632;
-		633	[color="#e3e3ff",
-			fillcolor="#e3e3ff",
-			fontcolor=black,
-			height=0.097222,
-			label="",
-			pos="359.93,188.6",
-			shape=circle,
-			style=filled,
-			width=0.097222];
-		629 -- 633;
 		632 -- 634;
 		632 -- 839;
 		632 -- 633;
@@ -2574,7 +2575,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="457.91,169.71",
+			pos="50.736,718.78",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -2605,7 +2606,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.875,
 			label="",
-			pos="907.68,544.82",
+			pos="571.67,494.83",
 			shape=circle,
 			style=filled,
 			width=0.875];
@@ -2615,7 +2616,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.48611,
 			label="",
-			pos="805.89,591.73",
+			pos="573.66,602.69",
 			shape=circle,
 			style=filled,
 			width=0.48611];
@@ -2625,7 +2626,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.43056,
 			label="",
-			pos="846.98,560.61",
+			pos="577.23,552.66",
 			shape=circle,
 			style=filled,
 			width=0.43056];
@@ -2635,7 +2636,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.77778,
 			label="",
-			pos="975.21,495.4",
+			pos="566.32,427.3",
 			shape=circle,
 			style=filled,
 			width=0.77778];
@@ -2645,7 +2646,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.097222,
 			label="",
-			pos="914.79,452.32",
+			pos="509.88,459.89",
 			shape=circle,
 			style=filled,
 			width=0.097222];
@@ -2662,14 +2663,15 @@ strict graph G {
 		241;
 		727;
 		241 -- 727;
-		204;
-		204 -- 727;
-		729;
-		204 -- 729;
-		727 -- 729;
+		914;
 		929;
 		727 -- 929;
+		729;
+		727 -- 729;
 		727 -- 732;
+		204;
+		204 -- 727;
+		204 -- 729;
 		213;
 		729 -- 213;
 		737	[color="#cfcfff",
@@ -2677,11 +2679,14 @@ strict graph G {
 			fontcolor=black,
 			height=0.16667,
 			label="",
-			pos="839.38,604.02",
+			pos="605.17,583.71",
 			shape=circle,
 			style=filled,
 			width=0.16667];
 		729 -- 737;
+		309;
+		731;
+		309 -- 731;
 		704;
 		213 -- 704;
 		720;
@@ -2695,7 +2700,6 @@ strict graph G {
 		216 -- 714;
 		704 -- 214;
 		704 -- 733;
-		731;
 		704 -- 731;
 		726;
 		704 -- 726;
@@ -2705,7 +2709,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="763.01,743.19",
+			pos="710.74,707.57",
 			shape=circle,
 			style=filled,
 			width=0.41667];
@@ -2715,7 +2719,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.75,
 			label="",
-			pos="774.17,693.15",
+			pos="660.71,658.68",
 			shape=circle,
 			style=filled,
 			width=0.75];
@@ -2734,34 +2738,29 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="1024.5,876.98",
+			pos="947.38,542.25",
 			shape=circle,
 			style=filled,
 			width=0.23611];
 		731 -- 735;
-		914;
-		309;
-		309 -- 731;
-		314;
-		314 -- 726;
 		331;
 		331 -- 738;
-		317;
-		708;
-		317 -- 708;
-		315;
-		315 -- 726;
-		315 -- 708;
+		314;
+		314 -- 726;
 		726 -- 733;
 		726 -- 731;
+		708;
 		726 -- 708;
+		738 -- 726;
+		317;
+		317 -- 708;
 		708 -- 733;
 		712	[color="#cfcfff",
 			fillcolor="#cfcfff",
 			fontcolor=black,
 			height=0.30556,
 			label="",
-			pos="812.94,855.06",
+			pos="841.75,733.93",
 			shape=circle,
 			style=filled,
 			width=0.30556];
@@ -2771,12 +2770,17 @@ strict graph G {
 			fontcolor=black,
 			height=0.61111,
 			label="",
-			pos="801.83,791.26",
+			pos="764.2,719.08",
 			shape=circle,
 			style=filled,
 			width=0.61111];
 		708 -- 713;
-		738 -- 726;
+		315;
+		315 -- 726;
+		315 -- 708;
+		718 -- 736;
+		718 -- 721;
+		736 -- 723;
 		536;
 		536 -- 736;
 		710;
@@ -2785,18 +2789,15 @@ strict graph G {
 		705;
 		515 -- 705;
 		525;
-		525 -- 705;
 		525 -- 710;
+		525 -- 705;
 		535;
 		535 -- 705;
+		710 -- 723;
+		710 -- 713;
 		705 -- 710;
 		705 -- 712;
 		705 -- 713;
-		718 -- 736;
-		718 -- 721;
-		736 -- 723;
-		710 -- 713;
-		710 -- 723;
 		701 -- 727;
 		701 -- 729;
 		701 -- 709;
@@ -2812,7 +2813,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.54167,
 			label="",
-			pos="885.68,603.83",
+			pos="630.69,547.12",
 			shape=circle,
 			style=filled,
 			width=0.54167];
@@ -2826,31 +2827,37 @@ strict graph G {
 			fontcolor=black,
 			height=0.90278,
 			label="",
-			pos="1020.5,426.86",
+			pos="537.97,358.31",
 			shape=circle,
 			style=filled,
 			width=0.90278];
 		732 -- 916;
+		721 -- 723;
+		735 -- 738;
 		712 -- 713;
 		713 -- 720;
 		713 -- 723;
 		734 -- 729;
 		734 -- 714;
 		734 -- 737;
-		721 -- 723;
-		735 -- 738;
 	}
 	subgraph cluster_SPRINGFIELD {
 		graph [color=blue,
 			label="District SPRINGFIELD"
 		];
+		125;
+		861;
+		125 -- 861;
+		128;
+		128 -- 861;
+		801;
+		128 -- 801;
 		105;
 		805;
 		105 -- 805;
 		815;
 		105 -- 815;
 		127;
-		861;
 		127 -- 861;
 		833;
 		127 -- 833;
@@ -2870,17 +2877,31 @@ strict graph G {
 			fontcolor=black,
 			height=0.23611,
 			label="",
-			pos="593.71,189.83",
+			pos="143.66,608.09",
 			shape=circle,
 			style=filled,
 			width=0.23611];
 		815 -- 860;
-		125;
-		125 -- 861;
-		128;
-		128 -- 861;
-		801;
-		128 -- 801;
+		833 -- 861;
+		833 -- 842;
+		842 -- 850;
+		121;
+		841 -- 121;
+		135;
+		812;
+		135 -- 812;
+		801 -- 861;
+		801 -- 812;
+		811	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="246.55,744.1",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		801 -- 811;
 		118;
 		118 -- 861;
 		700;
@@ -2890,8 +2911,6 @@ strict graph G {
 		700 -- 857;
 		120;
 		120 -- 841;
-		121;
-		841 -- 121;
 		132;
 		848;
 		132 -- 848;
@@ -2904,33 +2923,13 @@ strict graph G {
 		138 -- 804;
 		851;
 		138 -- 851;
-		833 -- 861;
-		833 -- 842;
-		135;
-		812;
-		135 -- 812;
-		801 -- 861;
-		801 -- 812;
-		811	[color="#d7d7ff",
-			fillcolor="#d7d7ff",
-			fontcolor=black,
-			height=0.375,
-			label="",
-			pos="525.76,364.73",
-			shape=circle,
-			style=filled,
-			width=0.375];
-		801 -- 811;
-		431;
-		431 -- 812;
-		842 -- 850;
 		848 -- 851;
 		862	[color="#dadaff",
 			fillcolor="#dadaff",
 			fontcolor=black,
 			height=0.31944,
 			label="",
-			pos="812.21,147.76",
+			pos="220.25,437.67",
 			shape=circle,
 			style=filled,
 			width=0.31944];
@@ -2940,7 +2939,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.80556,
 			label="",
-			pos="897.66,185.14",
+			pos="231.87,365.45",
 			shape=circle,
 			style=filled,
 			width=0.80556];
@@ -2952,7 +2951,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.66667,
 			label="",
-			pos="992.3,297.34",
+			pos="405.09,322.67",
 			shape=circle,
 			style=filled,
 			width=0.66667];
@@ -2965,13 +2964,11 @@ strict graph G {
 			fontcolor=black,
 			height=0.79167,
 			label="",
-			pos="1010.8,357.86",
+			pos="466.1,337.34",
 			shape=circle,
 			style=filled,
 			width=0.79167];
 		856 -- 911;
-		855;
-		812 -- 855;
 		804 -- 805;
 		804 -- 841;
 		804 -- 851;
@@ -2980,23 +2977,27 @@ strict graph G {
 			fontcolor=black,
 			height=0.44444,
 			label="",
-			pos="781.01,183.32",
+			pos="194.07,485.61",
 			shape=circle,
 			style=filled,
 			width=0.44444];
 		804 -- 859;
 		851 -- 862;
+		431;
+		431 -- 812;
+		855;
+		812 -- 855;
 		623;
 		623 -- 855;
+		634;
+		839;
+		634 -- 839;
 		618;
 		806;
 		618 -- 806;
 		838;
 		618 -- 838;
 		618 -- 850;
-		634;
-		839;
-		634 -- 839;
 		806 -- 812;
 		806 -- 855;
 		806 -- 838;
@@ -3005,7 +3006,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.45833,
 			label="",
-			pos="474.4,360.71",
+			pos="226.3,792.28",
 			shape=circle,
 			style=filled,
 			width=0.45833];
@@ -3031,7 +3032,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.79167,
 			label="",
-			pos="495.2,307.7",
+			pos="184.54,739.24",
 			shape=circle,
 			style=filled,
 			width=0.79167];
@@ -3041,91 +3042,42 @@ strict graph G {
 			fontcolor=black,
 			height=0.56944,
 			label="",
-			pos="552.22,280.07",
+			pos="188.91,682.21",
 			shape=circle,
 			style=filled,
 			width=0.56944];
 		811 -- 825;
-		802	[color="#d6d6ff",
-			fillcolor="#d6d6ff",
+		918	[color="#dcdcff",
+			fillcolor="#dcdcff",
 			fontcolor=black,
-			height=0.30556,
+			height=0.84722,
 			label="",
-			pos="915.94,288.35",
+			pos="150.81,388.84",
 			shape=circle,
 			style=filled,
-			width=0.30556];
-		802 -- 848;
-		802 -- 844;
-		843	[color="#d8d8ff",
-			fillcolor="#d8d8ff",
-			fontcolor=black,
-			height=0.625,
-			label="",
-			pos="958.06,242.8",
-			shape=circle,
-			style=filled,
-			width=0.625];
-		802 -- 843;
-		802 -- 846;
-		843 -- 848;
-		843 -- 846;
+			width=0.84722];
+		862 -- 918;
+		846 -- 911;
 		847	[color="#dbdbff",
 			fillcolor="#dbdbff",
 			fontcolor=black,
 			height=0.47222,
 			label="",
-			pos="1041.3,268.75",
+			pos="402.44,270.43",
 			shape=circle,
 			style=filled,
 			width=0.47222];
-		843 -- 847;
-		928	[color="#dbdbff",
-			fillcolor="#dbdbff",
-			fontcolor=black,
-			height=0.58333,
-			label="",
-			pos="956.17,191.27",
-			shape=circle,
-			style=filled,
-			width=0.58333];
-		843 -- 928;
 		846 -- 847;
-		846 -- 911;
 		920	[color="#ddddff",
 			fillcolor="#ddddff",
 			fontcolor=black,
 			height=0.41667,
 			label="",
-			pos="1066.5,345.09",
+			pos="473.12,281.27",
 			shape=circle,
 			style=filled,
 			width=0.41667];
 		846 -- 920;
-		803	[color="#e6e6ff",
-			fillcolor="#e6e6ff",
-			fontcolor=black,
-			height=0.51389,
-			label="",
-			pos="674.52,171.78",
-			shape=circle,
-			style=filled,
-			width=0.51389];
-		803 -- 805;
-		803 -- 815;
-		858	[color="#e0e0ff",
-			fillcolor="#e0e0ff",
-			fontcolor=black,
-			height=0.097222,
-			label="",
-			pos="705.33,161.28",
-			shape=circle,
-			style=filled,
-			width=0.097222];
-		803 -- 858;
-		803 -- 859;
-		803 -- 860;
-		858 -- 859;
 		859 -- 851;
 		859 -- 862;
 		807 -- 812;
@@ -3138,13 +3090,48 @@ strict graph G {
 		825 -- 842;
 		825 -- 838;
 		825 -- 850;
+		802	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="361.81,358.95",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		802 -- 848;
+		802 -- 844;
+		802 -- 846;
+		843	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="346.28,316.65",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		802 -- 843;
+		843 -- 848;
+		843 -- 846;
+		843 -- 847;
+		928	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="279.22,307.4",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		843 -- 928;
 		847 -- 920;
 		902	[color="#dfdfff",
 			fillcolor="#dfdfff",
 			fontcolor=black,
 			height=0.76389,
 			label="",
-			pos="1102.9,240.84",
+			pos="413.17,197.07",
 			shape=circle,
 			style=filled,
 			width=0.76389];
@@ -3154,7 +3141,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.95833,
 			label="",
-			pos="1025.3,204.47",
+			pos="342.91,245.08",
 			shape=circle,
 			style=filled,
 			width=0.95833];
@@ -3164,49 +3151,63 @@ strict graph G {
 			fontcolor=black,
 			height=0.26389,
 			label="",
-			pos="1075.9,285.99",
+			pos="441.26,243.13",
 			shape=circle,
 			style=filled,
 			width=0.26389];
 		847 -- 934;
-		918	[color="#dcdcff",
-			fillcolor="#dcdcff",
+		803	[color="#e6e6ff",
+			fillcolor="#e6e6ff",
 			fontcolor=black,
-			height=0.84722,
+			height=0.51389,
 			label="",
-			pos="796.28,97.699",
+			pos="150.42,556.91",
 			shape=circle,
 			style=filled,
-			width=0.84722];
-		862 -- 918;
+			width=0.51389];
+		803 -- 805;
+		803 -- 815;
+		803 -- 860;
+		803 -- 859;
+		858	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="127.22,526.89",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		803 -- 858;
+		858 -- 859;
 		849	[color="#ddddff",
 			fillcolor="#ddddff",
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="736.29,129.75",
+			pos="147.88,447.36",
 			shape=circle,
 			style=filled,
 			width=0.55556];
-		849 -- 859;
 		849 -- 862;
+		849 -- 859;
+		849 -- 918;
 		854	[color="#e1e1ff",
 			fillcolor="#e1e1ff",
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="668.78,93.036",
+			pos="102.4,495.38",
 			shape=circle,
 			style=filled,
 			width=0.55556];
 		849 -- 854;
-		849 -- 918;
 		919	[color="#dcdcff",
 			fillcolor="#dcdcff",
 			fontcolor=black,
 			height=0.81944,
 			label="",
-			pos="728.72,29.5",
+			pos="81.823,416.39",
 			shape=circle,
 			style=filled,
 			width=0.81944];
@@ -3235,21 +3236,9 @@ strict graph G {
 		221 -- 929;
 		241;
 		241 -- 929;
-		203;
-		909;
-		203 -- 909;
-		931;
-		203 -- 931;
 		229;
 		908;
 		229 -- 908;
-		332;
-		927;
-		332 -- 927;
-		909 -- 931;
-		931 -- 332;
-		727;
-		727 -- 929;
 		244;
 		244 -- 914;
 		914 -- 929;
@@ -3257,8 +3246,20 @@ strict graph G {
 		920;
 		914 -- 920;
 		929 -- 202;
-		908 -- 909;
+		727;
+		727 -- 929;
+		203;
+		909;
+		203 -- 909;
+		931;
+		203 -- 931;
+		332;
+		927;
+		332 -- 927;
+		909 -- 931;
+		931 -- 332;
 		908 -- 914;
+		908 -- 909;
 		908 -- 920;
 		927 -- 931;
 		934;
@@ -3268,7 +3269,7 @@ strict graph G {
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="1117.2,323.78",
+			pos="479.55,219.72",
 			shape=circle,
 			style=filled,
 			width=0.55556];
@@ -3276,13 +3277,21 @@ strict graph G {
 		732;
 		732 -- 929;
 		732 -- 916;
-		843;
+		862;
+		918;
+		862 -- 918;
 		928;
-		843 -- 928;
+		926 -- 928;
 		846;
 		846 -- 911;
 		846 -- 920;
+		911 -- 844;
+		911 -- 914;
+		911 -- 916;
+		911 -- 920;
 		859;
+		843;
+		843 -- 928;
 		847;
 		847 -- 920;
 		902;
@@ -3290,140 +3299,119 @@ strict graph G {
 		913;
 		847 -- 913;
 		847 -- 934;
-		911 -- 844;
-		911 -- 914;
-		911 -- 916;
-		911 -- 920;
 		920 -- 934;
 		902 -- 931;
 		902 -- 927;
 		902 -- 913;
 		902 -- 934;
+		902 -- 905;
 		904	[color="#e1e1ff",
 			fillcolor="#e1e1ff",
 			fontcolor=black,
 			height=0.33333,
 			label="",
-			pos="1080,192.88",
+			pos="363.83,190.46",
 			shape=circle,
 			style=filled,
 			width=0.33333];
 		902 -- 904;
-		902 -- 905;
 		913 -- 928;
 		917	[color="#dadaff",
 			fillcolor="#dadaff",
 			fontcolor=black,
 			height=0.72222,
 			label="",
-			pos="1007,88.253",
+			pos="221.2,222.82",
 			shape=circle,
 			style=filled,
 			width=0.72222];
 		913 -- 917;
-		862;
-		918;
-		862 -- 918;
-		926 -- 928;
-		849;
+		918 -- 926;
 		919;
+		918 -- 919;
+		849;
 		849 -- 919;
 		854;
 		854 -- 919;
-		918 -- 926;
-		918 -- 919;
 		925	[color="#ddddff",
 			fillcolor="#ddddff",
 			fontcolor=black,
 			height=0.34722,
 			label="",
-			pos="798.59,25.731",
+			pos="91.203,359.1",
 			shape=circle,
 			style=filled,
 			width=0.34722];
 		919 -- 925;
-		901	[color="#dbdbff",
-			fillcolor="#dbdbff",
-			fontcolor=black,
-			height=0.625,
-			label="",
-			pos="860.07,34.014",
-			shape=circle,
-			style=filled,
-			width=0.625];
-		901 -- 918;
-		924	[color="#dbdbff",
-			fillcolor="#dbdbff",
-			fontcolor=black,
-			height=0.375,
-			label="",
-			pos="893.45,90.283",
-			shape=circle,
-			style=filled,
-			width=0.375];
-		901 -- 924;
-		901 -- 925;
-		935	[color="#dcdcff",
-			fillcolor="#dcdcff",
-			fontcolor=black,
-			height=0.125,
-			label="",
-			pos="898.76,39.477",
-			shape=circle,
-			style=filled,
-			width=0.125];
-		901 -- 935;
-		924 -- 926;
-		924 -- 935;
+		905 -- 909;
+		905 -- 931;
+		905 -- 908;
+		905 -- 920;
+		905 -- 934;
 		904 -- 927;
 		915	[color="#e4e4ff",
 			fillcolor="#e4e4ff",
 			fontcolor=black,
 			height=0.55556,
 			label="",
-			pos="960.64,142.26",
+			pos="230.21,278.64",
 			shape=circle,
 			style=filled,
 			width=0.55556];
 		904 -- 915;
-		905 -- 909;
-		905 -- 931;
-		905 -- 908;
-		905 -- 920;
-		905 -- 934;
-		903	[color="#ddddff",
-			fillcolor="#ddddff",
+		917 -- 928;
+		924	[color="#dbdbff",
+			fillcolor="#dbdbff",
 			fontcolor=black,
-			height=0.88889,
+			height=0.375,
 			label="",
-			pos="1073.1,115.67",
+			pos="172.68,291.77",
 			shape=circle,
 			style=filled,
-			width=0.88889];
-		903 -- 913;
-		903 -- 904;
-		903 -- 917;
+			width=0.375];
+		917 -- 924;
+		935	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.125,
+			label="",
+			pos="130.43,279.93",
+			shape=circle,
+			style=filled,
+			width=0.125];
+		917 -- 935;
 		921	[color="#e0e0ff",
 			fillcolor="#e0e0ff",
 			fontcolor=black,
 			height=0.65278,
 			label="",
-			pos="1041.9,30.7",
+			pos="178.76,165.29",
 			shape=circle,
 			style=filled,
 			width=0.65278];
-		903 -- 921;
-		917 -- 928;
-		917 -- 924;
-		917 -- 935;
 		917 -- 921;
+		901	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="105.23,314.97",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		901 -- 918;
+		901 -- 925;
+		901 -- 924;
+		901 -- 935;
+		924 -- 926;
+		924 -- 935;
 		915 -- 921;
 		910	[color="#dbdbff",
 			fillcolor="#dbdbff",
 			fontcolor=black,
 			height=0.73611,
 			label="",
-			pos="941.58,43.543",
+			pos="160.65,240.87",
 			shape=circle,
 			style=filled,
 			width=0.73611];
@@ -3433,13 +3421,26 @@ strict graph G {
 			fontcolor=black,
 			height=0.51389,
 			label="",
-			pos="853.42,99.127",
+			pos="172.54,331.79",
 			shape=circle,
 			style=filled,
 			width=0.51389];
 		915 -- 923;
-		910 -- 935;
+		903	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.88889,
+			label="",
+			pos="283.49,156.78",
+			shape=circle,
+			style=filled,
+			width=0.88889];
+		903 -- 913;
+		903 -- 904;
+		903 -- 917;
+		903 -- 921;
 		910 -- 917;
+		910 -- 935;
 		910 -- 921;
 		910 -- 923;
 		923 -- 859;
