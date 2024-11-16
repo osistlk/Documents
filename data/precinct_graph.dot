@@ -278,7 +278,7 @@ labelloc="t";
 701 -- 727;
 701 -- 729;
 701 -- 732;
-700 [label="700\nFAIRFAX COURT\n0\n0.00", fillcolor="#ffffff", fontcolor="black", width="0.5", height="0.5"];
+700 [label="700\nFAIRFAX COURT\n0\n2.24", fillcolor="#d9d9ff", fontcolor="black", width="0.5", height="0.5"];
 700 -- 701;
 700 -- 707;
 700 -- 709;
