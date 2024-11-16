@@ -2369,211 +2369,420 @@
         "id": 801,
         "name": "BURKE #1",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            811,
+            812,
+            861,
+            128
+        ]
     },
     {
         "id": 802,
         "name": "CEDAR LAKE",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            843,
+            844,
+            846,
+            848
+        ]
     },
     {
         "id": 803,
         "name": "CLIFTON SOUTH",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            805,
+            815,
+            853,
+            858,
+            860
+        ]
     },
     {
         "id": 804,
         "name": "COLCHESTER",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            805,
+            841,
+            851,
+            859,
+            138
+        ]
     },
     {
         "id": 805,
         "name": "FAIRFAX STATION",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            803,
+            804,
+            815,
+            841,
+            105
+        ]
     },
     {
         "id": 806,
         "name": "SYDENSTRICKER",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            807,
+            812,
+            838,
+            855,
+            618
+        ]
     },
     {
         "id": 807,
         "name": "HUNT VALLEY",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            806,
+            811,
+            812,
+            824,
+            838
+        ]
     },
     {
         "id": 811,
         "name": "POHICK",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            801,
+            807,
+            824,
+            833,
+            825
+        ]
     },
     {
         "id": 812,
         "name": "VALLEY",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            801,
+            807,
+            855,
+            135,
+            431
+        ]
     },
     {
         "id": 815,
         "name": "WOODYARD",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            803,
+            805,
+            850,
+            860,
+            105,
+            130
+        ]
     },
     {
         "id": 824,
         "name": "ORANGE",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            807,
+            811,
+            825,
+            838
+        ]
     },
     {
         "id": 825,
         "name": "CHERRY RUN",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            811,
+            824,
+            833,
+            838,
+            842,
+            850
+        ]
     },
     {
         "id": 833,
         "name": "WHITE OAKS",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            811,
+            825,
+            842,
+            861,
+            127
+        ]
     },
     {
         "id": 838,
         "name": "SANGSTER",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            806,
+            824,
+            825,
+            850,
+            618
+        ]
     },
     {
         "id": 839,
         "name": "SILVERBROOK",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            845,
+            850,
+            632,
+            634
+        ]
     },
     {
         "id": 841,
         "name": "POPES HEAD",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            804,
+            805,
+            120,
+            121,
+            137
+        ]
     },
     {
         "id": 842,
         "name": "PARKWAY",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            825,
+            833,
+            850,
+            130
+        ]
     },
     {
         "id": 843,
         "name": "FAIR LAKES",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            802,
+            846,
+            847,
+            848,
+            928
+        ]
     },
     {
         "id": 844,
         "name": "CENTERPOINTE",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            802,
+            846,
+            848,
+            856,
+            132
+        ]
     },
     {
         "id": 845,
         "name": "FOUNTAINHEAD",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            839,
+            850,
+            860,
+            632,
+            633
+        ]
     },
     {
         "id": 846,
         "name": "GREENBRIAR EAST",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            802,
+            843,
+            844,
+            847,
+            911,
+            920
+        ]
     },
     {
         "id": 847,
         "name": "GREENBRIAR WEST",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            843,
+            846,
+            902,
+            913,
+            920,
+            934
+        ]
     },
     {
         "id": 848,
         "name": "FAIR OAKS",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            802,
+            843,
+            844,
+            851,
+            862,
+            132,
+            138,
+            926
+        ]
     },
     {
         "id": 849,
         "name": "NEWGATE NORTH",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            854,
+            859,
+            862,
+            918,
+            919
+        ]
     },
     {
         "id": 850,
         "name": "SOUTH RUN",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            815,
+            825,
+            838,
+            839,
+            842,
+            845,
+            860,
+            618
+        ]
     },
     {
         "id": 851,
         "name": "WILLOW SPRINGS #1",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            804,
+            848,
+            862,
+            138
+        ]
     },
     {
         "id": 854,
         "name": "NEWGATE SOUTH",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            849,
+            859,
+            919
+        ]
     },
     {
         "id": 855,
         "name": "SARATOGA",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            806,
+            812,
+            623
+        ]
     },
     {
         "id": 856,
         "name": "PENDERBROOK",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            844,
+            867,
+            0,
+            132,
+            732,
+            911,
+            916
+        ]
     },
     {
         "id": 857,
         "name": "ISLAND POND",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            856,
+            0,
+            732
+        ]
     },
     {
         "id": 858,
         "name": "CLIFTON TOWN",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            803,
+            859
+        ]
     },
     {
         "id": 859,
         "name": "LIBERTY",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            803,
+            804,
+            849,
+            851,
+            854,
+            858,
+            862
+        ]
     },
     {
         "id": 860,
         "name": "SANDY RUN",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            803,
+            815,
+            845,
+            850
+        ]
     },
     {
         "id": 861,
         "name": "BURKE #2",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            801,
+            833,
+            118,
+            125,
+            127,
+            128
+        ]
     },
     {
         "id": 862,
         "name": "WILLOW SPRINGS #2",
         "district": "SPRINGFIELD",
-        "neighbors": []
+        "neighbors": [
+            848,
+            849,
+            851,
+            859,
+            918
+        ]
     },
     {
         "id": 901,
