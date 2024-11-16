@@ -33,7 +33,7 @@ function createPrecinctGraph() {
     graph += '    splines=none;\n';
     graph += '    overlap=false;\n';
     graph += '    model=subset;\n';
-    graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
+    graph += '    node [shape=circle, style=filled];\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFFFED";\n';
     graph += '    smoothing=triangle;\n';

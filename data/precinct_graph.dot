@@ -4,7 +4,7 @@ strict graph G {
     splines=none;
     overlap=false;
     model=subset;
-    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
+    node [shape=circle, style=filled];
     edge [color="#666666"];
     bgcolor="#FFFFED";
     smoothing=triangle;
