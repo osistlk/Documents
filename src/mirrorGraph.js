@@ -12,14 +12,22 @@ fs.readFile(inputFilePath, "utf8", (err, data) => {
         return;
     }
 
-    // Regular expression to find `pos` attributes
     const posRegex = /pos="([^,]+),([^"]+)"/g;
 
-    // Replace positions with mirrored coordinates
+    // Extract all x-coordinates
+    const xCoordinates = [];
+    data.replace(posRegex, (_, x) => {
+        xCoordinates.push(parseFloat(x));
+    });
+
+    // Find min and max x-coordinates
+    const xMin = Math.min(...xCoordinates);
+    const xMax = Math.max(...xCoordinates);
+
+    // Flip x-coordinates around the midpoint
     const transformedData = data.replace(posRegex, (match, x, y) => {
-        const mirroredX = -parseFloat(x); // Negate x to mirror across the y-axis
-        const originalY = parseFloat(y); // Keep y unchanged
-        return `pos="${mirroredX},${originalY}"`;
+        const flippedX = xMin + xMax - parseFloat(x);
+        return `pos="${flippedX},${y}"`;
     });
 
     // Write the mirrored graph to a new file
@@ -27,7 +35,7 @@ fs.readFile(inputFilePath, "utf8", (err, data) => {
         if (err) {
             console.error("Error writing the mirrored file:", err);
         } else {
-            console.log("Graph mirrored across the y-axis saved to:", outputFilePath);
+            console.log("Mirrored graph saved to:", outputFilePath);
         }
     });
 });
