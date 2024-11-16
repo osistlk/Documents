@@ -23,8 +23,7 @@ function createPrecinctGraph() {
         precinct.totalVotes = precinctMetadata.votes.reduce((acc, cur) => acc + cur.count, 0);
     }
 
-    // for every precinct, add a new key alt_color and make it a hex color going from red to blue based on the ratio
-    // Account for the fact that one or two precincts have a ratio 2 to 4 times higher than the rest
+    // Adjust colors to be light shades of red or blue without visible green tones
     const maxRatio = Math.max(...precincts.map(p => p.ratio));
     const minRatio = Math.min(...precincts.map(p => p.ratio));
     const logMaxRatio = Math.log(maxRatio);
@@ -33,13 +32,28 @@ function createPrecinctGraph() {
     precincts = precincts.map(precinct => {
         const logRatio = Math.log(precinct.ratio);
         const normalizedRatio = (logRatio - logMinRatio) / (logMaxRatio - logMinRatio); // Normalize log ratio to be between 0 and 1
-        const red = Math.min(255, 255 * (1 - normalizedRatio));
-        const blue = Math.min(255, 255 * normalizedRatio);
-        const redComponent = Math.round(red).toString(16).padStart(2, '0');
-        const blueComponent = Math.round(blue).toString(16).padStart(2, '0');
-        precinct.alt_color = `#${redComponent}00${blueComponent}`;
+
+        // Calculate red and blue components
+        const red = 255 * (1 - normalizedRatio); // Higher red for lower ratios
+        const blue = 255 * normalizedRatio;     // Higher blue for higher ratios
+
+        // Scale to lighter shades by capping the intensity of red/blue to a minimum of 200
+        const lightRed = Math.max(200, red);
+        const lightBlue = Math.max(200, blue);
+
+        // Use a minimal green component for blending without introducing green/yellow
+        const green = 20;
+
+        const redComponent = Math.round(lightRed).toString(16).padStart(2, '0');
+        const greenComponent = Math.round(green).toString(16).padStart(2, '0');
+        const blueComponent = Math.round(lightBlue).toString(16).padStart(2, '0');
+
+        precinct.alt_color = `#${redComponent}${greenComponent}${blueComponent}`;
         return precinct;
     });
+
+
+
 
     // create a template precinct graph json file from metadata
     // node class
