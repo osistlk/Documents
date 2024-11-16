@@ -23,13 +23,13 @@ function createPrecinctGraph() {
         precinct.totalVotes = precinctMetadata.votes.reduce((acc, cur) => acc + cur.count, 0);
     }
 
-    // for every precinct, add a new key alt_color and make it a hex color going from slightly red to very blue based on the ratio
+    // for every precinct, add a new key alt_color and make it a hex color going from red to blue based on the ratio
     // Account for the fact that one or two precincts have a ratio 2 to 4 times higher than the rest
     precincts = precincts.map(precinct => {
-        const ratio = precinct.ratio;
+        const ratio = Math.min(1, precinct.ratio / 4); // Normalize ratio to be between 0 and 1
         const red = Math.min(255, 255 * (1 - ratio));
         const blue = Math.min(255, 255 * ratio);
-        precinct.color = `#${Math.round(red).toString(16).padStart(2, '0')}${Math.round(blue).toString(16).padStart(2, '0')}FF`;
+        precinct.alt_color = `#${Math.round(red).toString(16).padStart(2, '0')}00${Math.round(blue).toString(16).padStart(2, '0')}`;
         return precinct;
     });
 
@@ -82,7 +82,7 @@ function createPrecinctGraph() {
         graph += `    color=blue;\n`;
 
         for (const precinct of precinctsByDistrict[district]) {
-            const fillColor = precinct.color || 'gray20';
+            const fillColor = precinct.alt_color || 'gray20';
             const notBlueHex = fillColor.slice(1, 5);
             const notBlueValue = parseInt(notBlueHex, 16);
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
