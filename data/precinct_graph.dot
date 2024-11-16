@@ -1,7 +1,5 @@
 strict graph G {
-    layout=neato;
-    model=circuit;
-    overlap=false;
+    layout=fdp;
     splines=none;
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
     edge [color="#666666"];
