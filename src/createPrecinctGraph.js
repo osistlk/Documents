@@ -33,7 +33,7 @@ function createPrecinctGraph() {
     graph += '    overlap=false;\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFF5E6";\n';
-    graph += '    normalize=90;\n';
+    graph += '    smoothing=triangle;\n';
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -107,7 +107,7 @@ function createPrecinctGraph() {
     precincts.find(p => p.id === 700).totalVotes = meanVotes.toFixed(2);
     for (const district in precinctsByDistrict) {
         const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
-        graph += `subgraph ${sanitizedDistrict} {\n`;
+        graph += `subgraph cluster_${sanitizedDistrict} {\n`;
         graph += `    label="District ${district}";\n`;
         graph += `    color=blue;\n`;
 
