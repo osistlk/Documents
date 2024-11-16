@@ -108,7 +108,7 @@ function createPrecinctGraph() {
     precincts.find(p => p.id === 700).totalVotes = meanVotes.toFixed(0);
     for (const district in precinctsByDistrict) {
         const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
-        graph += `subgraph cluster_${sanitizedDistrict} {\n`;
+        graph += `subgraph ${sanitizedDistrict} {\n`;
         graph += `    label="District ${district}";\n`;
         graph += `    color=blue;\n`;
 

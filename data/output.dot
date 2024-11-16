@@ -14,7 +14,7 @@ strict graph G {
 	];
 	node [label="\N"];
 	edge [color="#666666"];
-	subgraph cluster_BRADDOCK {
+	subgraph BRADDOCK {
 		graph [color=blue,
 			label="District BRADDOCK"
 		];
@@ -591,7 +591,7 @@ strict graph G {
 		131 -- 138;
 		131 -- 848;
 	}
-	subgraph cluster_HUNTERMILL {
+	subgraph HUNTERMILL {
 		graph [color=blue,
 			label="District HUNTER MILL"
 		];
@@ -1172,7 +1172,7 @@ strict graph G {
 		237 -- 324;
 		244 -- 914;
 	}
-	subgraph cluster_DRANESVILLE {
+	subgraph DRANESVILLE {
 		graph [color=blue,
 			label="District DRANESVILLE"
 		];
@@ -1481,7 +1481,7 @@ strict graph G {
 		321 -- 327;
 		325 -- 332;
 	}
-	subgraph cluster_FRANCONIA {
+	subgraph FRANCONIA {
 		graph [color=blue,
 			label="District FRANCONIA"
 		];
@@ -1911,7 +1911,7 @@ strict graph G {
 		419 -- 421;
 		419 -- 427;
 	}
-	subgraph cluster_MASON {
+	subgraph MASON {
 		graph [color=blue,
 			label="District MASON"
 		];
@@ -2252,7 +2252,7 @@ strict graph G {
 		525 -- 710;
 		535 -- 705;
 	}
-	subgraph cluster_MOUNTVERNON {
+	subgraph MOUNTVERNON {
 		graph [color=blue,
 			label="District MOUNT VERNON"
 		];
@@ -2581,7 +2581,7 @@ strict graph G {
 		632 -- 845;
 		633 -- 845;
 	}
-	subgraph cluster_PROVIDENCE {
+	subgraph PROVIDENCE {
 		graph [color=blue,
 			label="District PROVIDENCE"
 		];
@@ -2840,7 +2840,7 @@ strict graph G {
 		721 -- 723;
 		735 -- 738;
 	}
-	subgraph cluster_SPRINGFIELD {
+	subgraph SPRINGFIELD {
 		graph [color=blue,
 			label="District SPRINGFIELD"
 		];
@@ -3214,7 +3214,7 @@ strict graph G {
 		854 -- 859;
 		854 -- 919;
 	}
-	subgraph cluster_SULLY {
+	subgraph SULLY {
 		graph [color=blue,
 			label="District SULLY"
 		];

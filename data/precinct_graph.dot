@@ -8,7 +8,7 @@ strict graph G {
     smoothing=triangle;
 label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY";
 labelloc="t";
-subgraph cluster_BRADDOCK {
+subgraph BRADDOCK {
     label="District BRADDOCK";
     color=blue;
     104 [shape = circle; style = filled;label="", fillcolor="#d6d6ff", fontcolor="black", width="0.49", height="0.49", color="#d6d6ff"];
@@ -70,7 +70,7 @@ subgraph cluster_BRADDOCK {
     138 [shape = circle; style = filled;label="", fillcolor="#ddddff", fontcolor="black", width="0.39", height="0.39", color="#ddddff"];
     138 -- {121,131,132,804,848,851};
 }
-subgraph cluster_HUNTERMILL {
+subgraph HUNTERMILL {
     label="District HUNTER MILL";
     color=blue;
     201 [shape = circle; style = filled;label="", fillcolor="#cdcdff", fontcolor="black", width="0.75", height="0.75", color="#cdcdff"];
@@ -138,7 +138,7 @@ subgraph cluster_HUNTERMILL {
     245 [shape = circle; style = filled;label="", fillcolor="#dbdbff", fontcolor="black", width="0.21", height="0.21", color="#dbdbff"];
     245 -- {209,233,240,322,329};
 }
-subgraph cluster_DRANESVILLE {
+subgraph DRANESVILLE {
     label="District DRANESVILLE";
     color=blue;
     301 [shape = circle; style = filled;label="", fillcolor="#d9d9ff", fontcolor="black", width="0.71", height="0.71", color="#d9d9ff"];
@@ -198,7 +198,7 @@ subgraph cluster_DRANESVILLE {
     332 [shape = circle; style = filled;label="", fillcolor="#d4d4ff", fontcolor="black", width="1.00", height="1.00", color="#d4d4ff"];
     332 -- {324,325,203,235,237,927};
 }
-subgraph cluster_FRANCONIA {
+subgraph FRANCONIA {
     label="District FRANCONIA";
     color=blue;
     401 [shape = circle; style = filled;label="", fillcolor="#d7d7ff", fontcolor="black", width="0.67", height="0.67", color="#d7d7ff"];
@@ -256,7 +256,7 @@ subgraph cluster_FRANCONIA {
     433 [shape = circle; style = filled;label="", fillcolor="#d9d9ff", fontcolor="black", width="0.10", height="0.10", color="#d9d9ff"];
     433 -- {409,418,527};
 }
-subgraph cluster_MASON {
+subgraph MASON {
     label="District MASON";
     color=blue;
     501 [shape = circle; style = filled;label="", fillcolor="#d4d4ff", fontcolor="black", width="0.64", height="0.64", color="#d4d4ff"];
@@ -320,7 +320,7 @@ subgraph cluster_MASON {
     536 [shape = circle; style = filled;label="", fillcolor="#d7d7ff", fontcolor="black", width="0.64", height="0.64", color="#d7d7ff"];
     536 -- {508,519,525,710,736};
 }
-subgraph cluster_MOUNTVERNON {
+subgraph MOUNTVERNON {
     label="District MOUNT VERNON";
     color=blue;
     601 [shape = circle; style = filled;label="", fillcolor="#dbdbff", fontcolor="black", width="0.50", height="0.50", color="#dbdbff"];
@@ -384,7 +384,7 @@ subgraph cluster_MOUNTVERNON {
     636 [shape = circle; style = filled;label="", fillcolor="#d9d9ff", fontcolor="black", width="0.27", height="0.27", color="#d9d9ff"];
     636 -- {617,628,629};
 }
-subgraph cluster_PROVIDENCE {
+subgraph PROVIDENCE {
     label="District PROVIDENCE";
     color=blue;
     700 [shape = circle; style = filled;label="", fillcolor="#d6d6ff", fontcolor="black", width="0.52", height="0.52", color="#d6d6ff"];
@@ -442,7 +442,7 @@ subgraph cluster_PROVIDENCE {
     738 [shape = circle; style = filled;label="", fillcolor="#d5d5ff", fontcolor="black", width="0.37", height="0.37", color="#d5d5ff"];
     738 -- {726,731,735,331};
 }
-subgraph cluster_SPRINGFIELD {
+subgraph SPRINGFIELD {
     label="District SPRINGFIELD";
     color=blue;
     801 [shape = circle; style = filled;label="", fillcolor="#d8d8ff", fontcolor="black", width="0.49", height="0.49", color="#d8d8ff"];
@@ -516,7 +516,7 @@ subgraph cluster_SPRINGFIELD {
     862 [shape = circle; style = filled;label="", fillcolor="#dadaff", fontcolor="black", width="0.32", height="0.32", color="#dadaff"];
     862 -- {848,849,851,859,918};
 }
-subgraph cluster_SULLY {
+subgraph SULLY {
     label="District SULLY";
     color=blue;
     901 [shape = circle; style = filled;label="", fillcolor="#dbdbff", fontcolor="black", width="0.63", height="0.63", color="#dbdbff"];
