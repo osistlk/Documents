@@ -9,9 +9,6 @@ function createPrecinctGraph() {
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFFFED";\n';
-    graph += '    pack=true;\n'; // Add pack attribute
-    graph += '    packmode="clust";\n'; // Add packmode attribute
-    graph += '    concentrate=true;\n'; // Add concentrate attribute
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -71,7 +68,6 @@ function createPrecinctGraph() {
         graph += `subgraph ${sanitizedDistrict} {\n`;
         graph += `    label="District ${district}";\n`;
         graph += `    color=blue;\n`;
-        graph += `    concentrate=true;\n`; // Add concentrate attribute
 
         for (const precinct of precinctsByDistrict[district]) {
             const fillColor = precinct.color || 'gray20';
