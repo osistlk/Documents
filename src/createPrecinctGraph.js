@@ -51,7 +51,6 @@ function createPrecinctGraph() {
     graph += 'label="Precinct Graph - Districts: ' + uniqueDistricts.join(', ') + '";\n';
     graph += 'labelloc="t";\n';
 
-    precincts.sort((a, b) => b.totalVotes - a.totalVotes).reverse();
     const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
     const minVotes = Math.min(...precincts.map(p => p.totalVotes));
     for (const precinct of precincts) {
