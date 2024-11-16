@@ -124,7 +124,7 @@
         "name": "WOODSON #1",
         "district": "BRADDOCK",
         "neighbors": [
-            0,
+            700,
             109,
             114,
             116,
@@ -178,7 +178,7 @@
         "name": "VILLA",
         "district": "BRADDOCK",
         "neighbors": [
-            0,
+            700,
             132,
             134,
             138
@@ -283,7 +283,7 @@
         "name": "MONUMENT",
         "district": "BRADDOCK",
         "neighbors": [
-            0,
+            700,
             121,
             131,
             138,
@@ -297,7 +297,7 @@
         "name": "UNIVERSITY",
         "district": "BRADDOCK",
         "neighbors": [
-            0,
+            700,
             120,
             121,
             123,
@@ -320,7 +320,7 @@
         "name": "WOODSON #2",
         "district": "BRADDOCK",
         "neighbors": [
-            0,
+            700,
             117,
             123,
             134
@@ -2056,6 +2056,25 @@
         ]
     },
     {
+        "id": 700,
+        "name": "FAIRFAX COURT",
+        "district": "PROVIDENCE",
+        "neighbors": [
+            117,
+            121,
+            132,
+            134,
+            136,
+            701,
+            707,
+            709,
+            711,
+            732,
+            856,
+            857
+        ]
+    },
+    {
         "id": 701,
         "name": "BLAKE",
         "district": "PROVIDENCE",
@@ -2064,7 +2083,7 @@
             727,
             729,
             732,
-            0
+            700
         ]
     },
     {
@@ -2098,7 +2117,7 @@
         "name": "MANTUA",
         "district": "PROVIDENCE",
         "neighbors": [
-            0,
+            700,
             711,
             714,
             718,
@@ -2122,6 +2141,7 @@
         "name": "MOSBY #1",
         "district": "PROVIDENCE",
         "neighbors": [
+            700,
             701,
             729,
             737,
@@ -2147,7 +2167,7 @@
         "neighbors": [
             707,
             718,
-            0,
+            700,
             117,
             528
         ]
@@ -2290,7 +2310,7 @@
         "neighbors": [
             701,
             727,
-            0,
+            700,
             856,
             857,
             914,
@@ -2349,8 +2369,7 @@
             707,
             709,
             714,
-            734,
-            0
+            734
         ]
     },
     {
@@ -2707,7 +2726,7 @@
         "neighbors": [
             844,
             857,
-            0,
+            700,
             132,
             732,
             911,
@@ -2720,7 +2739,7 @@
         "district": "SPRINGFIELD",
         "neighbors": [
             856,
-            0,
+            700,
             732
         ]
     },

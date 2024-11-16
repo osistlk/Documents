@@ -2971,6 +2971,19 @@
   },
   {
     "precinct": {
+      "id": "700",
+      "name": "FAIRFAX COURT"
+    },
+    "votes": [
+      {
+        "count": 0
+      }
+    ],
+    "ratio": 0,
+    "color": "#ffffff"
+  },
+  {
+    "precinct": {
       "id": "701",
       "name": "BLAKE"
     },
