@@ -1,6 +1,8 @@
 strict graph G {
-    layout=fdp;
+    layout=neato;
     splines=none;
+    overlap=false;
+    model=subset;
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
     edge [color="#666666"];
     bgcolor="#FFFFED";

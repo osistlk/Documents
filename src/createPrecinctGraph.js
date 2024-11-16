@@ -2,8 +2,10 @@ const fs = require('fs');
 
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
-    graph += '    layout=fdp;\n';
+    graph += '    layout=neato;\n';
     graph += '    splines=none;\n';
+    graph += '    overlap=false;\n';
+    graph += '    model=subset;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFFFED";\n';
