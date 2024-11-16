@@ -1,6 +1,6 @@
 strict graph G {
     layout=neato;
-    rankdir=LR;
+    mode=KK;
     overlap=false;
     splines=curved;
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
