@@ -103,8 +103,11 @@ function createPrecinctGraph() {
         precinctsByDistrict[precinct.district].push(precinct);
     }
 
-    const maxVotes = Math.max(...precincts.map(p => p.totalVotes));
-    const minVotes = Math.min(...precincts.map(p => p.totalVotes));
+    const maxVotes = Math.max(...precincts.filter(p => p.totalVotes > 0).map(p => p.totalVotes));
+    const minVotes = Math.min(...precincts.filter(p => p.totalVotes > 0).map(p => p.totalVotes));
+    const meanVotes = precincts.reduce((acc, cur) => acc + cur.totalVotes, 0) / precincts.length;
+    // set precinct 700 to the mean votes
+    precincts.find(p => p.id === 700).totalVotes = meanVotes.toFixed(2);
     for (const district in precinctsByDistrict) {
         const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
         graph += `subgraph ${sanitizedDistrict} {\n`;
