@@ -23,6 +23,16 @@ function createPrecinctGraph() {
         precinct.totalVotes = precinctMetadata.votes.reduce((acc, cur) => acc + cur.count, 0);
     }
 
+    // for every precinct, add a new key alt_color and make it a hex color going from slightly red to very blue based on the ratio
+    // Account for the fact that one or two precincts have a ratio 2 to 4 times higher than the rest
+    precincts = precincts.map(precinct => {
+        const ratio = precinct.ratio;
+        const red = Math.min(255, 255 * (1 - ratio));
+        const blue = Math.min(255, 255 * ratio);
+        precinct.color = `#${Math.round(red).toString(16).padStart(2, '0')}${Math.round(blue).toString(16).padStart(2, '0')}FF`;
+        return precinct;
+    });
+
     // create a template precinct graph json file from metadata
     // node class
     // id: precinct id
