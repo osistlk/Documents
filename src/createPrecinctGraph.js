@@ -53,7 +53,7 @@ function createPrecinctGraph() {
 
     // bucket precincts by district
     const precinctsByDistrict = {};
-    for (const precinct of precincts) {
+    for (const precinct of precincts.reverse()) {
         if (!precinctsByDistrict[precinct.district]) {
             precinctsByDistrict[precinct.district] = [];
         }
@@ -75,10 +75,8 @@ function createPrecinctGraph() {
             const textColor = notBlueValue < 0x8888 ? 'white' : 'black';
             const size = 0.5 + ((precinct.totalVotes - minVotes) / (maxVotes - minVotes)) * 1.5; // Adjust the multiplier as needed
             graph += `    ${precinct.id} [label="${precinct.id}\\n${precinct.name}\\n${Number(precinct.totalVotes)}\\n${precinct.ratio.toFixed(2)}", fillcolor="${fillColor}", fontcolor="${textColor}", width="${size}", height="${size}"];\n`;
-            for (const neighbor of precinct.neighbors) {
-                if (precinct.id < neighbor) { // to avoid duplicate edges
-                    graph += `    ${precinct.id} -- ${neighbor};\n`;
-                }
+            if (precinct.neighbors.length > 0) {
+                graph += `    ${precinct.id} -- {${precinct.neighbors.join(',')}};\n`;
             }
         }
 
