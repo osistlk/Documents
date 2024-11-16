@@ -3,6 +3,7 @@ const fs = require('fs');
 function createPrecinctGraph() {
     let graph = 'strict graph G {\n';
     graph += '    layout=neato;\n';
+    graph += '    mode=sgd;\n';
     graph += '    overlap=false;\n';
     graph += '    splines=curved;\n';
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
@@ -66,7 +67,7 @@ function createPrecinctGraph() {
     const minVotes = Math.min(...precincts.map(p => p.totalVotes));
     for (const district in precinctsByDistrict) {
         const sanitizedDistrict = district.replace(/[^a-zA-Z0-9]/g, '');
-        graph += `subgraph cluster_${sanitizedDistrict} {\n`;
+        graph += `subgraph ${sanitizedDistrict} {\n`;
         graph += `    label="District ${district}";\n`;
         graph += `    color=blue;\n`;
 
