@@ -7,6 +7,8 @@ strict graph G {
     node [shape=circle, style=filled, color=darkblue, fontname="Arial"];
     edge [color="#666666"];
     bgcolor="#FFFFED";
+    smoothing=triangle;
+    rotate=0;
 label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY";
 labelloc="t";
 subgraph BRADDOCK {
