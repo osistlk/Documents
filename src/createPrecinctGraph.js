@@ -8,6 +8,8 @@ function createPrecinctGraph() {
     graph += '    node [shape=circle, style=filled, color=darkblue, fontname="Arial"];\n';
     graph += '    edge [color="#666666"];\n';
     graph += '    bgcolor="#FFFFED";\n';
+    graph += '    pack=true;\n'; // Add pack attribute
+    graph += '    packmode="clust";\n'; // Add packmode attribute
 
     let precincts = JSON.parse(fs.readFileSync('data/raw_precinct_graph.json'));
     const metadata = JSON.parse(fs.readFileSync('data/ballots_by_precinct.json'));
@@ -53,7 +55,7 @@ function createPrecinctGraph() {
 
     // bucket precincts by district
     const precinctsByDistrict = {};
-    for (const precinct of precincts.reverse()) {
+    for (const precinct of precincts) {
         if (!precinctsByDistrict[precinct.district]) {
             precinctsByDistrict[precinct.district] = [];
         }
