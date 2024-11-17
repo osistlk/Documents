@@ -1,1291 +1,3451 @@
 strict graph G {
-    graph [bb = "0,0,1109,1378.5"; bgcolor = "#FFF5E6"; label = "Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY"; labelloc = t; layout = sfdp; lheight = 0.21; lp = "554.5,1367"; lwidth = 15.18; model = subset; overlap = false; rotation = 115; smoothing = triangle; splines = none;];
-    node [label = "\N";];
-    edge [color = "#666666";];
-    subgraph BRADDOCK {
-        graph [color = blue; label = "District BRADDOCK";];
-        104 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.48611;label = "";pos = "542.11,721.89";shape = circle;style = filled;width = 0.48611;];
-        106 [color = "#dedeff";fillcolor = "#dedeff";fontcolor = black;height = 0.625;label = "";pos = "562.49,769.94";shape = circle;style = filled;width = 0.625;];
-        104 -- 106;
-        108 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.625;label = "";pos = "458.19,756.92";shape = circle;style = filled;width = 0.625;];
-        104 -- 108;
-        113 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.75;label = "";pos = "489.49,698.59";shape = circle;style = filled;width = 0.75;];
-        104 -- 113;
-        115 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.34722;label = "";pos = "504.25,778.57";shape = circle;style = filled;width = 0.34722;];
-        104 -- 115;
-        116 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.47222;label = "";pos = "541.67,672.07";shape = circle;style = filled;width = 0.47222;];
-        104 -- 116;
-        522 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.43056;label = "";pos = "583.15,691.27";shape = circle;style = filled;width = 0.43056;];
-        104 -- 522;
-        110 [color = "#dedeff";fillcolor = "#dedeff";fontcolor = black;height = 0.80556;label = "";pos = "511.7,829.49";shape = circle;style = filled;width = 0.80556;];
-        106 -- 110;
-        504 [color = "#e1e1ff";fillcolor = "#e1e1ff";fontcolor = black;height = 0.44444;label = "";pos = "603.04,817.71";shape = circle;style = filled;width = 0.44444;];
-        106 -- 504;
-        519 [color = "#dfdfff";fillcolor = "#dfdfff";fontcolor = black;height = 0.125;label = "";pos = "616.85,761.68";shape = circle;style = filled;width = 0.125;];
-        106 -- 519;
-        521 [color = "#dfdfff";fillcolor = "#dfdfff";fontcolor = black;height = 0.40278;label = "";pos = "564.3,852.68";shape = circle;style = filled;width = 0.40278;];
-        106 -- 521;
-        108 -- 113;
-        108 -- 115;
-        125 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.63889;label = "";pos = "411.42,701.84";shape = circle;style = filled;width = 0.63889;];
-        108 -- 125;
-        128 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.44444;label = "";pos = "390.55,774.54";shape = circle;style = filled;width = 0.44444;];
-        108 -- 128;
-        113 -- 116;
-        113 -- 125;
-        116 -- 522;
-        117 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.375;label = "";pos = "495.46,603.32";shape = circle;style = filled;width = 0.375;];
-        116 -- 117;
-        528 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.125;label = "";pos = "567.58,642.49";shape = circle;style = filled;width = 0.125;];
-        116 -- 528;
-        110 -- 115;
-        110 -- 521;
-        415 [color = "#e1e1ff";fillcolor = "#e1e1ff";fontcolor = black;height = 0.48611;label = "";pos = "455.67,828.27";shape = circle;style = filled;width = 0.48611;];
-        110 -- 415;
-        418 [color = "#e0e0ff";fillcolor = "#e0e0ff";fontcolor = black;height = 0.33333;label = "";pos = "502.64,880.19";shape = circle;style = filled;width = 0.33333;];
-        110 -- 418;
-        527 [color = "#dedeff";fillcolor = "#dedeff";fontcolor = black;height = 0.38889;label = "";pos = "547.52,889.27";shape = circle;style = filled;width = 0.38889;];
-        110 -- 527;
-        861 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.41667;label = "";pos = "340.05,706.18";shape = circle;style = filled;width = 0.41667;];
-        125 -- 861;
-        128 -- 861;
-        128 -- 415;
-        129 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.34722;label = "";pos = "380.53,831.47";shape = circle;style = filled;width = 0.34722;];
-        128 -- 129;
-        135 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.52778;label = "";pos = "335.3,798.16";shape = circle;style = filled;width = 0.52778;];
-        128 -- 135;
-        801 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.48611;label = "";pos = "318.65,752.83";shape = circle;style = filled;width = 0.48611;];
-        128 -- 801;
-        117 -- 528;
-        123 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.91667;label = "";pos = "440.66,551.83";shape = circle;style = filled;width = 0.91667;];
-        117 -- 123;
-        700 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.51389;label = "";pos = "507.68,507.48";shape = circle;style = filled;width = 0.51389;];
-        117 -- 700;
-        136 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.20833;label = "";pos = "489.37,544.18";shape = circle;style = filled;width = 0.20833;];
-        117 -- 136;
-        711 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.41667;label = "";pos = "532.01,595.11";shape = circle;style = filled;width = 0.41667;];
-        117 -- 711;
-        105 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.93056;label = "";pos = "258.98,561.02";shape = circle;style = filled;width = 0.93056;];
-        126 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.47222;label = "";pos = "317.53,567.74";shape = circle;style = filled;width = 0.47222;];
-        105 -- 126;
-        127 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.86111;label = "";pos = "303.53,640.57";shape = circle;style = filled;width = 0.86111;];
-        105 -- 127;
-        130 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.47222;label = "";pos = "225.62,620.02";shape = circle;style = filled;width = 0.47222;];
-        105 -- 130;
-        137 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.41667;label = "";pos = "316.9,522.93";shape = circle;style = filled;width = 0.41667;];
-        105 -- 137;
-        805 [color = "#dfdfff";fillcolor = "#dfdfff";fontcolor = black;height = 0.33333;label = "";pos = "230.11,506.71";shape = circle;style = filled;width = 0.33333;];
-        105 -- 805;
-        815 [color = "#e2e2ff";fillcolor = "#e2e2ff";fontcolor = black;height = 0.33333;label = "";pos = "188.59,595.42";shape = circle;style = filled;width = 0.33333;];
-        105 -- 815;
-        126 -- 137;
-        127 -- 130;
-        127 -- 861;
-        833 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.59722;label = "";pos = "244.77,701.09";shape = circle;style = filled;width = 0.59722;];
-        127 -- 833;
-        130 -- 815;
-        842 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.45833;label = "";pos = "176.7,637.19";shape = circle;style = filled;width = 0.45833;];
-        130 -- 842;
-        841 [color = "#e2e2ff";fillcolor = "#e2e2ff";fontcolor = black;height = 0.31944;label = "";pos = "338.47,488.3";shape = circle;style = filled;width = 0.31944;];
-        137 -- 841;
-        129 -- 415;
-        129 -- 135;
-        431 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.61111;label = "";pos = "319.58,848.27";shape = circle;style = filled;width = 0.61111;];
-        129 -- 431;
-        135 -- 431;
-        812 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.58333;label = "";pos = "271.83,797.27";shape = circle;style = filled;width = 0.58333;];
-        135 -- 812;
-        109 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.30556;label = "";pos = "490.38,647.7";shape = circle;style = filled;width = 0.30556;];
-        109 -- 113;
-        109 -- 116;
-        109 -- 117;
-        114 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.44444;label = "";pos = "456.02,612.67";shape = circle;style = filled;width = 0.44444;];
-        109 -- 114;
-        118 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.76389;label = "";pos = "388.29,641.75";shape = circle;style = filled;width = 0.76389;];
-        109 -- 118;
-        114 -- 117;
-        114 -- 118;
-        114 -- 123;
-        118 -- 125;
-        118 -- 126;
-        118 -- 127;
-        118 -- 861;
-        118 -- 123;
-        119 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.79167;label = "";pos = "371.09,574.7";shape = circle;style = filled;width = 0.79167;];
-        118 -- 119;
-        123 -- 136;
-        134 [color = "#b5b5ff";fillcolor = "#b5b5ff";fontcolor = black;height = 0.16667;label = "";pos = "434.29,504.74";shape = circle;style = filled;width = 0.16667;];
-        123 -- 134;
-        136 -- 700;
-        119 -- 126;
-        119 -- 123;
-        120 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.20833;label = "";pos = "359.04,530.69";shape = circle;style = filled;width = 0.20833;];
-        119 -- 120;
-        134 -- 700;
-        134 -- 136;
-        120 -- 126;
-        120 -- 137;
-        120 -- 841;
-        120 -- 123;
-        120 -- 134;
-        121 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.41667;label = "";pos = "373,500.16";shape = circle;style = filled;width = 0.41667;];
-        121 -- 700;
-        121 -- 134;
-        132 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.86111;label = "";pos = "409.34,446.15";shape = circle;style = filled;width = 0.86111;];
-        121 -- 132;
-        138 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.38889;label = "";pos = "321.02,454.79";shape = circle;style = filled;width = 0.38889;];
-        121 -- 138;
-        132 -- 700;
-        132 -- 138;
-        848 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.73611;label = "";pos = "313.51,399.48";shape = circle;style = filled;width = 0.73611;];
-        132 -- 848;
-        844 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.55556;label = "";pos = "408.43,377.16";shape = circle;style = filled;width = 0.55556;];
-        132 -- 844;
-        856 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.69444;label = "";pos = "473.37,423.84";shape = circle;style = filled;width = 0.69444;];
-        132 -- 856;
-        138 -- 848;
-        804 [color = "#e3e3ff";fillcolor = "#e3e3ff";fontcolor = black;height = 0.38889;label = "";pos = "255.58,469.59";shape = circle;style = filled;width = 0.38889;];
-        138 -- 804;
-        851 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.23611;label = "";pos = "264.06,437.71";shape = circle;style = filled;width = 0.23611;];
-        138 -- 851;
-        131 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.30556;label = "";pos = "359.31,435.93";shape = circle;style = filled;width = 0.30556;];
-        131 -- 132;
-        131 -- 138;
-        131 -- 848;
-    }
-    subgraph HUNTERMILL {
-        graph [color = blue; label = "District HUNTER MILL";];
-        201 [color = "#cdcdff";fillcolor = "#cdcdff";fontcolor = black;height = 0.75;label = "";pos = "879.06,166.15";shape = circle;style = filled;width = 0.75;];
-        233 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.51389;label = "";pos = "940.74,270.3";shape = circle;style = filled;width = 0.51389;];
-        201 -- 233;
-        234 [color = "#cdcdff";fillcolor = "#cdcdff";fontcolor = black;height = 0.58333;label = "";pos = "894.04,222.28";shape = circle;style = filled;width = 0.58333;];
-        201 -- 234;
-        236 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.27778;label = "";pos = "935.76,97.027";shape = circle;style = filled;width = 0.27778;];
-        201 -- 236;
-        238 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.84722;label = "";pos = "774.6,161.09";shape = circle;style = filled;width = 0.84722;];
-        201 -- 238;
-        327 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.70833;label = "";pos = "939.59,166.16";shape = circle;style = filled;width = 0.70833;];
-        201 -- 327;
-        233 -- 234;
-        233 -- 327;
-        245 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.20833;label = "";pos = "922.36,331.53";shape = circle;style = filled;width = 0.20833;];
-        233 -- 245;
-        329 [color = "#e1e1ff";fillcolor = "#e1e1ff";fontcolor = black;height = 0.69444;label = "";pos = "992.49,283.89";shape = circle;style = filled;width = 0.69444;];
-        233 -- 329;
-        208 [color = "#ceceff";fillcolor = "#ceceff";fontcolor = black;height = 0.80556;label = "";pos = "833.21,230.21";shape = circle;style = filled;width = 0.80556;];
-        234 -- 208;
-        236 -- 327;
-        319 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.77778;label = "";pos = "823.33,94.54";shape = circle;style = filled;width = 0.77778;];
-        236 -- 319;
-        324 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.69444;label = "";pos = "707.02,74.48";shape = circle;style = filled;width = 0.69444;];
-        238 -- 324;
-        245 -- 329;
-        240 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.5;label = "";pos = "902.13,382.82";shape = circle;style = filled;width = 0.5;];
-        245 -- 240;
-        322 [color = "#e2e2ff";fillcolor = "#e2e2ff";fontcolor = black;height = 0.65278;label = "";pos = "962.4,348.98";shape = circle;style = filled;width = 0.65278;];
-        245 -- 322;
-        208 -- 238;
-        209 [color = "#ceceff";fillcolor = "#ceceff";fontcolor = black;height = 0.77778;label = "";pos = "877.04,328.81";shape = circle;style = filled;width = 0.77778;];
-        208 -- 209;
-        222 [color = "#c2c2ff";fillcolor = "#c2c2ff";fontcolor = black;height = 0.44444;label = "";pos = "886.5,267.34";shape = circle;style = filled;width = 0.44444;];
-        208 -- 222;
-        224 [color = "#c9c9ff";fillcolor = "#c9c9ff";fontcolor = black;height = 0.91667;label = "";pos = "807.98,300.31";shape = circle;style = filled;width = 0.91667;];
-        208 -- 224;
-        202 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.30556;label = "";pos = "719.68,423.03";shape = circle;style = filled;width = 0.30556;];
-        218 [color = "#d0d0ff";fillcolor = "#d0d0ff";fontcolor = black;height = 0.48611;label = "";pos = "712.3,459.54";shape = circle;style = filled;width = 0.48611;];
-        202 -- 218;
-        221 [color = "#cdcdff";fillcolor = "#cdcdff";fontcolor = black;height = 0.58333;label = "";pos = "665.3,371.4";shape = circle;style = filled;width = 0.58333;];
-        202 -- 221;
-        226 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.72222;label = "";pos = "764.87,418.4";shape = circle;style = filled;width = 0.72222;];
-        202 -- 226;
-        241 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.31944;label = "";pos = "675.22,422.22";shape = circle;style = filled;width = 0.31944;];
-        202 -- 241;
-        243 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.19444;label = "";pos = "781.45,377.39";shape = circle;style = filled;width = 0.19444;];
-        202 -- 243;
-        218 -- 241;
-        229 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.81944;label = "";pos = "635.11,287.61";shape = circle;style = filled;width = 0.81944;];
-        221 -- 229;
-        227 [color = "#d0d0ff";fillcolor = "#d0d0ff";fontcolor = black;height = 0.41667;label = "";pos = "751.42,355.37";shape = circle;style = filled;width = 0.41667;];
-        221 -- 227;
-        223 [color = "#cacaff";fillcolor = "#cacaff";fontcolor = black;height = 0.76389;label = "";pos = "715.61,304.76";shape = circle;style = filled;width = 0.76389;];
-        221 -- 223;
-        244 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.11111;label = "";pos = "614.77,245.39";shape = circle;style = filled;width = 0.11111;];
-        221 -- 244;
-        914 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.55556;label = "";pos = "577.58,297.8";shape = circle;style = filled;width = 0.55556;];
-        221 -- 914;
-        929 [color = "#e0e0ff";fillcolor = "#e0e0ff";fontcolor = black;height = 0.11111;label = "";pos = "616.13,387.66";shape = circle;style = filled;width = 0.11111;];
-        221 -- 929;
-        226 -- 243;
-        226 -- 240;
-        242 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.34722;label = "";pos = "822.23,453.21";shape = circle;style = filled;width = 0.34722;];
-        226 -- 242;
-        241 -- 929;
-        727 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.52778;label = "";pos = "630.25,437.42";shape = circle;style = filled;width = 0.52778;];
-        241 -- 727;
-        229 -- 244;
-        220 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.81944;label = "";pos = "696.64,220.57";shape = circle;style = filled;width = 0.81944;];
-        229 -- 220;
-        908 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.48611;label = "";pos = "527.21,262.22";shape = circle;style = filled;width = 0.48611;];
-        229 -- 908;
-        227 -- 243;
-        223 -- 227;
-        223 -- 224;
-        225 [color = "#cacaff";fillcolor = "#cacaff";fontcolor = black;height = 0.73611;label = "";pos = "760.65,232.35";shape = circle;style = filled;width = 0.73611;];
-        223 -- 225;
-        244 -- 914;
-        240 -- 243;
-        309 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.76389;label = "";pos = "931.42,465.08";shape = circle;style = filled;width = 0.76389;];
-        240 -- 309;
-        323 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.44444;label = "";pos = "866.65,427.7";shape = circle;style = filled;width = 0.44444;];
-        240 -- 323;
-        328 [color = "#dedeff";fillcolor = "#dedeff";fontcolor = black;height = 0.68056;label = "";pos = "952.68,405.04";shape = circle;style = filled;width = 0.68056;];
-        240 -- 328;
-        242 -- 323;
-        203 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.75;label = "";pos = "575.6,208.52";shape = circle;style = filled;width = 0.75;];
-        203 -- 229;
-        235 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.59722;label = "";pos = "640.69,161.55";shape = circle;style = filled;width = 0.59722;];
-        203 -- 235;
-        332 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 1;label = "";pos = "575.09,135.94";shape = circle;style = filled;width = 1;];
-        203 -- 332;
-        909 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.43056;label = "";pos = "523.11,221.14";shape = circle;style = filled;width = 0.43056;];
-        203 -- 909;
-        931 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.45833;label = "";pos = "514.44,166.68";shape = circle;style = filled;width = 0.45833;];
-        203 -- 931;
-        235 -- 324;
-        235 -- 332;
-        237 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.75;label = "";pos = "646.82,105.03";shape = circle;style = filled;width = 0.75;];
-        235 -- 237;
-        220 -- 238;
-        220 -- 208;
-        220 -- 324;
-        220 -- 221;
-        220 -- 223;
-        220 -- 203;
-        220 -- 235;
-        220 -- 237;
-        220 -- 225;
-        237 -- 324;
-        237 -- 332;
-        204 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.18056;label = "";pos = "678.41,450.44";shape = circle;style = filled;width = 0.18056;];
-        204 -- 218;
-        204 -- 241;
-        204 -- 727;
-        729 [color = "#ceceff";fillcolor = "#ceceff";fontcolor = black;height = 0.72222;label = "";pos = "660.67,490.98";shape = circle;style = filled;width = 0.72222;];
-        204 -- 729;
-        209 -- 233;
-        209 -- 245;
-        209 -- 227;
-        209 -- 240;
-        209 -- 222;
-        209 -- 224;
-        222 -- 234;
-        224 -- 227;
-        224 -- 220;
-        224 -- 225;
-        213 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.84722;label = "";pos = "725.39,543.2";shape = circle;style = filled;width = 0.84722;];
-        213 -- 218;
-        214 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.69444;label = "";pos = "774.44,479.64";shape = circle;style = filled;width = 0.69444;];
-        213 -- 214;
-        216 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.30556;label = "";pos = "690.92,600.74";shape = circle;style = filled;width = 0.30556;];
-        213 -- 216;
-        704 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.47222;label = "";pos = "812.37,532.68";shape = circle;style = filled;width = 0.47222;];
-        213 -- 704;
-        720 [color = "#d1d1ff";fillcolor = "#d1d1ff";fontcolor = black;height = 0.59722;label = "";pos = "718.35,652.49";shape = circle;style = filled;width = 0.59722;];
-        213 -- 720;
-        733 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.84722;label = "";pos = "794.83,605.44";shape = circle;style = filled;width = 0.84722;];
-        213 -- 733;
-        214 -- 202;
-        214 -- 218;
-        214 -- 226;
-        214 -- 242;
-        219 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.375;label = "";pos = "838.95,491.09";shape = circle;style = filled;width = 0.375;];
-        214 -- 219;
-        216 -- 720;
-        714 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.68056;label = "";pos = "647.25,599.15";shape = circle;style = filled;width = 0.68056;];
-        216 -- 714;
-        219 -- 242;
-        219 -- 704;
-        731 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.45833;label = "";pos = "895.43,531.93";shape = circle;style = filled;width = 0.45833;];
-        219 -- 731;
-    }
-    subgraph DRANESVILLE {
-        graph [color = blue; label = "District DRANESVILLE";];
-        201;
-        327;
-        201 -- 327;
-        233;
-        233 -- 327;
-        329;
-        233 -- 329;
-        236;
-        236 -- 327;
-        319;
-        236 -- 319;
-        238;
-        324;
-        238 -- 324;
-        327 -- 329;
-        245;
-        245 -- 329;
-        322;
-        245 -- 322;
-        319 -- 327;
-        319 -- 324;
-        320 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.77778;label = "";pos = "769.26,28";shape = circle;style = filled;width = 0.77778;];
-        319 -- 320;
-        321 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.80556;label = "";pos = "888.35,54.023";shape = circle;style = filled;width = 0.80556;];
-        319 -- 321;
-        332;
-        324 -- 332;
-        325 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.38889;label = "";pos = "629.76,55.986";shape = circle;style = filled;width = 0.38889;];
-        324 -- 325;
-        240;
-        309;
-        240 -- 309;
-        323;
-        240 -- 323;
-        328;
-        240 -- 328;
-        242;
-        242 -- 323;
-        203;
-        203 -- 332;
-        235;
-        235 -- 332;
-        927 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.56944;label = "";pos = "469.33,158.57";shape = circle;style = filled;width = 0.56944;];
-        332 -- 927;
-        220;
-        220 -- 324;
-        237;
-        237 -- 324;
-        237 -- 332;
-        309 -- 323;
-        309 -- 328;
-        731;
-        309 -- 731;
-        331 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.44444;label = "";pos = "981.37,516.62";shape = circle;style = filled;width = 0.44444;];
-        309 -- 331;
-        219;
-        323 -- 219;
-        322 -- 329;
-        322 -- 328;
-        325 -- 332;
-        320 -- 324;
-        320 -- 325;
-        320 -- 321;
-        321 -- 327;
-        738 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.375;label = "";pos = "940.36,572.28";shape = circle;style = filled;width = 0.375;];
-        331 -- 738;
-        301 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.70833;label = "";pos = "1033.5,609.41";shape = circle;style = filled;width = 0.70833;];
-        302 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.54167;label = "";pos = "1065.3,667.07";shape = circle;style = filled;width = 0.54167;];
-        301 -- 302;
-        303 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.33333;label = "";pos = "1002.7,562.2";shape = circle;style = filled;width = 0.33333;];
-        301 -- 303;
-        311 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.41667;label = "";pos = "1038.1,529.93";shape = circle;style = filled;width = 0.41667;];
-        301 -- 311;
-        314 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.52778;label = "";pos = "980.94,605.9";shape = circle;style = filled;width = 0.52778;];
-        301 -- 314;
-        316 [color = "#d1d1ff";fillcolor = "#d1d1ff";fontcolor = black;height = 0.55556;label = "";pos = "1017.4,679.1";shape = circle;style = filled;width = 0.55556;];
-        301 -- 316;
-        302 -- 316;
-        305 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.5;label = "";pos = "1001.9,727.5";shape = circle;style = filled;width = 0.5;];
-        302 -- 305;
-        303 -- 311;
-        303 -- 314;
-        304 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.45833;label = "";pos = "995.52,467";shape = circle;style = filled;width = 0.45833;];
-        303 -- 304;
-        314 -- 331;
-        318 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.30556;label = "";pos = "975.3,686.63";shape = circle;style = filled;width = 0.30556;];
-        314 -- 318;
-        726 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.86111;label = "";pos = "887.84,604.95";shape = circle;style = filled;width = 0.86111;];
-        314 -- 726;
-        316 -- 318;
-        305 -- 316;
-        305 -- 318;
-        307 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.81944;label = "";pos = "944.77,781.49";shape = circle;style = filled;width = 0.81944;];
-        305 -- 307;
-        312 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.52778;label = "";pos = "950.53,724.65";shape = circle;style = filled;width = 0.52778;];
-        305 -- 312;
-        304 -- 309;
-        304 -- 328;
-        304 -- 331;
-        304 -- 311;
-        306 [color = "#e0e0ff";fillcolor = "#e0e0ff";fontcolor = black;height = 0.41667;label = "";pos = "1008.9,376.81";shape = circle;style = filled;width = 0.41667;];
-        304 -- 306;
-        307 -- 312;
-        317 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.20833;label = "";pos = "898.75,742.28";shape = circle;style = filled;width = 0.20833;];
-        307 -- 317;
-        312 -- 318;
-        312 -- 317;
-        306 -- 328;
-        306 -- 322;
-        708 [color = "#ceceff";fillcolor = "#ceceff";fontcolor = black;height = 0.94444;label = "";pos = "828.25,677.98";shape = circle;style = filled;width = 0.94444;];
-        317 -- 708;
-        310 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.44444;label = "";pos = "940.28,681.3";shape = circle;style = filled;width = 0.44444;];
-        310 -- 314;
-        310 -- 318;
-        310 -- 312;
-        315 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.63889;label = "";pos = "893.25,691.44";shape = circle;style = filled;width = 0.63889;];
-        310 -- 315;
-        315 -- 726;
-        315 -- 317;
-        315 -- 708;
-    }
-    subgraph FRANCONIA {
-        graph [color = blue; label = "District FRANCONIA";];
-        110;
-        415;
-        110 -- 415;
-        128;
-        128 -- 415;
-        418;
-        415 -- 418;
-        417 [color = "#e0e0ff";fillcolor = "#e0e0ff";fontcolor = black;height = 0.65278;label = "";pos = "412.36,877.34";shape = circle;style = filled;width = 0.65278;];
-        415 -- 417;
-        433 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.097222;label = "";pos = "534.15,914.83";shape = circle;style = filled;width = 0.097222;];
-        418 -- 433;
-        527;
-        129;
-        129 -- 415;
-        431;
-        129 -- 431;
-        135;
-        135 -- 431;
-        812;
-        431 -- 812;
-        623 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.51389;label = "";pos = "278.26,947.22";shape = circle;style = filled;width = 0.51389;];
-        431 -- 623;
-        855 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.68056;label = "";pos = "243.88,894.62";shape = circle;style = filled;width = 0.68056;];
-        431 -- 855;
-        417 -- 418;
-        417 -- 431;
-        417 -- 623;
-        426 [color = "#cacaff";fillcolor = "#cacaff";fontcolor = black;height = 0.375;label = "";pos = "359.73,891.79";shape = circle;style = filled;width = 0.375;];
-        417 -- 426;
-        427 [color = "#d1d1ff";fillcolor = "#d1d1ff";fontcolor = black;height = 0.54167;label = "";pos = "400.74,930.37";shape = circle;style = filled;width = 0.54167;];
-        417 -- 427;
-        630 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.44444;label = "";pos = "332.1,929.7";shape = circle;style = filled;width = 0.44444;];
-        417 -- 630;
-        433 -- 527;
-        401 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.66667;label = "";pos = "547.12,1053";shape = circle;style = filled;width = 0.66667;];
-        410 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.91667;label = "";pos = "457.6,1085.9";shape = circle;style = filled;width = 0.91667;];
-        401 -- 410;
-        422 [color = "#d0d0ff";fillcolor = "#d0d0ff";fontcolor = black;height = 0.69444;label = "";pos = "541.56,985.95";shape = circle;style = filled;width = 0.69444;];
-        401 -- 422;
-        423 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.54167;label = "";pos = "489.27,1147";shape = circle;style = filled;width = 0.54167;];
-        401 -- 423;
-        526 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.68056;label = "";pos = "599.1,975.92";shape = circle;style = filled;width = 0.68056;];
-        401 -- 526;
-        410 -- 423;
-        420 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.90278;label = "";pos = "366.19,994.36";shape = circle;style = filled;width = 0.90278;];
-        410 -- 420;
-        411 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.44444;label = "";pos = "406.98,1143";shape = circle;style = filled;width = 0.44444;];
-        410 -- 411;
-        432 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.625;label = "";pos = "486.04,982.96";shape = circle;style = filled;width = 0.625;];
-        422 -- 432;
-        408 [color = "#c7c7ff";fillcolor = "#c7c7ff";fontcolor = black;height = 0.51389;label = "";pos = "432.85,1186.1";shape = circle;style = filled;width = 0.51389;];
-        423 -- 408;
-        420 -- 427;
-        420 -- 630;
-        421 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.65278;label = "";pos = "430.25,1021.4";shape = circle;style = filled;width = 0.65278;];
-        420 -- 421;
-        635 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.375;label = "";pos = "308.64,1013.2";shape = circle;style = filled;width = 0.375;];
-        420 -- 635;
-        411 -- 423;
-        406 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.48611;label = "";pos = "399.01,1080.7";shape = circle;style = filled;width = 0.48611;];
-        411 -- 406;
-        408 -- 411;
-        607 [color = "#ccccff";fillcolor = "#ccccff";fontcolor = black;height = 0.69444;label = "";pos = "430.35,1237.8";shape = circle;style = filled;width = 0.69444;];
-        408 -- 607;
-        402 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.23611;label = "";pos = "471.87,1206";shape = circle;style = filled;width = 0.23611;];
-        402 -- 423;
-        402 -- 408;
-        402 -- 607;
-        621 [color = "#cacaff";fillcolor = "#cacaff";fontcolor = black;height = 0.44444;label = "";pos = "421.37,1306";shape = circle;style = filled;width = 0.44444;];
-        402 -- 621;
-        403 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.25;label = "";pos = "445.87,933.41";shape = circle;style = filled;width = 0.25;];
-        403 -- 417;
-        403 -- 432;
-        409 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.68056;label = "";pos = "498.06,925.63";shape = circle;style = filled;width = 0.68056;];
-        403 -- 409;
-        409 -- 417;
-        409 -- 433;
-        409 -- 422;
-        409 -- 526;
-        426 -- 431;
-        427 -- 630;
-        404 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.34722;label = "";pos = "487.2,1031.8";shape = circle;style = filled;width = 0.34722;];
-        404 -- 410;
-        404 -- 422;
-        404 -- 420;
-        404 -- 432;
-        404 -- 421;
-        421 -- 432;
-        421 -- 427;
-        405 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.33333;label = "";pos = "378.95,1227.6";shape = circle;style = filled;width = 0.33333;];
-        405 -- 411;
-        405 -- 408;
-        424 [color = "#d1d1ff";fillcolor = "#d1d1ff";fontcolor = black;height = 0.52778;label = "";pos = "363.46,1125.2";shape = circle;style = filled;width = 0.52778;];
-        405 -- 424;
-        429 [color = "#d1d1ff";fillcolor = "#d1d1ff";fontcolor = black;height = 0.55556;label = "";pos = "319.24,1235.7";shape = circle;style = filled;width = 0.55556;];
-        405 -- 429;
-        604 [color = "#d0d0ff";fillcolor = "#d0d0ff";fontcolor = black;height = 0.68056;label = "";pos = "328.3,1288.3";shape = circle;style = filled;width = 0.68056;];
-        405 -- 604;
-        601 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.5;label = "";pos = "379.27,1287.2";shape = circle;style = filled;width = 0.5;];
-        405 -- 601;
-        424 -- 411;
-        424 -- 635;
-        424 -- 429;
-        428 [color = "#d0d0ff";fillcolor = "#d0d0ff";fontcolor = black;height = 0.52778;label = "";pos = "345.91,1053.9";shape = circle;style = filled;width = 0.52778;];
-        424 -- 428;
-        627 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.33333;label = "";pos = "306.88,1076.2";shape = circle;style = filled;width = 0.33333;];
-        424 -- 627;
-        429 -- 604;
-        608 [color = "#c8c8ff";fillcolor = "#c8c8ff";fontcolor = black;height = 0.41667;label = "";pos = "278.18,1286.8";shape = circle;style = filled;width = 0.41667;];
-        429 -- 608;
-        610 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.41667;label = "";pos = "261.63,1229.4";shape = circle;style = filled;width = 0.41667;];
-        429 -- 610;
-        406 -- 410;
-        406 -- 420;
-        406 -- 635;
-        406 -- 424;
-        428 -- 403;
-        428 -- 627;
-        615 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.56944;label = "";pos = "307.34,1149";shape = circle;style = filled;width = 0.56944;];
-        428 -- 615;
-        413 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.41667;label = "";pos = "345.85,1192.6";shape = circle;style = filled;width = 0.41667;];
-        413 -- 424;
-        413 -- 429;
-        413 -- 428;
-        413 -- 615;
-        419 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.44444;label = "";pos = "439.52,973.89";shape = circle;style = filled;width = 0.44444;];
-        419 -- 432;
-        419 -- 427;
-        419 -- 421;
-    }
-    subgraph MASON {
-        graph [color = blue; label = "District MASON";];
-        104;
-        522;
-        104 -- 522;
-        106;
-        504;
-        106 -- 504;
-        519;
-        106 -- 519;
-        521;
-        106 -- 521;
-        116;
-        116 -- 522;
-        528;
-        116 -- 528;
-        522 -- 528;
-        718 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.44444;label = "";pos = "609.68,651.67";shape = circle;style = filled;width = 0.44444;];
-        522 -- 718;
-        736 [color = "#cbcbff";fillcolor = "#cbcbff";fontcolor = black;height = 0.097222;label = "";pos = "644,699.39";shape = circle;style = filled;width = 0.097222;];
-        522 -- 736;
-        110;
-        110 -- 521;
-        527;
-        110 -- 527;
-        504 -- 521;
-        518 [color = "#dfdfff";fillcolor = "#dfdfff";fontcolor = black;height = 0.45833;label = "";pos = "643.73,831.5";shape = circle;style = filled;width = 0.45833;];
-        504 -- 518;
-        519 -- 522;
-        536 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.63889;label = "";pos = "672.06,760.46";shape = circle;style = filled;width = 0.63889;];
-        519 -- 536;
-        521 -- 527;
-        523 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.51389;label = "";pos = "628.03,876.27";shape = circle;style = filled;width = 0.51389;];
-        521 -- 523;
-        117;
-        117 -- 528;
-        711;
-        528 -- 711;
-        528 -- 718;
-        418;
-        527 -- 418;
-        433;
-        433 -- 527;
-        401;
-        526;
-        401 -- 526;
-        526 -- 527;
-        518 -- 519;
-        518 -- 521;
-        512 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.625;label = "";pos = "734.49,849.16";shape = circle;style = filled;width = 0.625;];
-        518 -- 512;
-        536 -- 736;
-        710 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.43056;label = "";pos = "718.7,746.08";shape = circle;style = filled;width = 0.43056;];
-        536 -- 710;
-        523 -- 527;
-        523 -- 518;
-        501 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.63889;label = "";pos = "766.91,961.3";shape = circle;style = filled;width = 0.63889;];
-        506 [color = "#e3e3ff";fillcolor = "#e3e3ff";fontcolor = black;height = 0.125;label = "";pos = "804.81,960.03";shape = circle;style = filled;width = 0.125;];
-        501 -- 506;
-        510 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.41667;label = "";pos = "720.87,927.8";shape = circle;style = filled;width = 0.41667;];
-        501 -- 510;
-        520 [color = "#ccccff";fillcolor = "#ccccff";fontcolor = black;height = 0.43056;label = "";pos = "770.01,1009.5";shape = circle;style = filled;width = 0.43056;];
-        501 -- 520;
-        530 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.29167;label = "";pos = "797.97,899.93";shape = circle;style = filled;width = 0.29167;];
-        506 -- 530;
-        502 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.29167;label = "";pos = "787.41,863.66";shape = circle;style = filled;width = 0.29167;];
-        502 -- 530;
-        503 [color = "#d1d1ff";fillcolor = "#d1d1ff";fontcolor = black;height = 0.34722;label = "";pos = "750.28,892.28";shape = circle;style = filled;width = 0.34722;];
-        502 -- 503;
-        511 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.34722;label = "";pos = "818.42,867.51";shape = circle;style = filled;width = 0.34722;];
-        502 -- 511;
-        502 -- 512;
-        503 -- 510;
-        503 -- 530;
-        503 -- 512;
-        513 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.5;label = "";pos = "685.94,882.09";shape = circle;style = filled;width = 0.5;];
-        503 -- 513;
-        511 -- 530;
-        511 -- 512;
-        517 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.29167;label = "";pos = "827.01,898.6";shape = circle;style = filled;width = 0.29167;];
-        511 -- 517;
-        512 -- 513;
-        515 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.33333;label = "";pos = "776.99,831.95";shape = circle;style = filled;width = 0.33333;];
-        512 -- 515;
-        525 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.68056;label = "";pos = "732.01,794.11";shape = circle;style = filled;width = 0.68056;];
-        512 -- 525;
-        535 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.375;label = "";pos = "810.51,831.64";shape = circle;style = filled;width = 0.375;];
-        512 -- 535;
-        513 -- 518;
-        513 -- 523;
-        515 -- 525;
-        515 -- 535;
-        705 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.66667;label = "";pos = "790.36,773.76";shape = circle;style = filled;width = 0.66667;];
-        515 -- 705;
-        525 -- 536;
-        525 -- 710;
-        525 -- 705;
-        535 -- 705;
-        505 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.51389;label = "";pos = "839.46,966.87";shape = circle;style = filled;width = 0.51389;];
-        505 -- 506;
-        505 -- 530;
-        505 -- 517;
-        514 [color = "#c1c1ff";fillcolor = "#c1c1ff";fontcolor = black;height = 0.20833;label = "";pos = "805.43,981.18";shape = circle;style = filled;width = 0.20833;];
-        505 -- 514;
-        514 -- 520;
-        507 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.61111;label = "";pos = "675.86,930.14";shape = circle;style = filled;width = 0.61111;];
-        507 -- 523;
-        507 -- 510;
-        507 -- 513;
-        516 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.54167;label = "";pos = "626.32,923.86";shape = circle;style = filled;width = 0.54167;];
-        507 -- 516;
-        516 -- 527;
-        516 -- 526;
-        516 -- 523;
-        508 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.41667;label = "";pos = "683.82,813.23";shape = circle;style = filled;width = 0.41667;];
-        508 -- 518;
-        508 -- 536;
-        508 -- 512;
-        508 -- 513;
-        509 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.16667;label = "";pos = "803.28,1016";shape = circle;style = filled;width = 0.16667;];
-        509 -- 520;
-        509 -- 514;
-    }
-    subgraph MOUNTVERNON {
-        graph [color = blue; label = "District MOUNT VERNON";];
-        431;
-        623;
-        431 -- 623;
-        417;
-        417 -- 623;
-        855;
-        623 -- 855;
-        630;
-        623 -- 630;
-        634 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.56944;label = "";pos = "152.64,869.85";shape = circle;style = filled;width = 0.56944;];
-        623 -- 634;
-        420;
-        635;
-        420 -- 635;
-        408;
-        607;
-        408 -- 607;
-        621;
-        607 -- 621;
-        427;
-        427 -- 630;
-        630 -- 635;
-        631 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.43056;label = "";pos = "260.88,990.1";shape = circle;style = filled;width = 0.43056;];
-        630 -- 631;
-        405;
-        604;
-        405 -- 604;
-        424;
-        424 -- 635;
-        627;
-        424 -- 627;
-        429;
-        429 -- 604;
-        608;
-        429 -- 608;
-        610;
-        429 -- 610;
-        604 -- 608;
-        609 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.47222;label = "";pos = "305.22,1338.5";shape = circle;style = filled;width = 0.47222;];
-        604 -- 609;
-        601;
-        601 -- 607;
-        601 -- 621;
-        601 -- 604;
-        601 -- 609;
-        602 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.44444;label = "";pos = "360.03,1336.8";shape = circle;style = filled;width = 0.44444;];
-        601 -- 602;
-        406;
-        406 -- 635;
-        428;
-        428 -- 627;
-        615;
-        428 -- 615;
-        627 -- 635;
-        608 -- 610;
-        608 -- 609;
-        606 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.58333;label = "";pos = "231.44,1280.1";shape = circle;style = filled;width = 0.58333;];
-        608 -- 606;
-        611 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.66667;label = "";pos = "212.61,1213.9";shape = circle;style = filled;width = 0.66667;];
-        610 -- 611;
-        614 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.43056;label = "";pos = "260.29,1177.6";shape = circle;style = filled;width = 0.43056;];
-        610 -- 614;
-        413;
-        413 -- 615;
-        615 -- 627;
-        602 -- 621;
-        602 -- 405;
-        602 -- 609;
-        839 [color = "#dedeff";fillcolor = "#dedeff";fontcolor = black;height = 0.72222;label = "";pos = "79.978,780.41";shape = circle;style = filled;width = 0.72222;];
-        634 -- 839;
-        631 -- 635;
-        606 -- 610;
-        606 -- 609;
-        606 -- 611;
-        612 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.29167;label = "";pos = "167.53,1208.4";shape = circle;style = filled;width = 0.29167;];
-        606 -- 612;
-        611 -- 614;
-        611 -- 612;
-        614 -- 615;
-        605 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.51389;label = "";pos = "213.42,1161.8";shape = circle;style = filled;width = 0.51389;];
-        605 -- 611;
-        605 -- 614;
-        605 -- 612;
-        613 [color = "#e1e1ff";fillcolor = "#e1e1ff";fontcolor = black;height = 0.68056;label = "";pos = "262.32,1096";shape = circle;style = filled;width = 0.68056;];
-        605 -- 613;
-        613 -- 635;
-        613 -- 627;
-        613 -- 615;
-        613 -- 614;
-        616 [color = "#cc0a4b";fillcolor = "#0808d8";fontcolor = black;height = 0.44444;label = "";pos = "213.82,1054.6";shape = circle;style = filled;width = 0.44444;];
-        613 -- 616;
-        616 -- 635;
-        616 -- 631;
-        617 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.65278;label = "";pos = "169.91,1006.9";shape = circle;style = filled;width = 0.65278;];
-        616 -- 617;
-        617 -- 631;
-        622 [color = "#d5d5ff";fillcolor = "#d5d5ff";fontcolor = black;height = 0.66667;label = "";pos = "197.75,951.3";shape = circle;style = filled;width = 0.66667;];
-        617 -- 622;
-        628 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.58333;label = "";pos = "144.24,933.07";shape = circle;style = filled;width = 0.58333;];
-        617 -- 628;
-        636 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.26389;label = "";pos = "105.66,960.97";shape = circle;style = filled;width = 0.26389;];
-        617 -- 636;
-        622 -- 623;
-        622 -- 634;
-        622 -- 631;
-        622 -- 628;
-        628 -- 634;
-        628 -- 636;
-        629 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.47222;label = "";pos = "89.943,869.84";shape = circle;style = filled;width = 0.47222;];
-        628 -- 629;
-        636 -- 629;
-        629 -- 634;
-        632 [color = "#e3e3ff";fillcolor = "#e3e3ff";fontcolor = black;height = 0.20833;label = "";pos = "51.909,823.97";shape = circle;style = filled;width = 0.20833;];
-        629 -- 632;
-        633 [color = "#e3e3ff";fillcolor = "#e3e3ff";fontcolor = black;height = 0.097222;label = "";pos = "39.132,792.16";shape = circle;style = filled;width = 0.097222;];
-        629 -- 633;
-        618 [color = "#dedeff";fillcolor = "#dedeff";fontcolor = black;height = 0.43056;label = "";pos = "129.55,822.22";shape = circle;style = filled;width = 0.43056;];
-        618 -- 855;
-        618 -- 634;
-        806 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.625;label = "";pos = "203.71,839.46";shape = circle;style = filled;width = 0.625;];
-        618 -- 806;
-        838 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.47222;label = "";pos = "131.02,757.89";shape = circle;style = filled;width = 0.47222;];
-        618 -- 838;
-        618 -- 839;
-        850 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.59722;label = "";pos = "127.87,673.18";shape = circle;style = filled;width = 0.59722;];
-        618 -- 850;
-        632 -- 634;
-        632 -- 839;
-        632 -- 633;
-        845 [color = "#e3e3ff";fillcolor = "#e3e3ff";fontcolor = black;height = 0.73611;label = "";pos = "50.736,718.78";shape = circle;style = filled;width = 0.73611;];
-        632 -- 845;
-        633 -- 845;
-    }
-    subgraph PROVIDENCE {
-        graph [color = blue; label = "District PROVIDENCE";];
-        522;
-        718;
-        522 -- 718;
-        736;
-        522 -- 736;
-        117;
-        700;
-        117 -- 700;
-        711;
-        117 -- 711;
-        528;
-        528 -- 711;
-        700 -- 711;
-        856;
-        700 -- 856;
-        701 [color = "#d3d3ff";fillcolor = "#d3d3ff";fontcolor = black;height = 0.875;label = "";pos = "571.67,494.83";shape = circle;style = filled;width = 0.875;];
-        700 -- 701;
-        707 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.48611;label = "";pos = "573.66,602.69";shape = circle;style = filled;width = 0.48611;];
-        700 -- 707;
-        709 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.43056;label = "";pos = "577.23,552.66";shape = circle;style = filled;width = 0.43056;];
-        700 -- 709;
-        732 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.77778;label = "";pos = "566.32,427.3";shape = circle;style = filled;width = 0.77778;];
-        700 -- 732;
-        857 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.097222;label = "";pos = "509.88,459.89";shape = circle;style = filled;width = 0.097222;];
-        700 -- 857;
-        136;
-        136 -- 700;
-        711 -- 718;
-        134;
-        134 -- 700;
-        121;
-        121 -- 700;
-        132;
-        132 -- 700;
-        241;
-        727;
-        241 -- 727;
-        914;
-        929;
-        727 -- 929;
-        729;
-        727 -- 729;
-        727 -- 732;
-        204;
-        204 -- 727;
-        204 -- 729;
-        213;
-        729 -- 213;
-        737 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.16667;label = "";pos = "605.17,583.71";shape = circle;style = filled;width = 0.16667;];
-        729 -- 737;
-        309;
-        731;
-        309 -- 731;
-        704;
-        213 -- 704;
-        720;
-        213 -- 720;
-        733;
-        213 -- 733;
-        214;
-        216;
-        216 -- 720;
-        714;
-        216 -- 714;
-        704 -- 214;
-        704 -- 733;
-        704 -- 731;
-        726;
-        704 -- 726;
-        720 -- 733;
-        723 [color = "#d2d2ff";fillcolor = "#d2d2ff";fontcolor = black;height = 0.41667;label = "";pos = "710.74,707.57";shape = circle;style = filled;width = 0.41667;];
-        720 -- 723;
-        721 [color = "#cbcbff";fillcolor = "#cbcbff";fontcolor = black;height = 0.75;label = "";pos = "660.71,658.68";shape = circle;style = filled;width = 0.75;];
-        720 -- 721;
-        219;
-        219 -- 704;
-        219 -- 731;
-        714 -- 729;
-        714 -- 709;
-        714 -- 737;
-        714 -- 721;
-        738;
-        731 -- 738;
-        735 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.23611;label = "";pos = "947.38,542.25";shape = circle;style = filled;width = 0.23611;];
-        731 -- 735;
-        331;
-        331 -- 738;
-        314;
-        314 -- 726;
-        726 -- 733;
-        726 -- 731;
-        708;
-        726 -- 708;
-        738 -- 726;
-        317;
-        317 -- 708;
-        708 -- 733;
-        712 [color = "#cfcfff";fillcolor = "#cfcfff";fontcolor = black;height = 0.30556;label = "";pos = "841.75,733.93";shape = circle;style = filled;width = 0.30556;];
-        708 -- 712;
-        713 [color = "#d4d4ff";fillcolor = "#d4d4ff";fontcolor = black;height = 0.61111;label = "";pos = "764.2,719.08";shape = circle;style = filled;width = 0.61111;];
-        708 -- 713;
-        315;
-        315 -- 726;
-        315 -- 708;
-        718 -- 736;
-        718 -- 721;
-        736 -- 723;
-        536;
-        536 -- 736;
-        710;
-        536 -- 710;
-        515;
-        705;
-        515 -- 705;
-        525;
-        525 -- 710;
-        525 -- 705;
-        535;
-        535 -- 705;
-        710 -- 723;
-        710 -- 713;
-        705 -- 710;
-        705 -- 712;
-        705 -- 713;
-        701 -- 727;
-        701 -- 729;
-        701 -- 709;
-        701 -- 732;
-        707 -- 711;
-        707 -- 714;
-        707 -- 718;
-        707 -- 737;
-        709 -- 729;
-        709 -- 737;
-        734 [color = "#d0d0ff";fillcolor = "#d0d0ff";fontcolor = black;height = 0.54167;label = "";pos = "630.69,547.12";shape = circle;style = filled;width = 0.54167;];
-        709 -- 734;
-        732 -- 856;
-        732 -- 914;
-        732 -- 929;
-        732 -- 857;
-        916 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.90278;label = "";pos = "537.97,358.31";shape = circle;style = filled;width = 0.90278;];
-        732 -- 916;
-        721 -- 723;
-        735 -- 738;
-        712 -- 713;
-        713 -- 720;
-        713 -- 723;
-        734 -- 729;
-        734 -- 714;
-        734 -- 737;
-    }
-    subgraph SPRINGFIELD {
-        graph [color = blue; label = "District SPRINGFIELD";];
-        125;
-        861;
-        125 -- 861;
-        128;
-        128 -- 861;
-        801;
-        128 -- 801;
-        105;
-        805;
-        105 -- 805;
-        815;
-        105 -- 815;
-        127;
-        127 -- 861;
-        833;
-        127 -- 833;
-        130;
-        130 -- 815;
-        842;
-        130 -- 842;
-        137;
-        841;
-        137 -- 841;
-        805 -- 815;
-        805 -- 841;
-        850;
-        815 -- 850;
-        860 [color = "#e4e4ff";fillcolor = "#e4e4ff";fontcolor = black;height = 0.23611;label = "";pos = "143.66,608.09";shape = circle;style = filled;width = 0.23611;];
-        815 -- 860;
-        833 -- 861;
-        833 -- 842;
-        842 -- 850;
-        121;
-        841 -- 121;
-        135;
-        812;
-        135 -- 812;
-        801 -- 861;
-        801 -- 812;
-        811 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.375;label = "";pos = "246.55,744.1";shape = circle;style = filled;width = 0.375;];
-        801 -- 811;
-        118;
-        118 -- 861;
-        700;
-        856;
-        700 -- 856;
-        857;
-        700 -- 857;
-        120;
-        120 -- 841;
-        132;
-        848;
-        132 -- 848;
-        844;
-        132 -- 844;
-        132 -- 856;
-        138;
-        138 -- 848;
-        804;
-        138 -- 804;
-        851;
-        138 -- 851;
-        848 -- 851;
-        862 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.31944;label = "";pos = "220.25,437.67";shape = circle;style = filled;width = 0.31944;];
-        848 -- 862;
-        926 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.80556;label = "";pos = "231.87,365.45";shape = circle;style = filled;width = 0.80556;];
-        848 -- 926;
-        844 -- 848;
-        844 -- 856;
-        846 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.66667;label = "";pos = "405.09,322.67";shape = circle;style = filled;width = 0.66667;];
-        844 -- 846;
-        856 -- 857;
-        916;
-        856 -- 916;
-        911 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.79167;label = "";pos = "466.1,337.34";shape = circle;style = filled;width = 0.79167;];
-        856 -- 911;
-        804 -- 805;
-        804 -- 841;
-        804 -- 851;
-        859 [color = "#e7e7ff";fillcolor = "#e7e7ff";fontcolor = black;height = 0.44444;label = "";pos = "194.07,485.61";shape = circle;style = filled;width = 0.44444;];
-        804 -- 859;
-        851 -- 862;
-        431;
-        431 -- 812;
-        855;
-        812 -- 855;
-        623;
-        623 -- 855;
-        634;
-        839;
-        634 -- 839;
-        618;
-        806;
-        618 -- 806;
-        838;
-        618 -- 838;
-        618 -- 850;
-        806 -- 812;
-        806 -- 855;
-        806 -- 838;
-        807 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.45833;label = "";pos = "226.3,792.28";shape = circle;style = filled;width = 0.45833;];
-        806 -- 807;
-        838 -- 850;
-        839 -- 850;
-        845;
-        839 -- 845;
-        850 -- 860;
-        632;
-        632 -- 839;
-        632 -- 845;
-        633;
-        633 -- 845;
-        845 -- 850;
-        845 -- 860;
-        732;
-        732 -- 856;
-        732 -- 857;
-        811 -- 833;
-        824 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.79167;label = "";pos = "184.54,739.24";shape = circle;style = filled;width = 0.79167;];
-        811 -- 824;
-        825 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.56944;label = "";pos = "188.91,682.21";shape = circle;style = filled;width = 0.56944;];
-        811 -- 825;
-        918 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.84722;label = "";pos = "150.81,388.84";shape = circle;style = filled;width = 0.84722;];
-        862 -- 918;
-        846 -- 911;
-        847 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.47222;label = "";pos = "402.44,270.43";shape = circle;style = filled;width = 0.47222;];
-        846 -- 847;
-        920 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.41667;label = "";pos = "473.12,281.27";shape = circle;style = filled;width = 0.41667;];
-        846 -- 920;
-        859 -- 851;
-        859 -- 862;
-        807 -- 812;
-        807 -- 838;
-        807 -- 811;
-        807 -- 824;
-        824 -- 838;
-        824 -- 825;
-        825 -- 833;
-        825 -- 842;
-        825 -- 838;
-        825 -- 850;
-        802 [color = "#d6d6ff";fillcolor = "#d6d6ff";fontcolor = black;height = 0.30556;label = "";pos = "361.81,358.95";shape = circle;style = filled;width = 0.30556;];
-        802 -- 848;
-        802 -- 844;
-        802 -- 846;
-        843 [color = "#d8d8ff";fillcolor = "#d8d8ff";fontcolor = black;height = 0.625;label = "";pos = "346.28,316.65";shape = circle;style = filled;width = 0.625;];
-        802 -- 843;
-        843 -- 848;
-        843 -- 846;
-        843 -- 847;
-        928 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.58333;label = "";pos = "279.22,307.4";shape = circle;style = filled;width = 0.58333;];
-        843 -- 928;
-        847 -- 920;
-        902 [color = "#dfdfff";fillcolor = "#dfdfff";fontcolor = black;height = 0.76389;label = "";pos = "413.17,197.07";shape = circle;style = filled;width = 0.76389;];
-        847 -- 902;
-        913 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.95833;label = "";pos = "342.91,245.08";shape = circle;style = filled;width = 0.95833;];
-        847 -- 913;
-        934 [color = "#d9d9ff";fillcolor = "#d9d9ff";fontcolor = black;height = 0.26389;label = "";pos = "441.26,243.13";shape = circle;style = filled;width = 0.26389;];
-        847 -- 934;
-        803 [color = "#e6e6ff";fillcolor = "#e6e6ff";fontcolor = black;height = 0.51389;label = "";pos = "150.42,556.91";shape = circle;style = filled;width = 0.51389;];
-        803 -- 805;
-        803 -- 815;
-        803 -- 860;
-        803 -- 859;
-        858 [color = "#e0e0ff";fillcolor = "#e0e0ff";fontcolor = black;height = 0.097222;label = "";pos = "127.22,526.89";shape = circle;style = filled;width = 0.097222;];
-        803 -- 858;
-        858 -- 859;
-        849 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.55556;label = "";pos = "147.88,447.36";shape = circle;style = filled;width = 0.55556;];
-        849 -- 862;
-        849 -- 859;
-        849 -- 918;
-        854 [color = "#e1e1ff";fillcolor = "#e1e1ff";fontcolor = black;height = 0.55556;label = "";pos = "102.4,495.38";shape = circle;style = filled;width = 0.55556;];
-        849 -- 854;
-        919 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.81944;label = "";pos = "81.823,416.39";shape = circle;style = filled;width = 0.81944;];
-        849 -- 919;
-        854 -- 859;
-        854 -- 919;
-    }
-    subgraph SULLY {
-        graph [color = blue; label = "District SULLY";];
-        848;
-        926;
-        848 -- 926;
-        844;
-        856;
-        916;
-        856 -- 916;
-        911;
-        856 -- 911;
-        202;
-        221;
-        914;
-        221 -- 914;
-        929;
-        221 -- 929;
-        241;
-        241 -- 929;
-        229;
-        908;
-        229 -- 908;
-        244;
-        244 -- 914;
-        914 -- 929;
-        914 -- 916;
-        920;
-        914 -- 920;
-        929 -- 202;
-        727;
-        727 -- 929;
-        203;
-        909;
-        203 -- 909;
-        931;
-        203 -- 931;
-        332;
-        927;
-        332 -- 927;
-        909 -- 931;
-        931 -- 332;
-        908 -- 914;
-        908 -- 909;
-        908 -- 920;
-        927 -- 931;
-        934;
-        927 -- 934;
-        905 [color = "#d7d7ff";fillcolor = "#d7d7ff";fontcolor = black;height = 0.55556;label = "";pos = "479.55,219.72";shape = circle;style = filled;width = 0.55556;];
-        927 -- 905;
-        732;
-        732 -- 929;
-        732 -- 916;
-        862;
-        918;
-        862 -- 918;
-        928;
-        926 -- 928;
-        846;
-        846 -- 911;
-        846 -- 920;
-        911 -- 844;
-        911 -- 914;
-        911 -- 916;
-        911 -- 920;
-        859;
-        843;
-        843 -- 928;
-        847;
-        847 -- 920;
-        902;
-        847 -- 902;
-        913;
-        847 -- 913;
-        847 -- 934;
-        920 -- 934;
-        902 -- 931;
-        902 -- 927;
-        902 -- 913;
-        902 -- 934;
-        902 -- 905;
-        904 [color = "#e1e1ff";fillcolor = "#e1e1ff";fontcolor = black;height = 0.33333;label = "";pos = "363.83,190.46";shape = circle;style = filled;width = 0.33333;];
-        902 -- 904;
-        913 -- 928;
-        917 [color = "#dadaff";fillcolor = "#dadaff";fontcolor = black;height = 0.72222;label = "";pos = "221.2,222.82";shape = circle;style = filled;width = 0.72222;];
-        913 -- 917;
-        918 -- 926;
-        919;
-        918 -- 919;
-        849;
-        849 -- 919;
-        854;
-        854 -- 919;
-        925 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.34722;label = "";pos = "91.203,359.1";shape = circle;style = filled;width = 0.34722;];
-        919 -- 925;
-        905 -- 909;
-        905 -- 931;
-        905 -- 908;
-        905 -- 920;
-        905 -- 934;
-        904 -- 927;
-        915 [color = "#e4e4ff";fillcolor = "#e4e4ff";fontcolor = black;height = 0.55556;label = "";pos = "230.21,278.64";shape = circle;style = filled;width = 0.55556;];
-        904 -- 915;
-        917 -- 928;
-        924 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.375;label = "";pos = "172.68,291.77";shape = circle;style = filled;width = 0.375;];
-        917 -- 924;
-        935 [color = "#dcdcff";fillcolor = "#dcdcff";fontcolor = black;height = 0.125;label = "";pos = "130.43,279.93";shape = circle;style = filled;width = 0.125;];
-        917 -- 935;
-        921 [color = "#e0e0ff";fillcolor = "#e0e0ff";fontcolor = black;height = 0.65278;label = "";pos = "178.76,165.29";shape = circle;style = filled;width = 0.65278;];
-        917 -- 921;
-        901 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.625;label = "";pos = "105.23,314.97";shape = circle;style = filled;width = 0.625;];
-        901 -- 918;
-        901 -- 925;
-        901 -- 924;
-        901 -- 935;
-        924 -- 926;
-        924 -- 935;
-        915 -- 921;
-        910 [color = "#dbdbff";fillcolor = "#dbdbff";fontcolor = black;height = 0.73611;label = "";pos = "160.65,240.87";shape = circle;style = filled;width = 0.73611;];
-        915 -- 910;
-        923 [color = "#e4e4ff";fillcolor = "#e4e4ff";fontcolor = black;height = 0.51389;label = "";pos = "172.54,331.79";shape = circle;style = filled;width = 0.51389;];
-        915 -- 923;
-        903 [color = "#ddddff";fillcolor = "#ddddff";fontcolor = black;height = 0.88889;label = "";pos = "283.49,156.78";shape = circle;style = filled;width = 0.88889;];
-        903 -- 913;
-        903 -- 904;
-        903 -- 917;
-        903 -- 921;
-        910 -- 917;
-        910 -- 935;
-        910 -- 921;
-        910 -- 923;
-        923 -- 859;
-        923 -- 925;
-        923 -- 935;
-    }
+	graph [bb="0,0,1475.3,1113.7",
+		bgcolor="#FFF5E6",
+		label="Precinct Graph - Districts: BRADDOCK, HUNTER MILL, DRANESVILLE, FRANCONIA, MASON, MOUNT VERNON, PROVIDENCE, SPRINGFIELD, SULLY",
+		labelloc=t,
+		layout=sfdp,
+		lheight=0.21,
+		lp="737.65,1102.2",
+		lwidth=15.18,
+		model=subset,
+		overlap=false,
+		rotate=180,
+		rotation=180,
+		smoothing=triangle,
+		splines=none
+	];
+	node [label="\N"];
+	edge [color="#666666"];
+	subgraph BRADDOCK {
+		graph [color=blue,
+			label="District BRADDOCK"
+		];
+		104	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="645.19,589.25",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		106	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="599.12,637.28",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		104 -- 106;
+		108	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="580.88,543.8",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		104 -- 108;
+		113	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.75,
+			label="",
+			pos="644.23,536.59",
+			shape=circle,
+			style=filled,
+			width=0.75];
+		104 -- 113;
+		115	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="589.05,591.49",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		104 -- 115;
+		116	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="696.91,578.32",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		104 -- 116;
+		522	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="692.52,643.26",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		104 -- 522;
+		110	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.80556,
+			label="",
+			pos="539.5,620.84",
+			shape=circle,
+			style=filled,
+			width=0.80556];
+		106 -- 110;
+		504	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="583.67,687.39",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		106 -- 504;
+		519	[color="#dfdfff",
+			fillcolor="#dfdfff",
+			fontcolor=black,
+			height=0.125,
+			label="",
+			pos="630.69,698.01",
+			shape=circle,
+			style=filled,
+			width=0.125];
+		106 -- 519;
+		521	[color="#dfdfff",
+			fillcolor="#dfdfff",
+			fontcolor=black,
+			height=0.40278,
+			label="",
+			pos="545.13,678.88",
+			shape=circle,
+			style=filled,
+			width=0.40278];
+		106 -- 521;
+		108 -- 113;
+		108 -- 115;
+		125	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.63889,
+			label="",
+			pos="602.81,477.66",
+			shape=circle,
+			style=filled,
+			width=0.63889];
+		108 -- 125;
+		128	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="534.13,521.46",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		108 -- 128;
+		113 -- 116;
+		113 -- 125;
+		116 -- 522;
+		117	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="736.37,511.82",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		116 -- 117;
+		528	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.125,
+			label="",
+			pos="726.69,602.98",
+			shape=circle,
+			style=filled,
+			width=0.125];
+		116 -- 528;
+		110 -- 115;
+		110 -- 521;
+		415	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="492.59,561.99",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		110 -- 415;
+		418	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="490.46,618.38",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		110 -- 418;
+		527	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.38889,
+			label="",
+			pos="507.52,681.7",
+			shape=circle,
+			style=filled,
+			width=0.38889];
+		110 -- 527;
+		861	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="579.09,420.4",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		125 -- 861;
+		128 -- 861;
+		128 -- 415;
+		129	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="493.6,511.92",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		128 -- 129;
+		135	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="498.86,472.29",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		128 -- 135;
+		801	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="538.58,426.86",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		128 -- 801;
+		117 -- 528;
+		123	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.91667,
+			label="",
+			pos="771.6,444.28",
+			shape=circle,
+			style=filled,
+			width=0.91667];
+		117 -- 123;
+		700	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="831.15,499.77",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		117 -- 700;
+		136	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="791.48,504.55",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		117 -- 136;
+		711	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="752.47,549.82",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		117 -- 711;
+		105	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.93056,
+			label="",
+			pos="662.82,265.6",
+			shape=circle,
+			style=filled,
+			width=0.93056];
+		126	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="682.5,324.1",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		105 -- 126;
+		127	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.86111,
+			label="",
+			pos="616.95,345.28",
+			shape=circle,
+			style=filled,
+			width=0.86111];
+		105 -- 127;
+		130	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="604.3,250.14",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		105 -- 130;
+		137	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="721.44,284.1",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		105 -- 137;
+		805	[color="#dfdfff",
+			fillcolor="#dfdfff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="716.34,213.07",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		105 -- 805;
+		815	[color="#e2e2ff",
+			fillcolor="#e2e2ff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="614.58,211.48",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		105 -- 815;
+		126 -- 137;
+		127 -- 130;
+		127 -- 861;
+		833	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.59722,
+			label="",
+			pos="556.39,331.03",
+			shape=circle,
+			style=filled,
+			width=0.59722];
+		127 -- 833;
+		130 -- 815;
+		842	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.45833,
+			label="",
+			pos="562.77,227.24",
+			shape=circle,
+			style=filled,
+			width=0.45833];
+		130 -- 842;
+		841	[color="#e2e2ff",
+			fillcolor="#e2e2ff",
+			fontcolor=black,
+			height=0.31944,
+			label="",
+			pos="757.37,298.17",
+			shape=circle,
+			style=filled,
+			width=0.31944];
+		137 -- 841;
+		129 -- 415;
+		129 -- 135;
+		431	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.61111,
+			label="",
+			pos="442.46,453.1",
+			shape=circle,
+			style=filled,
+			width=0.61111];
+		129 -- 431;
+		135 -- 431;
+		812	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="461.8,402.06",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		135 -- 812;
+		109	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="690.26,508.28",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		109 -- 113;
+		109 -- 116;
+		109 -- 117;
+		114	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="700.51,472.3",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		109 -- 114;
+		118	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.76389,
+			label="",
+			pos="638.03,411.97",
+			shape=circle,
+			style=filled,
+			width=0.76389];
+		109 -- 118;
+		114 -- 117;
+		114 -- 118;
+		114 -- 123;
+		118 -- 125;
+		118 -- 126;
+		118 -- 127;
+		118 -- 861;
+		118 -- 123;
+		119	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.79167,
+			label="",
+			pos="702.08,377.64",
+			shape=circle,
+			style=filled,
+			width=0.79167];
+		118 -- 119;
+		123 -- 136;
+		134	[color="#b5b5ff",
+			fillcolor="#b5b5ff",
+			fontcolor=black,
+			height=0.16667,
+			label="",
+			pos="819.88,413.2",
+			shape=circle,
+			style=filled,
+			width=0.16667];
+		123 -- 134;
+		136 -- 700;
+		119 -- 126;
+		119 -- 123;
+		120	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="755.64,362.36",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		119 -- 120;
+		134 -- 700;
+		134 -- 136;
+		120 -- 126;
+		120 -- 137;
+		120 -- 841;
+		120 -- 123;
+		120 -- 134;
+		121	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="786.27,360.34",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		121 -- 700;
+		121 -- 134;
+		132	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.86111,
+			label="",
+			pos="849.43,367.41",
+			shape=circle,
+			style=filled,
+			width=0.86111];
+		121 -- 132;
+		138	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.38889,
+			label="",
+			pos="791.73,303.4",
+			shape=circle,
+			style=filled,
+			width=0.38889];
+		121 -- 138;
+		132 -- 700;
+		132 -- 138;
+		848	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.73611,
+			label="",
+			pos="840.33,261.75",
+			shape=circle,
+			style=filled,
+			width=0.73611];
+		132 -- 848;
+		844	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="911.2,322.76",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		132 -- 844;
+		856	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="914.02,403.44",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		132 -- 856;
+		138 -- 848;
+		804	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.38889,
+			label="",
+			pos="745.2,247.09",
+			shape=circle,
+			style=filled,
+			width=0.38889];
+		138 -- 804;
+		851	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.23611,
+			label="",
+			pos="777.91,237.57",
+			shape=circle,
+			style=filled,
+			width=0.23611];
+		138 -- 851;
+		131	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="825.66,315.89",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		131 -- 132;
+		131 -- 138;
+		131 -- 848;
+	}
+	subgraph HUNTERMILL {
+		graph [color=blue,
+			label="District HUNTER MILL"
+		];
+		201	[color="#cdcdff",
+			fillcolor="#cdcdff",
+			fontcolor=black,
+			height=0.75,
+			label="",
+			pos="1344,643.91",
+			shape=circle,
+			style=filled,
+			width=0.75];
+		233	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="1268.9,752.16",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		201 -- 233;
+		234	[color="#cdcdff",
+			fillcolor="#cdcdff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="1301.5,704.16",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		201 -- 234;
+		236	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.27778,
+			label="",
+			pos="1407.9,672.21",
+			shape=circle,
+			style=filled,
+			width=0.27778];
+		201 -- 236;
+		238	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.84722,
+			label="",
+			pos="1305.6,560.1",
+			shape=circle,
+			style=filled,
+			width=0.84722];
+		201 -- 238;
+		327	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.70833,
+			label="",
+			pos="1364.4,704.57",
+			shape=circle,
+			style=filled,
+			width=0.70833];
+		201 -- 327;
+		233 -- 234;
+		233 -- 327;
+		245	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="1195.8,777.35",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		233 -- 245;
+		329	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="1283.4,804.24",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		233 -- 329;
+		208	[color="#ceceff",
+			fillcolor="#ceceff",
+			fontcolor=black,
+			height=0.80556,
+			label="",
+			pos="1251,644.73",
+			shape=circle,
+			style=filled,
+			width=0.80556];
+		234 -- 208;
+		236 -- 327;
+		319	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.77778,
+			label="",
+			pos="1380.1,562.32",
+			shape=circle,
+			style=filled,
+			width=0.77778];
+		236 -- 319;
+		324	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="1339.8,476.51",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		238 -- 324;
+		245 -- 329;
+		240	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.5,
+			label="",
+			pos="1109.3,752.48",
+			shape=circle,
+			style=filled,
+			width=0.5];
+		245 -- 240;
+		322	[color="#e2e2ff",
+			fillcolor="#e2e2ff",
+			fontcolor=black,
+			height=0.65278,
+			label="",
+			pos="1194.3,819.15",
+			shape=circle,
+			style=filled,
+			width=0.65278];
+		245 -- 322;
+		208 -- 238;
+		209	[color="#ceceff",
+			fillcolor="#ceceff",
+			fontcolor=black,
+			height=0.77778,
+			label="",
+			pos="1175.4,721.35",
+			shape=circle,
+			style=filled,
+			width=0.77778];
+		208 -- 209;
+		222	[color="#c2c2ff",
+			fillcolor="#c2c2ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="1233.1,709.61",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		208 -- 222;
+		224	[color="#c9c9ff",
+			fillcolor="#c9c9ff",
+			fontcolor=black,
+			height=0.91667,
+			label="",
+			pos="1181,652.05",
+			shape=circle,
+			style=filled,
+			width=0.91667];
+		208 -- 224;
+		202	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="1029.2,625.16",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		218	[color="#d0d0ff",
+			fillcolor="#d0d0ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="990.8,641.65",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		202 -- 218;
+		221	[color="#cdcdff",
+			fillcolor="#cdcdff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="1079.8,565.76",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		202 -- 221;
+		226	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.72222,
+			label="",
+			pos="1053.9,706",
+			shape=circle,
+			style=filled,
+			width=0.72222];
+		202 -- 226;
+		241	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.31944,
+			label="",
+			pos="998.67,590.37",
+			shape=circle,
+			style=filled,
+			width=0.31944];
+		202 -- 241;
+		243	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.19444,
+			label="",
+			pos="1094.9,685.67",
+			shape=circle,
+			style=filled,
+			width=0.19444];
+		202 -- 243;
+		218 -- 241;
+		229	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.81944,
+			label="",
+			pos="1125.8,486.62",
+			shape=circle,
+			style=filled,
+			width=0.81944];
+		221 -- 229;
+		227	[color="#d0d0ff",
+			fillcolor="#d0d0ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="1124.9,659.53",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		221 -- 227;
+		223	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.76389,
+			label="",
+			pos="1136.3,583.49",
+			shape=circle,
+			style=filled,
+			width=0.76389];
+		221 -- 223;
+		244	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.11111,
+			label="",
+			pos="1083.1,478.58",
+			shape=circle,
+			style=filled,
+			width=0.11111];
+		221 -- 244;
+		914	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="1063.6,429.82",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		221 -- 914;
+		929	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.11111,
+			label="",
+			pos="1006.2,528.7",
+			shape=circle,
+			style=filled,
+			width=0.11111];
+		221 -- 929;
+		226 -- 243;
+		226 -- 240;
+		242	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="1037.7,757.05",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		226 -- 242;
+		241 -- 929;
+		727	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="960.16,554.85",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		241 -- 727;
+		229 -- 244;
+		220	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.81944,
+			label="",
+			pos="1206.3,517.16",
+			shape=circle,
+			style=filled,
+			width=0.81944];
+		229 -- 220;
+		908	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="1109.2,389.94",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		229 -- 908;
+		227 -- 243;
+		223 -- 227;
+		223 -- 224;
+		225	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.73611,
+			label="",
+			pos="1220.4,581.18",
+			shape=circle,
+			style=filled,
+			width=0.73611];
+		223 -- 225;
+		244 -- 914;
+		240 -- 243;
+		309	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.76389,
+			label="",
+			pos="1063.1,847.04",
+			shape=circle,
+			style=filled,
+			width=0.76389];
+		240 -- 309;
+		323	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="1074.7,794.49",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		240 -- 323;
+		328	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="1123.2,831.97",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		240 -- 328;
+		242 -- 323;
+		203	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.75,
+			label="",
+			pos="1166.7,421.92",
+			shape=circle,
+			style=filled,
+			width=0.75];
+		203 -- 229;
+		235	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.59722,
+			label="",
+			pos="1223.3,458.15",
+			shape=circle,
+			style=filled,
+			width=0.59722];
+		203 -- 235;
+		332	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=1,
+			label="",
+			pos="1241.6,356.62",
+			shape=circle,
+			style=filled,
+			width=1];
+		203 -- 332;
+		909	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="1150.2,362.36",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		203 -- 909;
+		931	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.45833,
+			label="",
+			pos="1165.8,322.33",
+			shape=circle,
+			style=filled,
+			width=0.45833];
+		203 -- 931;
+		235 -- 324;
+		235 -- 332;
+		237	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.75,
+			label="",
+			pos="1279.8,440.61",
+			shape=circle,
+			style=filled,
+			width=0.75];
+		235 -- 237;
+		220 -- 238;
+		220 -- 208;
+		220 -- 324;
+		220 -- 221;
+		220 -- 223;
+		220 -- 203;
+		220 -- 235;
+		220 -- 237;
+		220 -- 225;
+		237 -- 324;
+		237 -- 332;
+		204	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.18056,
+			label="",
+			pos="961.57,609.61",
+			shape=circle,
+			style=filled,
+			width=0.18056];
+		204 -- 218;
+		204 -- 241;
+		204 -- 727;
+		729	[color="#ceceff",
+			fillcolor="#ceceff",
+			fontcolor=black,
+			height=0.72222,
+			label="",
+			pos="921.06,624.4",
+			shape=circle,
+			style=filled,
+			width=0.72222];
+		204 -- 729;
+		209 -- 233;
+		209 -- 245;
+		209 -- 227;
+		209 -- 240;
+		209 -- 222;
+		209 -- 224;
+		222 -- 234;
+		224 -- 227;
+		224 -- 220;
+		224 -- 225;
+		213	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.84722,
+			label="",
+			pos="928.65,688.9",
+			shape=circle,
+			style=filled,
+			width=0.84722];
+		213 -- 218;
+		214	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="992.16,721.51",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		213 -- 214;
+		216	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="854.7,706.01",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		213 -- 216;
+		704	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="954.2,771.57",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		213 -- 704;
+		720	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.59722,
+			label="",
+			pos="811.67,750.85",
+			shape=circle,
+			style=filled,
+			width=0.59722];
+		213 -- 720;
+		733	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.84722,
+			label="",
+			pos="896.6,762.83",
+			shape=circle,
+			style=filled,
+			width=0.84722];
+		213 -- 733;
+		214 -- 202;
+		214 -- 218;
+		214 -- 226;
+		214 -- 242;
+		219	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="999.55,786.66",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		214 -- 219;
+		216 -- 720;
+		714	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="814.58,662.38",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		216 -- 714;
+		219 -- 242;
+		219 -- 704;
+		731	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.45833,
+			label="",
+			pos="993.46,824.69",
+			shape=circle,
+			style=filled,
+			width=0.45833];
+		219 -- 731;
+	}
+	subgraph DRANESVILLE {
+		graph [color=blue,
+			label="District DRANESVILLE"
+		];
+		201;
+		327;
+		201 -- 327;
+		233;
+		233 -- 327;
+		329;
+		233 -- 329;
+		236;
+		236 -- 327;
+		319;
+		236 -- 319;
+		238;
+		324;
+		238 -- 324;
+		327 -- 329;
+		245;
+		245 -- 329;
+		322;
+		245 -- 322;
+		319 -- 327;
+		319 -- 324;
+		320	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.77778,
+			label="",
+			pos="1400.9,498.15",
+			shape=circle,
+			style=filled,
+			width=0.77778];
+		319 -- 320;
+		321	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.80556,
+			label="",
+			pos="1446.3,589.93",
+			shape=circle,
+			style=filled,
+			width=0.80556];
+		319 -- 321;
+		332;
+		324 -- 332;
+		325	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.38889,
+			label="",
+			pos="1331.3,389.27",
+			shape=circle,
+			style=filled,
+			width=0.38889];
+		324 -- 325;
+		240;
+		309;
+		240 -- 309;
+		323;
+		240 -- 323;
+		328;
+		240 -- 328;
+		242;
+		242 -- 323;
+		203;
+		203 -- 332;
+		235;
+		235 -- 332;
+		927	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="1138.3,273.25",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		332 -- 927;
+		220;
+		220 -- 324;
+		237;
+		237 -- 324;
+		237 -- 332;
+		309 -- 323;
+		309 -- 328;
+		731;
+		309 -- 731;
+		331	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="1022,899.44",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		309 -- 331;
+		219;
+		323 -- 219;
+		322 -- 329;
+		322 -- 328;
+		325 -- 332;
+		320 -- 324;
+		320 -- 325;
+		320 -- 321;
+		321 -- 327;
+		738	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="984.45,868.93",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		331 -- 738;
+		301	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.70833,
+			label="",
+			pos="984.16,983.48",
+			shape=circle,
+			style=filled,
+			width=0.70833];
+		302	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="959.37,1071.2",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		301 -- 302;
+		303	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="998.82,935.46",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		301 -- 303;
+		311	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="1044.5,953.17",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		301 -- 311;
+		314	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="959.21,924.68",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		301 -- 314;
+		316	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="926.47,1023.6",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		301 -- 316;
+		302 -- 316;
+		305	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.5,
+			label="",
+			pos="880.38,1030.3",
+			shape=circle,
+			style=filled,
+			width=0.5];
+		302 -- 305;
+		303 -- 311;
+		303 -- 314;
+		304	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.45833,
+			label="",
+			pos="1082.4,899.08",
+			shape=circle,
+			style=filled,
+			width=0.45833];
+		303 -- 304;
+		314 -- 331;
+		318	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="906.15,984.62",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		314 -- 318;
+		726	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.86111,
+			label="",
+			pos="931.91,832.38",
+			shape=circle,
+			style=filled,
+			width=0.86111];
+		314 -- 726;
+		316 -- 318;
+		305 -- 316;
+		305 -- 318;
+		307	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.81944,
+			label="",
+			pos="796.3,1000.7",
+			shape=circle,
+			style=filled,
+			width=0.81944];
+		305 -- 307;
+		312	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="854.43,976.84",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		305 -- 312;
+		304 -- 309;
+		304 -- 328;
+		304 -- 331;
+		304 -- 311;
+		306	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="1170.8,872.06",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		304 -- 306;
+		307 -- 312;
+		317	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="818.87,939.74",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		307 -- 317;
+		312 -- 318;
+		312 -- 317;
+		306 -- 328;
+		306 -- 322;
+		708	[color="#ceceff",
+			fillcolor="#ceceff",
+			fontcolor=black,
+			height=0.94444,
+			label="",
+			pos="836.78,837.21",
+			shape=circle,
+			style=filled,
+			width=0.94444];
+		317 -- 708;
+		310	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="915.51,949.6",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		310 -- 314;
+		310 -- 318;
+		310 -- 312;
+		315	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.63889,
+			label="",
+			pos="870.99,902.5",
+			shape=circle,
+			style=filled,
+			width=0.63889];
+		310 -- 315;
+		315 -- 726;
+		315 -- 317;
+		315 -- 708;
+	}
+	subgraph FRANCONIA {
+		graph [color=blue,
+			label="District FRANCONIA"
+		];
+		110;
+		415;
+		110 -- 415;
+		128;
+		128 -- 415;
+		418;
+		415 -- 418;
+		417	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.65278,
+			label="",
+			pos="443.32,542.93",
+			shape=circle,
+			style=filled,
+			width=0.65278];
+		415 -- 417;
+		433	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="463.86,690.82",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		418 -- 433;
+		527;
+		129;
+		129 -- 415;
+		431;
+		129 -- 431;
+		135;
+		135 -- 431;
+		812;
+		431 -- 812;
+		623	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="341.37,448.54",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		431 -- 623;
+		855	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="367.16,397.52",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		431 -- 855;
+		417 -- 418;
+		417 -- 431;
+		417 -- 623;
+		426	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="416.31,496.64",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		417 -- 426;
+		427	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="380.2,545.67",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		417 -- 427;
+		630	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="348.01,491.06",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		417 -- 630;
+		433 -- 527;
+		401	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.66667,
+			label="",
+			pos="322.49,757.88",
+			shape=circle,
+			style=filled,
+			width=0.66667];
+		410	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.91667,
+			label="",
+			pos="248.71,674.73",
+			shape=circle,
+			style=filled,
+			width=0.91667];
+		401 -- 410;
+		422	[color="#d0d0ff",
+			fillcolor="#d0d0ff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="379.62,707.72",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		401 -- 422;
+		423	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="202.74,735.29",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		401 -- 423;
+		526	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="437.2,756.1",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		401 -- 526;
+		410 -- 423;
+		420	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.90278,
+			label="",
+			pos="309.61,547.6",
+			shape=circle,
+			style=filled,
+			width=0.90278];
+		410 -- 420;
+		411	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="191.42,651.03",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		410 -- 411;
+		432	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="367.32,652.18",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		422 -- 432;
+		408	[color="#c7c7ff",
+			fillcolor="#c7c7ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="155.8,694.72",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		423 -- 408;
+		420 -- 427;
+		420 -- 630;
+		421	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.65278,
+			label="",
+			pos="313.29,611.65",
+			shape=circle,
+			style=filled,
+			width=0.65278];
+		420 -- 421;
+		635	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="282.24,492.29",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		420 -- 635;
+		411 -- 423;
+		406	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="248.86,585.35",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		411 -- 406;
+		408 -- 411;
+		607	[color="#ccccff",
+			fillcolor="#ccccff",
+			fontcolor=black,
+			height=0.69444,
+			label="",
+			pos="103.01,705.92",
+			shape=circle,
+			style=filled,
+			width=0.69444];
+		408 -- 607;
+		402	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.23611,
+			label="",
+			pos="154.22,734.61",
+			shape=circle,
+			style=filled,
+			width=0.23611];
+		402 -- 423;
+		402 -- 408;
+		402 -- 607;
+		621	[color="#cacaff",
+			fillcolor="#cacaff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="53.006,696.05",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		402 -- 621;
+		403	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.25,
+			label="",
+			pos="404.34,597.47",
+			shape=circle,
+			style=filled,
+			width=0.25];
+		403 -- 417;
+		403 -- 432;
+		409	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="445.96,631.95",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		403 -- 409;
+		409 -- 417;
+		409 -- 433;
+		409 -- 422;
+		409 -- 526;
+		426 -- 431;
+		427 -- 630;
+		404	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="317.42,667.76",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		404 -- 410;
+		404 -- 422;
+		404 -- 420;
+		404 -- 432;
+		404 -- 421;
+		421 -- 432;
+		421 -- 427;
+		405	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="121.45,622.47",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		405 -- 411;
+		405 -- 408;
+		424	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="204.09,562.2",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		405 -- 424;
+		429	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="119.03,548.79",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		405 -- 429;
+		604	[color="#d0d0ff",
+			fillcolor="#d0d0ff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="66.511,589.4",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		405 -- 604;
+		601	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.5,
+			label="",
+			pos="71.814,639.95",
+			shape=circle,
+			style=filled,
+			width=0.5];
+		405 -- 601;
+		424 -- 411;
+		424 -- 635;
+		424 -- 429;
+		428	[color="#d0d0ff",
+			fillcolor="#d0d0ff",
+			fontcolor=black,
+			height=0.52778,
+			label="",
+			pos="250.09,532.83",
+			shape=circle,
+			style=filled,
+			width=0.52778];
+		424 -- 428;
+		627	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="228.16,493.17",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		424 -- 627;
+		429 -- 604;
+		608	[color="#c8c8ff",
+			fillcolor="#c8c8ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="45.726,539.98",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		429 -- 608;
+		610	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="85.416,500.87",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		429 -- 610;
+		406 -- 410;
+		406 -- 420;
+		406 -- 635;
+		406 -- 424;
+		428 -- 403;
+		428 -- 627;
+		615	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="187.59,498.46",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		428 -- 615;
+		413	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="162.05,547.26",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		413 -- 424;
+		413 -- 429;
+		413 -- 428;
+		413 -- 615;
+		419	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="365.35,605.35",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		419 -- 432;
+		419 -- 427;
+		419 -- 421;
+	}
+	subgraph MASON {
+		graph [color=blue,
+			label="District MASON"
+		];
+		104;
+		522;
+		104 -- 522;
+		106;
+		504;
+		106 -- 504;
+		519;
+		106 -- 519;
+		521;
+		106 -- 521;
+		116;
+		116 -- 522;
+		528;
+		116 -- 528;
+		522 -- 528;
+		718	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="746.88,633.22",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		522 -- 718;
+		736	[color="#cbcbff",
+			fillcolor="#cbcbff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="716.48,710.43",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		522 -- 736;
+		110;
+		110 -- 521;
+		527;
+		110 -- 527;
+		504 -- 521;
+		518	[color="#dfdfff",
+			fillcolor="#dfdfff",
+			fontcolor=black,
+			height=0.45833,
+			label="",
+			pos="581.62,741.67",
+			shape=circle,
+			style=filled,
+			width=0.45833];
+		504 -- 518;
+		519 -- 522;
+		536	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.63889,
+			label="",
+			pos="669.79,738.95",
+			shape=circle,
+			style=filled,
+			width=0.63889];
+		519 -- 536;
+		521 -- 527;
+		523	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="535.3,749.92",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		521 -- 523;
+		117;
+		117 -- 528;
+		711;
+		528 -- 711;
+		528 -- 718;
+		418;
+		527 -- 418;
+		433;
+		433 -- 527;
+		401;
+		526;
+		401 -- 526;
+		526 -- 527;
+		518 -- 519;
+		518 -- 521;
+		512	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="615.62,815.88",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		518 -- 512;
+		536 -- 736;
+		710	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="718.69,786.03",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		536 -- 710;
+		523 -- 527;
+		523 -- 518;
+		501	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.63889,
+			label="",
+			pos="531.69,896.49",
+			shape=circle,
+			style=filled,
+			width=0.63889];
+		506	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.125,
+			label="",
+			pos="554.8,933",
+			shape=circle,
+			style=filled,
+			width=0.125];
+		501 -- 506;
+		510	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="548.08,850.42",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		501 -- 510;
+		520	[color="#ccccff",
+			fillcolor="#ccccff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="484.91,925.19",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		501 -- 520;
+		530	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.29167,
+			label="",
+			pos="584.42,905.33",
+			shape=circle,
+			style=filled,
+			width=0.29167];
+		506 -- 530;
+		502	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.29167,
+			label="",
+			pos="614.62,872.87",
+			shape=circle,
+			style=filled,
+			width=0.29167];
+		502 -- 530;
+		503	[color="#d1d1ff",
+			fillcolor="#d1d1ff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="583.62,859.26",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		502 -- 503;
+		511	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="622.43,906.97",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		502 -- 511;
+		502 -- 512;
+		503 -- 510;
+		503 -- 530;
+		503 -- 512;
+		513	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.5,
+			label="",
+			pos="567.08,795.09",
+			shape=circle,
+			style=filled,
+			width=0.5];
+		503 -- 513;
+		511 -- 530;
+		511 -- 512;
+		517	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.29167,
+			label="",
+			pos="603.1,940.59",
+			shape=circle,
+			style=filled,
+			width=0.29167];
+		511 -- 517;
+		512 -- 513;
+		515	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="662.18,851.67",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		512 -- 515;
+		525	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="670.66,798.75",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		512 -- 525;
+		535	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="674.47,887.06",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		512 -- 535;
+		513 -- 518;
+		513 -- 523;
+		515 -- 525;
+		515 -- 535;
+		705	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.66667,
+			label="",
+			pos="720,856.41",
+			shape=circle,
+			style=filled,
+			width=0.66667];
+		515 -- 705;
+		525 -- 536;
+		525 -- 710;
+		525 -- 705;
+		535 -- 705;
+		505	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="565.54,964.43",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		505 -- 506;
+		505 -- 530;
+		505 -- 517;
+		514	[color="#c1c1ff",
+			fillcolor="#c1c1ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="524.04,935.01",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		505 -- 514;
+		514 -- 520;
+		507	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.61111,
+			label="",
+			pos="517.59,805.39",
+			shape=circle,
+			style=filled,
+			width=0.61111];
+		507 -- 523;
+		507 -- 510;
+		507 -- 513;
+		516	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="489.26,755.85",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		507 -- 516;
+		516 -- 527;
+		516 -- 526;
+		516 -- 523;
+		508	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="621.12,760.49",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		508 -- 518;
+		508 -- 536;
+		508 -- 512;
+		508 -- 513;
+		509	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.16667,
+			label="",
+			pos="489.86,954.8",
+			shape=circle,
+			style=filled,
+			width=0.16667];
+		509 -- 520;
+		509 -- 514;
+	}
+	subgraph MOUNTVERNON {
+		graph [color=blue,
+			label="District MOUNT VERNON"
+		];
+		431;
+		623;
+		431 -- 623;
+		417;
+		417 -- 623;
+		855;
+		623 -- 855;
+		630;
+		623 -- 630;
+		634	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="345.65,300.58",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		623 -- 634;
+		420;
+		635;
+		420 -- 635;
+		408;
+		607;
+		408 -- 607;
+		621;
+		607 -- 621;
+		427;
+		427 -- 630;
+		630 -- 635;
+		631	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="299.36,431.24",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		630 -- 631;
+		405;
+		604;
+		405 -- 604;
+		424;
+		424 -- 635;
+		627;
+		424 -- 627;
+		429;
+		429 -- 604;
+		608;
+		429 -- 608;
+		610;
+		429 -- 610;
+		604 -- 608;
+		609	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="17,584.22",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		604 -- 609;
+		601;
+		601 -- 607;
+		601 -- 621;
+		601 -- 604;
+		601 -- 609;
+		602	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="26.735,643.09",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		601 -- 602;
+		406;
+		406 -- 635;
+		428;
+		428 -- 627;
+		615;
+		428 -- 615;
+		627 -- 635;
+		608 -- 610;
+		608 -- 609;
+		606	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="32.295,495.07",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		608 -- 606;
+		611	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.66667,
+			label="",
+			pos="88.981,451.87",
+			shape=circle,
+			style=filled,
+			width=0.66667];
+		610 -- 611;
+		614	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="143.42,469.9",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		610 -- 614;
+		413;
+		413 -- 615;
+		615 -- 627;
+		602 -- 621;
+		602 -- 405;
+		602 -- 609;
+		839	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.72222,
+			label="",
+			pos="370.15,223.13",
+			shape=circle,
+			style=filled,
+			width=0.72222];
+		634 -- 839;
+		631 -- 635;
+		606 -- 610;
+		606 -- 609;
+		606 -- 611;
+		612	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.29167,
+			label="",
+			pos="81.4,409.34",
+			shape=circle,
+			style=filled,
+			width=0.29167];
+		606 -- 612;
+		611 -- 614;
+		611 -- 612;
+		614 -- 615;
+		605	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="142.44,427.32",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		605 -- 611;
+		605 -- 614;
+		605 -- 612;
+		613	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.68056,
+			label="",
+			pos="207.69,443.79",
+			shape=circle,
+			style=filled,
+			width=0.68056];
+		605 -- 613;
+		613 -- 635;
+		613 -- 627;
+		613 -- 615;
+		613 -- 614;
+		616	[color="#e8e8ff",
+			fillcolor="#e8e8ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="259.82,426.08",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		613 -- 616;
+		616 -- 635;
+		616 -- 631;
+		617	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.65278,
+			label="",
+			pos="250.41,360.07",
+			shape=circle,
+			style=filled,
+			width=0.65278];
+		616 -- 617;
+		617 -- 631;
+		622	[color="#d5d5ff",
+			fillcolor="#d5d5ff",
+			fontcolor=black,
+			height=0.66667,
+			label="",
+			pos="307.12,366.92",
+			shape=circle,
+			style=filled,
+			width=0.66667];
+		617 -- 622;
+		628	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="296.14,306.02",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		617 -- 628;
+		636	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.26389,
+			label="",
+			pos="257.6,283.76",
+			shape=circle,
+			style=filled,
+			width=0.26389];
+		617 -- 636;
+		622 -- 623;
+		622 -- 634;
+		622 -- 631;
+		622 -- 628;
+		628 -- 634;
+		628 -- 636;
+		629	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="292.69,239.63",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		628 -- 629;
+		636 -- 629;
+		629 -- 634;
+		632	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.20833,
+			label="",
+			pos="326.09,222.29",
+			shape=circle,
+			style=filled,
+			width=0.20833];
+		629 -- 632;
+		633	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="345.28,185.6",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		629 -- 633;
+		618	[color="#dedeff",
+			fillcolor="#dedeff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="389.68,281.31",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		618 -- 855;
+		618 -- 634;
+		806	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="401.69,342.51",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		618 -- 806;
+		838	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="430.21,244.58",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		618 -- 838;
+		618 -- 839;
+		850	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.59722,
+			label="",
+			pos="507.15,207.2",
+			shape=circle,
+			style=filled,
+			width=0.59722];
+		618 -- 850;
+		632 -- 634;
+		632 -- 839;
+		632 -- 633;
+		845	[color="#e3e3ff",
+			fillcolor="#e3e3ff",
+			fontcolor=black,
+			height=0.73611,
+			label="",
+			pos="430.95,156.86",
+			shape=circle,
+			style=filled,
+			width=0.73611];
+		632 -- 845;
+		633 -- 845;
+	}
+	subgraph PROVIDENCE {
+		graph [color=blue,
+			label="District PROVIDENCE"
+		];
+		522;
+		718;
+		522 -- 718;
+		736;
+		522 -- 736;
+		117;
+		700;
+		117 -- 700;
+		711;
+		117 -- 711;
+		528;
+		528 -- 711;
+		700 -- 711;
+		856;
+		700 -- 856;
+		701	[color="#d3d3ff",
+			fillcolor="#d3d3ff",
+			fontcolor=black,
+			height=0.875,
+			label="",
+			pos="889.17,555.33",
+			shape=circle,
+			style=filled,
+			width=0.875];
+		700 -- 701;
+		707	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.48611,
+			label="",
+			pos="785.98,591.71",
+			shape=circle,
+			style=filled,
+			width=0.48611];
+		700 -- 707;
+		709	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.43056,
+			label="",
+			pos="830.49,569.59",
+			shape=circle,
+			style=filled,
+			width=0.43056];
+		700 -- 709;
+		732	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.77778,
+			label="",
+			pos="956.69,494.56",
+			shape=circle,
+			style=filled,
+			width=0.77778];
+		700 -- 732;
+		857	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="878.83,482.89",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		700 -- 857;
+		136;
+		136 -- 700;
+		711 -- 718;
+		134;
+		134 -- 700;
+		121;
+		121 -- 700;
+		132;
+		132 -- 700;
+		241;
+		727;
+		241 -- 727;
+		914;
+		929;
+		727 -- 929;
+		729;
+		727 -- 729;
+		727 -- 732;
+		204;
+		204 -- 727;
+		204 -- 729;
+		213;
+		729 -- 213;
+		737	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.16667,
+			label="",
+			pos="824.86,603.88",
+			shape=circle,
+			style=filled,
+			width=0.16667];
+		729 -- 737;
+		309;
+		731;
+		309 -- 731;
+		704;
+		213 -- 704;
+		720;
+		213 -- 720;
+		733;
+		213 -- 733;
+		214;
+		216;
+		216 -- 720;
+		714;
+		216 -- 714;
+		704 -- 214;
+		704 -- 733;
+		704 -- 731;
+		726;
+		704 -- 726;
+		720 -- 733;
+		723	[color="#d2d2ff",
+			fillcolor="#d2d2ff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="755.07,747.52",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		720 -- 723;
+		721	[color="#cbcbff",
+			fillcolor="#cbcbff",
+			fontcolor=black,
+			height=0.75,
+			label="",
+			pos="755.02,697.52",
+			shape=circle,
+			style=filled,
+			width=0.75];
+		720 -- 721;
+		219;
+		219 -- 704;
+		219 -- 731;
+		714 -- 729;
+		714 -- 709;
+		714 -- 737;
+		714 -- 721;
+		738;
+		731 -- 738;
+		735	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.23611,
+			label="",
+			pos="1014.6,862.14",
+			shape=circle,
+			style=filled,
+			width=0.23611];
+		731 -- 735;
+		331;
+		331 -- 738;
+		314;
+		314 -- 726;
+		726 -- 733;
+		726 -- 731;
+		708;
+		726 -- 708;
+		738 -- 726;
+		317;
+		317 -- 708;
+		708 -- 733;
+		712	[color="#cfcfff",
+			fillcolor="#cfcfff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="771.08,863.76",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		708 -- 712;
+		713	[color="#d4d4ff",
+			fillcolor="#d4d4ff",
+			fontcolor=black,
+			height=0.61111,
+			label="",
+			pos="772.72,802.37",
+			shape=circle,
+			style=filled,
+			width=0.61111];
+		708 -- 713;
+		315;
+		315 -- 726;
+		315 -- 708;
+		718 -- 736;
+		718 -- 721;
+		736 -- 723;
+		536;
+		536 -- 736;
+		710;
+		536 -- 710;
+		515;
+		705;
+		515 -- 705;
+		525;
+		525 -- 710;
+		525 -- 705;
+		535;
+		535 -- 705;
+		710 -- 723;
+		710 -- 713;
+		705 -- 710;
+		705 -- 712;
+		705 -- 713;
+		701 -- 727;
+		701 -- 729;
+		701 -- 709;
+		701 -- 732;
+		707 -- 711;
+		707 -- 714;
+		707 -- 718;
+		707 -- 737;
+		709 -- 729;
+		709 -- 737;
+		734	[color="#d0d0ff",
+			fillcolor="#d0d0ff",
+			fontcolor=black,
+			height=0.54167,
+			label="",
+			pos="867.51,614.38",
+			shape=circle,
+			style=filled,
+			width=0.54167];
+		709 -- 734;
+		732 -- 856;
+		732 -- 914;
+		732 -- 929;
+		732 -- 857;
+		916	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.90278,
+			label="",
+			pos="1003.1,426.04",
+			shape=circle,
+			style=filled,
+			width=0.90278];
+		732 -- 916;
+		721 -- 723;
+		735 -- 738;
+		712 -- 713;
+		713 -- 720;
+		713 -- 723;
+		734 -- 729;
+		734 -- 714;
+		734 -- 737;
+	}
+	subgraph SPRINGFIELD {
+		graph [color=blue,
+			label="District SPRINGFIELD"
+		];
+		125;
+		861;
+		125 -- 861;
+		128;
+		128 -- 861;
+		801;
+		128 -- 801;
+		105;
+		805;
+		105 -- 805;
+		815;
+		105 -- 815;
+		127;
+		127 -- 861;
+		833;
+		127 -- 833;
+		130;
+		130 -- 815;
+		842;
+		130 -- 842;
+		137;
+		841;
+		137 -- 841;
+		805 -- 815;
+		805 -- 841;
+		850;
+		815 -- 850;
+		860	[color="#e4e4ff",
+			fillcolor="#e4e4ff",
+			fontcolor=black,
+			height=0.23611,
+			label="",
+			pos="569.09,186.56",
+			shape=circle,
+			style=filled,
+			width=0.23611];
+		815 -- 860;
+		833 -- 861;
+		833 -- 842;
+		842 -- 850;
+		121;
+		841 -- 121;
+		135;
+		812;
+		135 -- 812;
+		801 -- 861;
+		801 -- 812;
+		811	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="498.38,357.64",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		801 -- 811;
+		118;
+		118 -- 861;
+		700;
+		856;
+		700 -- 856;
+		857;
+		700 -- 857;
+		120;
+		120 -- 841;
+		132;
+		848;
+		132 -- 848;
+		844;
+		132 -- 844;
+		132 -- 856;
+		138;
+		138 -- 848;
+		804;
+		138 -- 804;
+		851;
+		138 -- 851;
+		848 -- 851;
+		862	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.31944,
+			label="",
+			pos="756.06,153.8",
+			shape=circle,
+			style=filled,
+			width=0.31944];
+		848 -- 862;
+		926	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.80556,
+			label="",
+			pos="861.42,178.45",
+			shape=circle,
+			style=filled,
+			width=0.80556];
+		848 -- 926;
+		844 -- 848;
+		844 -- 856;
+		846	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.66667,
+			label="",
+			pos="964.72,296.32",
+			shape=circle,
+			style=filled,
+			width=0.66667];
+		844 -- 846;
+		856 -- 857;
+		916;
+		856 -- 916;
+		911	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.79167,
+			label="",
+			pos="986.55,356.85",
+			shape=circle,
+			style=filled,
+			width=0.79167];
+		856 -- 911;
+		804 -- 805;
+		804 -- 841;
+		804 -- 851;
+		859	[color="#e7e7ff",
+			fillcolor="#e7e7ff",
+			fontcolor=black,
+			height=0.44444,
+			label="",
+			pos="718.04,177.05",
+			shape=circle,
+			style=filled,
+			width=0.44444];
+		804 -- 859;
+		851 -- 862;
+		431;
+		431 -- 812;
+		855;
+		812 -- 855;
+		623;
+		623 -- 855;
+		634;
+		839;
+		634 -- 839;
+		618;
+		806;
+		618 -- 806;
+		838;
+		618 -- 838;
+		618 -- 850;
+		806 -- 812;
+		806 -- 855;
+		806 -- 838;
+		807	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.45833,
+			label="",
+			pos="449.08,356.51",
+			shape=circle,
+			style=filled,
+			width=0.45833];
+		806 -- 807;
+		838 -- 850;
+		839 -- 850;
+		845;
+		839 -- 845;
+		850 -- 860;
+		632;
+		632 -- 839;
+		632 -- 845;
+		633;
+		633 -- 845;
+		845 -- 850;
+		845 -- 860;
+		732;
+		732 -- 856;
+		732 -- 857;
+		811 -- 833;
+		824	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.79167,
+			label="",
+			pos="460.72,300.02",
+			shape=circle,
+			style=filled,
+			width=0.79167];
+		811 -- 824;
+		825	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.56944,
+			label="",
+			pos="517.75,271.24",
+			shape=circle,
+			style=filled,
+			width=0.56944];
+		811 -- 825;
+		918	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.84722,
+			label="",
+			pos="773.39,103.77",
+			shape=circle,
+			style=filled,
+			width=0.84722];
+		862 -- 918;
+		846 -- 911;
+		847	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.47222,
+			label="",
+			pos="1013.7,260.88",
+			shape=circle,
+			style=filled,
+			width=0.47222];
+		846 -- 847;
+		920	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.41667,
+			label="",
+			pos="1038.1,337.02",
+			shape=circle,
+			style=filled,
+			width=0.41667];
+		846 -- 920;
+		859 -- 851;
+		859 -- 862;
+		807 -- 812;
+		807 -- 838;
+		807 -- 811;
+		807 -- 824;
+		824 -- 838;
+		824 -- 825;
+		825 -- 833;
+		825 -- 842;
+		825 -- 838;
+		825 -- 850;
+		802	[color="#d6d6ff",
+			fillcolor="#d6d6ff",
+			fontcolor=black,
+			height=0.30556,
+			label="",
+			pos="888.82,282.58",
+			shape=circle,
+			style=filled,
+			width=0.30556];
+		802 -- 848;
+		802 -- 844;
+		802 -- 846;
+		843	[color="#d8d8ff",
+			fillcolor="#d8d8ff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="932.21,241.76",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		802 -- 843;
+		843 -- 848;
+		843 -- 846;
+		843 -- 847;
+		928	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.58333,
+			label="",
+			pos="929.06,190.22",
+			shape=circle,
+			style=filled,
+			width=0.58333];
+		843 -- 928;
+		847 -- 920;
+		902	[color="#dfdfff",
+			fillcolor="#dfdfff",
+			fontcolor=black,
+			height=0.76389,
+			label="",
+			pos="1079.7,244.13",
+			shape=circle,
+			style=filled,
+			width=0.76389];
+		847 -- 902;
+		913	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.95833,
+			label="",
+			pos="1002.8,201.12",
+			shape=circle,
+			style=filled,
+			width=0.95833];
+		847 -- 913;
+		934	[color="#d9d9ff",
+			fillcolor="#d9d9ff",
+			fontcolor=black,
+			height=0.26389,
+			label="",
+			pos="1048.3,290.59",
+			shape=circle,
+			style=filled,
+			width=0.26389];
+		847 -- 934;
+		803	[color="#e6e6ff",
+			fillcolor="#e6e6ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="656.18,176.78",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		803 -- 805;
+		803 -- 815;
+		803 -- 860;
+		803 -- 859;
+		858	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.097222,
+			label="",
+			pos="687.68,164.46",
+			shape=circle,
+			style=filled,
+			width=0.097222];
+		803 -- 858;
+		858 -- 859;
+		849	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="711.89,112.77",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		849 -- 862;
+		849 -- 859;
+		849 -- 918;
+		854	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="644.19,84.714",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		849 -- 854;
+		919	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.81944,
+			label="",
+			pos="705.58,35.717",
+			shape=circle,
+			style=filled,
+			width=0.81944];
+		849 -- 919;
+		854 -- 859;
+		854 -- 919;
+	}
+	subgraph SULLY {
+		graph [color=blue,
+			label="District SULLY"
+		];
+		848;
+		926;
+		848 -- 926;
+		844;
+		856;
+		916;
+		856 -- 916;
+		911;
+		856 -- 911;
+		202;
+		221;
+		914;
+		221 -- 914;
+		929;
+		221 -- 929;
+		241;
+		241 -- 929;
+		229;
+		908;
+		229 -- 908;
+		244;
+		244 -- 914;
+		914 -- 929;
+		914 -- 916;
+		920;
+		914 -- 920;
+		929 -- 202;
+		727;
+		727 -- 929;
+		203;
+		909;
+		203 -- 909;
+		931;
+		203 -- 931;
+		332;
+		927;
+		332 -- 927;
+		909 -- 931;
+		931 -- 332;
+		908 -- 914;
+		908 -- 909;
+		908 -- 920;
+		927 -- 931;
+		934;
+		927 -- 934;
+		905	[color="#d7d7ff",
+			fillcolor="#d7d7ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="1102.3,321.83",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		927 -- 905;
+		732;
+		732 -- 929;
+		732 -- 916;
+		862;
+		918;
+		862 -- 918;
+		928;
+		926 -- 928;
+		846;
+		846 -- 911;
+		846 -- 920;
+		911 -- 844;
+		911 -- 914;
+		911 -- 916;
+		911 -- 920;
+		859;
+		843;
+		843 -- 928;
+		847;
+		847 -- 920;
+		902;
+		847 -- 902;
+		913;
+		847 -- 913;
+		847 -- 934;
+		920 -- 934;
+		902 -- 931;
+		902 -- 927;
+		902 -- 913;
+		902 -- 934;
+		902 -- 905;
+		904	[color="#e1e1ff",
+			fillcolor="#e1e1ff",
+			fontcolor=black,
+			height=0.33333,
+			label="",
+			pos="1060.9,193.14",
+			shape=circle,
+			style=filled,
+			width=0.33333];
+		902 -- 904;
+		913 -- 928;
+		917	[color="#dadaff",
+			fillcolor="#dadaff",
+			fontcolor=black,
+			height=0.72222,
+			label="",
+			pos="985.97,87.087",
+			shape=circle,
+			style=filled,
+			width=0.72222];
+		913 -- 917;
+		918 -- 926;
+		919;
+		918 -- 919;
+		849;
+		849 -- 919;
+		854;
+		854 -- 919;
+		925	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.34722,
+			label="",
+			pos="778.63,40.261",
+			shape=circle,
+			style=filled,
+			width=0.34722];
+		919 -- 925;
+		905 -- 909;
+		905 -- 931;
+		905 -- 908;
+		905 -- 920;
+		905 -- 934;
+		904 -- 927;
+		915	[color="#e4e4ff",
+			fillcolor="#e4e4ff",
+			fontcolor=black,
+			height=0.55556,
+			label="",
+			pos="937.38,141.19",
+			shape=circle,
+			style=filled,
+			width=0.55556];
+		904 -- 915;
+		917 -- 928;
+		924	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.375,
+			label="",
+			pos="871.56,93.218",
+			shape=circle,
+			style=filled,
+			width=0.375];
+		917 -- 924;
+		935	[color="#dcdcff",
+			fillcolor="#dcdcff",
+			fontcolor=black,
+			height=0.125,
+			label="",
+			pos="876.49,31.246",
+			shape=circle,
+			style=filled,
+			width=0.125];
+		917 -- 935;
+		921	[color="#e0e0ff",
+			fillcolor="#e0e0ff",
+			fontcolor=black,
+			height=0.65278,
+			label="",
+			pos="1015.1,28.612",
+			shape=circle,
+			style=filled,
+			width=0.65278];
+		917 -- 921;
+		901	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.625,
+			label="",
+			pos="836.71,30.471",
+			shape=circle,
+			style=filled,
+			width=0.625];
+		901 -- 918;
+		901 -- 925;
+		901 -- 924;
+		901 -- 935;
+		924 -- 926;
+		924 -- 935;
+		915 -- 921;
+		910	[color="#dbdbff",
+			fillcolor="#dbdbff",
+			fontcolor=black,
+			height=0.73611,
+			label="",
+			pos="925.35,26.5",
+			shape=circle,
+			style=filled,
+			width=0.73611];
+		915 -- 910;
+		923	[color="#e4e4ff",
+			fillcolor="#e4e4ff",
+			fontcolor=black,
+			height=0.51389,
+			label="",
+			pos="831.47,101.39",
+			shape=circle,
+			style=filled,
+			width=0.51389];
+		915 -- 923;
+		903	[color="#ddddff",
+			fillcolor="#ddddff",
+			fontcolor=black,
+			height=0.88889,
+			label="",
+			pos="1052.2,113.49",
+			shape=circle,
+			style=filled,
+			width=0.88889];
+		903 -- 913;
+		903 -- 904;
+		903 -- 917;
+		903 -- 921;
+		910 -- 917;
+		910 -- 935;
+		910 -- 921;
+		910 -- 923;
+		923 -- 859;
+		923 -- 925;
+		923 -- 935;
+	}
 }
