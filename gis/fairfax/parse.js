@@ -14,3 +14,8 @@ const parsedData = data.breakdownResults.map((result) => {
 });
 
 fs.writeFileSync('gis/fairfax/parsed.json', JSON.stringify(parsedData, null, 2));
+
+const keys = Object.keys(parsedData[0]);
+header = keys.join(',');
+const csv = parsedData.map(row => keys.map(key => row[key]).join(',')).join('\n');
+fs.writeFileSync('gis/fairfax/parsed.csv', header + '\n' + csv);
