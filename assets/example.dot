@@ -1,0 +1,6 @@
+strict graph G {
+    a [pos = "0,0!";];
+    b [pos = "1,1!";];
+    c [pos = "1,-1!";];
+    a -- {b c};
+}
