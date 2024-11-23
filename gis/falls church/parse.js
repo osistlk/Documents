@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const data = JSON.parse(fs.readFileSync('gis/loudoun/data.json', 'utf8'));
+const data = JSON.parse(fs.readFileSync('gis/falls church/data.json', 'utf8'));
 
 const parsedData = data.breakdownResults.map((result) => {
     const name = result.precinct.name[0].text;
@@ -13,9 +13,9 @@ const parsedData = data.breakdownResults.map((result) => {
     };
 });
 
-fs.writeFileSync('gis/loudoun/parsed.json', JSON.stringify(parsedData, null, 2));
+fs.writeFileSync('gis/falls church/parsed.json', JSON.stringify(parsedData, null, 2));
 
 const keys = Object.keys(parsedData[0]);
 header = keys.join(',');
 const csv = parsedData.map(row => keys.map(key => row[key]).join(',')).join('\n');
-fs.writeFileSync('gis/loudoun/parsed.csv', header + '\n' + csv);
+fs.writeFileSync('gis/falls church/parsed.csv', header + '\n' + csv);
